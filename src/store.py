@@ -7,7 +7,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
-from src.calendar import build_release_calendar
+from src.calendar import build_release_calendar, build_release_calendar_months
 from src.config import DB_PATH, LATEST_JSON_PATH, IndicatorConfig, INDICATORS
 
 # 模块级连接（简单场景下够用）
@@ -231,6 +231,7 @@ def export_snapshot() -> dict[str, Any]:
         )
 
     snapshot["upcoming_releases"] = build_release_calendar(snapshot)
+    snapshot["release_calendar"] = build_release_calendar_months(snapshot)
     return snapshot
 
 

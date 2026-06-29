@@ -44,37 +44,69 @@ HTML_TEMPLATE = """<!DOCTYPE html>
     </p>
   </header>
 
-  {% if upcoming_releases %}
-  <!-- Upcoming Releases Calendar -->
+  {% if release_calendar and release_calendar.months %}
+  <!-- Release Calendar -->
   <section class="mb-10">
     <h2 class="text-xl font-semibold text-slate-700 mb-5 flex items-center">
       <span class="inline-block w-1 h-5 bg-amber-500 mr-3"></span>
-      📅 未来 30 天发布预告
+      📅 宏观数据发布日历
     </h2>
 
     <div class="bg-white rounded-lg border border-slate-200 p-6">
-      <div class="space-y-4">
-        {% for event in upcoming_releases %}
-        <div class="flex items-start gap-4 pb-4 border-b border-slate-100 last:border-0 last:pb-0">
-          <div class="flex-shrink-0 w-20 text-center">
-            <div class="text-xs text-slate-500">{{ event.month }}</div>
-            <div class="text-2xl font-bold text-slate-900">{{ event.day }}</div>
-            <div class="text-xs text-slate-400">{{ event.weekday }}</div>
+      {% if release_calendar.daily_indicators %}
+      <div class="mb-5 rounded-lg bg-slate-50 border border-slate-100 px-4 py-3 text-sm text-slate-600">
+        <span class="font-semibold text-slate-700">日频指标：</span>
+        {% for ind in release_calendar.daily_indicators %}
+        <span class="inline-flex items-center bg-white rounded-full px-2.5 py-0.5 mr-1 text-xs border border-slate-200">
+          <span class="w-1.5 h-1.5 rounded-full mr-1.5" style="background-color: {{ ind.category_color }}"></span>
+          {{ ind.short_name }} 每个工作日更新
+        </span>
+        {% endfor %}
+      </div>
+      {% endif %}
+
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+        {% for month in release_calendar.months %}
+        <div>
+          <h3 class="font-semibold text-slate-800 mb-3">{{ month.title }}</h3>
+          <div class="grid grid-cols-7 gap-1 text-center mb-1">
+            {% for weekday in month.weekday_headers %}
+            <div class="text-xs text-slate-400 py-1">{{ weekday }}</div>
+            {% endfor %}
           </div>
-          <div class="flex-1">
-            {% for ind in event.indicators %}
-            <div class="inline-flex items-center bg-slate-50 rounded-full px-3 py-1 mr-2 mb-2 text-sm">
-              <span class="w-2 h-2 rounded-full mr-2" style="background-color: {{ ind.category_color }}"></span>
-              <span class="text-slate-700">{{ ind.short_name }}</span>
-              <span class="text-xs text-slate-400 ml-2">{{ ind.frequency_zh }}</span>
-            </div>
+          <div class="grid grid-cols-7 gap-1">
+            {% for week in month.weeks %}
+              {% for cell in week %}
+              {% if cell.empty %}
+              <div class="min-h-20 rounded-md bg-transparent"></div>
+              {% else %}
+              <div class="min-h-20 rounded-md border p-1.5 text-left {{ 'bg-amber-50 border-amber-200' if cell.indicators else 'bg-slate-50 border-slate-100' }} {{ 'ring-1 ring-blue-300' if cell.is_today else '' }}">
+                <div class="text-xs font-semibold {{ 'text-blue-600' if cell.is_today else ('text-slate-400' if cell.is_weekend else 'text-slate-600') }}">
+                  {{ cell.day }}
+                </div>
+                {% if cell.indicators %}
+                <div class="mt-1 space-y-1">
+                  {% for ind in cell.visible_indicators %}
+                  <div class="truncate rounded px-1.5 py-0.5 text-[10px] leading-4 text-white" style="background-color: {{ ind.category_color }}" title="{{ ind.name }}">
+                    {{ ind.short_name }}
+                  </div>
+                  {% endfor %}
+                  {% if cell.more_count > 0 %}
+                  <div class="text-[10px] text-slate-500">+{{ cell.more_count }}</div>
+                  {% endif %}
+                </div>
+                {% endif %}
+              </div>
+              {% endif %}
+              {% endfor %}
             {% endfor %}
           </div>
         </div>
         {% endfor %}
       </div>
+
       <p class="text-xs text-slate-400 mt-4">
-        * 日期根据历史发布规律估算，实际发布时间可能因节假日或官方调整而变化。
+        * 日期根据历史发布规律估算，实际发布时间可能因节假日或官方调整而变化；单日最多显示 3 个指标，多余以 +N 表示。
       </p>
     </div>
   </section>
@@ -384,6 +416,50 @@ def _enrich_upcoming_releases(releases: list[dict[str, Any]]) -> list[dict[str, 
     return enriched
 
 
+def _enrich_release_calendar(calendar: dict[str, Any]) -> dict[str, Any]:
+    """为月历卡片补充显示字段。"""
+    enriched_months = []
+    for month in calendar.get("months", []):
+        weeks = []
+        for week in month.get("weeks", []):
+            enriched_week = []
+            for cell in week:
+                if cell.get("empty"):
+                    enriched_week.append(cell)
+                    continue
+                indicators = []
+                for ind in cell.get("indicators", []):
+                    indicators.append(
+                        {
+                            **ind,
+                            "frequency_zh": FREQUENCY_ZH.get(ind["frequency"], ind["frequency"]),
+                            "category_color": CATEGORY_COLORS.get(ind["category"], "#64748b"),
+                        }
+                    )
+                enriched_week.append(
+                    {
+                        **cell,
+                        "indicators": indicators,
+                        "visible_indicators": indicators[:3],
+                        "more_count": max(0, len(indicators) - 3),
+                    }
+                )
+            weeks.append(enriched_week)
+        enriched_months.append({**month, "weeks": weeks})
+
+    daily_indicators = []
+    for ind in calendar.get("daily_indicators", []):
+        daily_indicators.append(
+            {
+                **ind,
+                "frequency_zh": FREQUENCY_ZH.get(ind["frequency"], ind["frequency"]),
+                "category_color": CATEGORY_COLORS.get(ind["category"], "#64748b"),
+            }
+        )
+
+    return {"months": enriched_months, "daily_indicators": daily_indicators}
+
+
 def generate_html(snapshot: dict[str, Any], output_path: Path | None = None) -> Path:
     """生成 HTML 报告。"""
     output_path = output_path or (OUTPUT_DIR / "index.html")
@@ -392,6 +468,7 @@ def generate_html(snapshot: dict[str, Any], output_path: Path | None = None) -> 
     enriched_indicators = [_enrich_indicator(ind) for ind in snapshot["indicators"]]
     grouped = _group_by_category(enriched_indicators)
     upcoming_releases = _enrich_upcoming_releases(snapshot.get("upcoming_releases", []))
+    release_calendar = _enrich_release_calendar(snapshot.get("release_calendar", {}))
 
     template = Template(HTML_TEMPLATE)
     html = template.render(
@@ -399,6 +476,7 @@ def generate_html(snapshot: dict[str, Any], output_path: Path | None = None) -> 
         indicators=enriched_indicators,
         grouped_indicators=grouped,
         upcoming_releases=upcoming_releases,
+        release_calendar=release_calendar,
         snapshot_json=json.dumps(snapshot, ensure_ascii=False),
     )
 

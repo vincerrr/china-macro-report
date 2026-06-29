@@ -124,13 +124,6 @@ def _next_release_date(
     from_date: date,
 ) -> date | None:
     """计算下一个预计发布日期（>= from_date）。"""
-    if ind.frequency == "daily":
-        # 日频：下一个工作日（简单处理，不考虑节假日）
-        candidate = _parse_period_date(latest_date, ind.frequency) + timedelta(days=1)
-        while candidate < from_date:
-            candidate += timedelta(days=1)
-        return candidate
-
     # 月频/季频
     period_date = _parse_period_date(latest_date, ind.frequency)
     next_period = _add_one_period(period_date, ind.frequency)
@@ -144,6 +137,21 @@ def _next_release_date(
         candidate = _date_with_day(next_period, day)
 
     return candidate
+
+
+def _daily_release_dates(latest_date: str, from_date: date, to_date: date) -> list[date]:
+    """日频指标：生成窗口内的每个工作日（跳过周六日，暂不考虑节假日）。"""
+    start = _parse_period_date(latest_date, "daily") + timedelta(days=1)
+    if start < from_date:
+        start = from_date
+
+    dates: list[date] = []
+    current = start
+    while current <= to_date:
+        if current.weekday() < 5:  # 周一到周五
+            dates.append(current)
+        current += timedelta(days=1)
+    return dates
 
 
 def build_release_calendar(
@@ -175,26 +183,29 @@ def build_release_calendar(
         history = ind_data.get("history", [])
         release_day = _effective_release_day(ind, history)
 
-        release_date = _next_release_date(ind, latest_date, release_day, from_date)
-        if not release_date:
-            continue
+        if ind.frequency == "daily":
+            release_dates = _daily_release_dates(latest_date, from_date, to_date)
+        else:
+            release_date = _next_release_date(ind, latest_date, release_day, from_date)
+            release_dates = [release_date] if release_date else []
 
-        if from_date <= release_date <= to_date:
-            if release_date not in events_by_date:
-                events_by_date[release_date] = {
-                    "date": release_date.isoformat(),
-                    "indicators": [],
-                }
-            events_by_date[release_date]["indicators"].append(
-                {
-                    "slug": slug,
-                    "name": ind.name,
-                    "short_name": ind.short_name,
-                    "category": ind.category,
-                    "frequency": ind.frequency,
-                    "latest_date": latest_date,
-                }
-            )
+        for release_date in release_dates:
+            if from_date <= release_date <= to_date:
+                if release_date not in events_by_date:
+                    events_by_date[release_date] = {
+                        "date": release_date.isoformat(),
+                        "indicators": [],
+                    }
+                events_by_date[release_date]["indicators"].append(
+                    {
+                        "slug": slug,
+                        "name": ind.name,
+                        "short_name": ind.short_name,
+                        "category": ind.category,
+                        "frequency": ind.frequency,
+                        "latest_date": latest_date,
+                    }
+                )
 
     # 按日期排序
     return [events_by_date[d] for d in sorted(events_by_date)]

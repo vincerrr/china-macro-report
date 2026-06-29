@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T09:28:13Z",
+  "generated_at": "2026-06-29T09:51:39Z",
   "indicators": [
     {
       "slug": "gdp",
@@ -2044,19 +2044,6 @@
   ],
   "upcoming_releases": [
     {
-      "date": "2026-06-30",
-      "indicators": [
-        {
-          "slug": "usd_cny",
-          "name": "美元/人民币汇率（中间价）",
-          "short_name": "USD/CNY",
-          "category": "货币",
-          "frequency": "daily",
-          "latest_date": "2026-06-29"
-        }
-      ]
-    },
-    {
       "date": "2026-07-01",
       "indicators": [
         {
@@ -2066,92 +2053,6 @@
           "category": "增长",
           "frequency": "monthly",
           "latest_date": "2026-05"
-        },
-        {
-          "slug": "usd_cny",
-          "name": "美元/人民币汇率（中间价）",
-          "short_name": "USD/CNY",
-          "category": "货币",
-          "frequency": "daily",
-          "latest_date": "2026-06-29"
-        }
-      ]
-    },
-    {
-      "date": "2026-07-02",
-      "indicators": [
-        {
-          "slug": "usd_cny",
-          "name": "美元/人民币汇率（中间价）",
-          "short_name": "USD/CNY",
-          "category": "货币",
-          "frequency": "daily",
-          "latest_date": "2026-06-29"
-        }
-      ]
-    },
-    {
-      "date": "2026-07-03",
-      "indicators": [
-        {
-          "slug": "usd_cny",
-          "name": "美元/人民币汇率（中间价）",
-          "short_name": "USD/CNY",
-          "category": "货币",
-          "frequency": "daily",
-          "latest_date": "2026-06-29"
-        }
-      ]
-    },
-    {
-      "date": "2026-07-06",
-      "indicators": [
-        {
-          "slug": "usd_cny",
-          "name": "美元/人民币汇率（中间价）",
-          "short_name": "USD/CNY",
-          "category": "货币",
-          "frequency": "daily",
-          "latest_date": "2026-06-29"
-        }
-      ]
-    },
-    {
-      "date": "2026-07-07",
-      "indicators": [
-        {
-          "slug": "usd_cny",
-          "name": "美元/人民币汇率（中间价）",
-          "short_name": "USD/CNY",
-          "category": "货币",
-          "frequency": "daily",
-          "latest_date": "2026-06-29"
-        }
-      ]
-    },
-    {
-      "date": "2026-07-08",
-      "indicators": [
-        {
-          "slug": "usd_cny",
-          "name": "美元/人民币汇率（中间价）",
-          "short_name": "USD/CNY",
-          "category": "货币",
-          "frequency": "daily",
-          "latest_date": "2026-06-29"
-        }
-      ]
-    },
-    {
-      "date": "2026-07-09",
-      "indicators": [
-        {
-          "slug": "usd_cny",
-          "name": "美元/人民币汇率（中间价）",
-          "short_name": "USD/CNY",
-          "category": "货币",
-          "frequency": "daily",
-          "latest_date": "2026-06-29"
         }
       ]
     },
@@ -2173,14 +2074,6 @@
           "category": "物价",
           "frequency": "monthly",
           "latest_date": "2026-05"
-        },
-        {
-          "slug": "usd_cny",
-          "name": "美元/人民币汇率（中间价）",
-          "short_name": "USD/CNY",
-          "category": "货币",
-          "frequency": "daily",
-          "latest_date": "2026-06-29"
         }
       ]
     },
@@ -2222,32 +2115,6 @@
       ]
     },
     {
-      "date": "2026-07-13",
-      "indicators": [
-        {
-          "slug": "usd_cny",
-          "name": "美元/人民币汇率（中间价）",
-          "short_name": "USD/CNY",
-          "category": "货币",
-          "frequency": "daily",
-          "latest_date": "2026-06-29"
-        }
-      ]
-    },
-    {
-      "date": "2026-07-14",
-      "indicators": [
-        {
-          "slug": "usd_cny",
-          "name": "美元/人民币汇率（中间价）",
-          "short_name": "USD/CNY",
-          "category": "货币",
-          "frequency": "daily",
-          "latest_date": "2026-06-29"
-        }
-      ]
-    },
-    {
       "date": "2026-07-15",
       "indicators": [
         {
@@ -2273,54 +2140,12 @@
           "category": "增长",
           "frequency": "monthly",
           "latest_date": "2026-05"
-        },
-        {
-          "slug": "usd_cny",
-          "name": "美元/人民币汇率（中间价）",
-          "short_name": "USD/CNY",
-          "category": "货币",
-          "frequency": "daily",
-          "latest_date": "2026-06-29"
-        }
-      ]
-    },
-    {
-      "date": "2026-07-16",
-      "indicators": [
-        {
-          "slug": "usd_cny",
-          "name": "美元/人民币汇率（中间价）",
-          "short_name": "USD/CNY",
-          "category": "货币",
-          "frequency": "daily",
-          "latest_date": "2026-06-29"
-        }
-      ]
-    },
-    {
-      "date": "2026-07-17",
-      "indicators": [
-        {
-          "slug": "usd_cny",
-          "name": "美元/人民币汇率（中间价）",
-          "short_name": "USD/CNY",
-          "category": "货币",
-          "frequency": "daily",
-          "latest_date": "2026-06-29"
         }
       ]
     },
     {
       "date": "2026-07-20",
       "indicators": [
-        {
-          "slug": "usd_cny",
-          "name": "美元/人民币汇率（中间价）",
-          "short_name": "USD/CNY",
-          "category": "货币",
-          "frequency": "daily",
-          "latest_date": "2026-06-29"
-        },
         {
           "slug": "lpr_1y",
           "name": "贷款市场报价利率 (LPR) 1年期",
@@ -2330,97 +2155,681 @@
           "latest_date": "2026-06-22"
         }
       ]
-    },
-    {
-      "date": "2026-07-21",
-      "indicators": [
-        {
-          "slug": "usd_cny",
-          "name": "美元/人民币汇率（中间价）",
-          "short_name": "USD/CNY",
-          "category": "货币",
-          "frequency": "daily",
-          "latest_date": "2026-06-29"
-        }
-      ]
-    },
-    {
-      "date": "2026-07-22",
-      "indicators": [
-        {
-          "slug": "usd_cny",
-          "name": "美元/人民币汇率（中间价）",
-          "short_name": "USD/CNY",
-          "category": "货币",
-          "frequency": "daily",
-          "latest_date": "2026-06-29"
-        }
-      ]
-    },
-    {
-      "date": "2026-07-23",
-      "indicators": [
-        {
-          "slug": "usd_cny",
-          "name": "美元/人民币汇率（中间价）",
-          "short_name": "USD/CNY",
-          "category": "货币",
-          "frequency": "daily",
-          "latest_date": "2026-06-29"
-        }
-      ]
-    },
-    {
-      "date": "2026-07-24",
-      "indicators": [
-        {
-          "slug": "usd_cny",
-          "name": "美元/人民币汇率（中间价）",
-          "short_name": "USD/CNY",
-          "category": "货币",
-          "frequency": "daily",
-          "latest_date": "2026-06-29"
-        }
-      ]
-    },
-    {
-      "date": "2026-07-27",
-      "indicators": [
-        {
-          "slug": "usd_cny",
-          "name": "美元/人民币汇率（中间价）",
-          "short_name": "USD/CNY",
-          "category": "货币",
-          "frequency": "daily",
-          "latest_date": "2026-06-29"
-        }
-      ]
-    },
-    {
-      "date": "2026-07-28",
-      "indicators": [
-        {
-          "slug": "usd_cny",
-          "name": "美元/人民币汇率（中间价）",
-          "short_name": "USD/CNY",
-          "category": "货币",
-          "frequency": "daily",
-          "latest_date": "2026-06-29"
-        }
-      ]
-    },
-    {
-      "date": "2026-07-29",
-      "indicators": [
-        {
-          "slug": "usd_cny",
-          "name": "美元/人民币汇率（中间价）",
-          "short_name": "USD/CNY",
-          "category": "货币",
-          "frequency": "daily",
-          "latest_date": "2026-06-29"
-        }
-      ]
     }
-  ]
+  ],
+  "release_calendar": {
+    "months": [
+      {
+        "year": 2026,
+        "month": 6,
+        "title": "2026年6月",
+        "weekday_headers": [
+          "一",
+          "二",
+          "三",
+          "四",
+          "五",
+          "六",
+          "日"
+        ],
+        "weeks": [
+          [
+            {
+              "empty": false,
+              "date": "2026-06-01",
+              "day": 1,
+              "is_today": false,
+              "is_weekend": false,
+              "indicators": [
+                {
+                  "slug": "pmi",
+                  "name": "制造业采购经理指数 (PMI)",
+                  "short_name": "PMI",
+                  "category": "增长",
+                  "frequency": "monthly",
+                  "latest_date": "2026-05"
+                }
+              ]
+            },
+            {
+              "empty": false,
+              "date": "2026-06-02",
+              "day": 2,
+              "is_today": false,
+              "is_weekend": false,
+              "indicators": []
+            },
+            {
+              "empty": false,
+              "date": "2026-06-03",
+              "day": 3,
+              "is_today": false,
+              "is_weekend": false,
+              "indicators": []
+            },
+            {
+              "empty": false,
+              "date": "2026-06-04",
+              "day": 4,
+              "is_today": false,
+              "is_weekend": false,
+              "indicators": []
+            },
+            {
+              "empty": false,
+              "date": "2026-06-05",
+              "day": 5,
+              "is_today": false,
+              "is_weekend": false,
+              "indicators": []
+            },
+            {
+              "empty": false,
+              "date": "2026-06-06",
+              "day": 6,
+              "is_today": false,
+              "is_weekend": true,
+              "indicators": []
+            },
+            {
+              "empty": false,
+              "date": "2026-06-07",
+              "day": 7,
+              "is_today": false,
+              "is_weekend": true,
+              "indicators": []
+            }
+          ],
+          [
+            {
+              "empty": false,
+              "date": "2026-06-08",
+              "day": 8,
+              "is_today": false,
+              "is_weekend": false,
+              "indicators": []
+            },
+            {
+              "empty": false,
+              "date": "2026-06-09",
+              "day": 9,
+              "is_today": false,
+              "is_weekend": false,
+              "indicators": []
+            },
+            {
+              "empty": false,
+              "date": "2026-06-10",
+              "day": 10,
+              "is_today": false,
+              "is_weekend": false,
+              "indicators": [
+                {
+                  "slug": "cpi",
+                  "name": "居民消费价格指数 (CPI) 同比",
+                  "short_name": "CPI",
+                  "category": "物价",
+                  "frequency": "monthly",
+                  "latest_date": "2026-05"
+                },
+                {
+                  "slug": "ppi",
+                  "name": "工业生产者出厂价格指数 (PPI) 同比",
+                  "short_name": "PPI",
+                  "category": "物价",
+                  "frequency": "monthly",
+                  "latest_date": "2026-05"
+                }
+              ]
+            },
+            {
+              "empty": false,
+              "date": "2026-06-11",
+              "day": 11,
+              "is_today": false,
+              "is_weekend": false,
+              "indicators": []
+            },
+            {
+              "empty": false,
+              "date": "2026-06-12",
+              "day": 12,
+              "is_today": false,
+              "is_weekend": false,
+              "indicators": [
+                {
+                  "slug": "m2",
+                  "name": "货币供应量 (M2) 同比",
+                  "short_name": "M2",
+                  "category": "货币",
+                  "frequency": "monthly",
+                  "latest_date": "2026-05"
+                },
+                {
+                  "slug": "m1",
+                  "name": "货币供应量 (M1) 同比",
+                  "short_name": "M1",
+                  "category": "货币",
+                  "frequency": "monthly",
+                  "latest_date": "2026-05"
+                },
+                {
+                  "slug": "m1_m2_scissor",
+                  "name": "M1-M2 剪刀差",
+                  "short_name": "M1-M2 剪刀差",
+                  "category": "货币",
+                  "frequency": "monthly",
+                  "latest_date": "2026-05"
+                },
+                {
+                  "slug": "new_loan",
+                  "name": "新增人民币贷款（当月）",
+                  "short_name": "新增贷款",
+                  "category": "货币",
+                  "frequency": "monthly",
+                  "latest_date": "2026-05"
+                }
+              ]
+            },
+            {
+              "empty": false,
+              "date": "2026-06-13",
+              "day": 13,
+              "is_today": false,
+              "is_weekend": true,
+              "indicators": []
+            },
+            {
+              "empty": false,
+              "date": "2026-06-14",
+              "day": 14,
+              "is_today": false,
+              "is_weekend": true,
+              "indicators": []
+            }
+          ],
+          [
+            {
+              "empty": false,
+              "date": "2026-06-15",
+              "day": 15,
+              "is_today": false,
+              "is_weekend": false,
+              "indicators": [
+                {
+                  "slug": "industrial_production",
+                  "name": "规模以上工业增加值 同比",
+                  "short_name": "工业增加值",
+                  "category": "增长",
+                  "frequency": "monthly",
+                  "latest_date": "2025-08"
+                },
+                {
+                  "slug": "retail_sales",
+                  "name": "社会消费品零售总额 同比",
+                  "short_name": "社零总额",
+                  "category": "增长",
+                  "frequency": "monthly",
+                  "latest_date": "2026-05"
+                }
+              ]
+            },
+            {
+              "empty": false,
+              "date": "2026-06-16",
+              "day": 16,
+              "is_today": false,
+              "is_weekend": false,
+              "indicators": []
+            },
+            {
+              "empty": false,
+              "date": "2026-06-17",
+              "day": 17,
+              "is_today": false,
+              "is_weekend": false,
+              "indicators": []
+            },
+            {
+              "empty": false,
+              "date": "2026-06-18",
+              "day": 18,
+              "is_today": false,
+              "is_weekend": false,
+              "indicators": []
+            },
+            {
+              "empty": false,
+              "date": "2026-06-19",
+              "day": 19,
+              "is_today": false,
+              "is_weekend": false,
+              "indicators": []
+            },
+            {
+              "empty": false,
+              "date": "2026-06-20",
+              "day": 20,
+              "is_today": false,
+              "is_weekend": true,
+              "indicators": []
+            },
+            {
+              "empty": false,
+              "date": "2026-06-21",
+              "day": 21,
+              "is_today": false,
+              "is_weekend": true,
+              "indicators": []
+            }
+          ],
+          [
+            {
+              "empty": false,
+              "date": "2026-06-22",
+              "day": 22,
+              "is_today": false,
+              "is_weekend": false,
+              "indicators": []
+            },
+            {
+              "empty": false,
+              "date": "2026-06-23",
+              "day": 23,
+              "is_today": false,
+              "is_weekend": false,
+              "indicators": []
+            },
+            {
+              "empty": false,
+              "date": "2026-06-24",
+              "day": 24,
+              "is_today": false,
+              "is_weekend": false,
+              "indicators": []
+            },
+            {
+              "empty": false,
+              "date": "2026-06-25",
+              "day": 25,
+              "is_today": false,
+              "is_weekend": false,
+              "indicators": []
+            },
+            {
+              "empty": false,
+              "date": "2026-06-26",
+              "day": 26,
+              "is_today": false,
+              "is_weekend": false,
+              "indicators": []
+            },
+            {
+              "empty": false,
+              "date": "2026-06-27",
+              "day": 27,
+              "is_today": false,
+              "is_weekend": true,
+              "indicators": []
+            },
+            {
+              "empty": false,
+              "date": "2026-06-28",
+              "day": 28,
+              "is_today": false,
+              "is_weekend": true,
+              "indicators": []
+            }
+          ],
+          [
+            {
+              "empty": false,
+              "date": "2026-06-29",
+              "day": 29,
+              "is_today": true,
+              "is_weekend": false,
+              "indicators": []
+            },
+            {
+              "empty": false,
+              "date": "2026-06-30",
+              "day": 30,
+              "is_today": false,
+              "is_weekend": false,
+              "indicators": []
+            },
+            {
+              "empty": true
+            },
+            {
+              "empty": true
+            },
+            {
+              "empty": true
+            },
+            {
+              "empty": true
+            },
+            {
+              "empty": true
+            }
+          ]
+        ]
+      },
+      {
+        "year": 2026,
+        "month": 7,
+        "title": "2026年7月",
+        "weekday_headers": [
+          "一",
+          "二",
+          "三",
+          "四",
+          "五",
+          "六",
+          "日"
+        ],
+        "weeks": [
+          [
+            {
+              "empty": true
+            },
+            {
+              "empty": true
+            },
+            {
+              "empty": false,
+              "date": "2026-07-01",
+              "day": 1,
+              "is_today": false,
+              "is_weekend": false,
+              "indicators": []
+            },
+            {
+              "empty": false,
+              "date": "2026-07-02",
+              "day": 2,
+              "is_today": false,
+              "is_weekend": false,
+              "indicators": []
+            },
+            {
+              "empty": false,
+              "date": "2026-07-03",
+              "day": 3,
+              "is_today": false,
+              "is_weekend": false,
+              "indicators": []
+            },
+            {
+              "empty": false,
+              "date": "2026-07-04",
+              "day": 4,
+              "is_today": false,
+              "is_weekend": true,
+              "indicators": []
+            },
+            {
+              "empty": false,
+              "date": "2026-07-05",
+              "day": 5,
+              "is_today": false,
+              "is_weekend": true,
+              "indicators": []
+            }
+          ],
+          [
+            {
+              "empty": false,
+              "date": "2026-07-06",
+              "day": 6,
+              "is_today": false,
+              "is_weekend": false,
+              "indicators": []
+            },
+            {
+              "empty": false,
+              "date": "2026-07-07",
+              "day": 7,
+              "is_today": false,
+              "is_weekend": false,
+              "indicators": []
+            },
+            {
+              "empty": false,
+              "date": "2026-07-08",
+              "day": 8,
+              "is_today": false,
+              "is_weekend": false,
+              "indicators": []
+            },
+            {
+              "empty": false,
+              "date": "2026-07-09",
+              "day": 9,
+              "is_today": false,
+              "is_weekend": false,
+              "indicators": []
+            },
+            {
+              "empty": false,
+              "date": "2026-07-10",
+              "day": 10,
+              "is_today": false,
+              "is_weekend": false,
+              "indicators": []
+            },
+            {
+              "empty": false,
+              "date": "2026-07-11",
+              "day": 11,
+              "is_today": false,
+              "is_weekend": true,
+              "indicators": []
+            },
+            {
+              "empty": false,
+              "date": "2026-07-12",
+              "day": 12,
+              "is_today": false,
+              "is_weekend": true,
+              "indicators": []
+            }
+          ],
+          [
+            {
+              "empty": false,
+              "date": "2026-07-13",
+              "day": 13,
+              "is_today": false,
+              "is_weekend": false,
+              "indicators": []
+            },
+            {
+              "empty": false,
+              "date": "2026-07-14",
+              "day": 14,
+              "is_today": false,
+              "is_weekend": false,
+              "indicators": []
+            },
+            {
+              "empty": false,
+              "date": "2026-07-15",
+              "day": 15,
+              "is_today": false,
+              "is_weekend": false,
+              "indicators": [
+                {
+                  "slug": "gdp",
+                  "name": "国内生产总值 (GDP) 同比",
+                  "short_name": "GDP",
+                  "category": "增长",
+                  "frequency": "quarterly",
+                  "latest_date": "2026-Q1"
+                }
+              ]
+            },
+            {
+              "empty": false,
+              "date": "2026-07-16",
+              "day": 16,
+              "is_today": false,
+              "is_weekend": false,
+              "indicators": []
+            },
+            {
+              "empty": false,
+              "date": "2026-07-17",
+              "day": 17,
+              "is_today": false,
+              "is_weekend": false,
+              "indicators": []
+            },
+            {
+              "empty": false,
+              "date": "2026-07-18",
+              "day": 18,
+              "is_today": false,
+              "is_weekend": true,
+              "indicators": []
+            },
+            {
+              "empty": false,
+              "date": "2026-07-19",
+              "day": 19,
+              "is_today": false,
+              "is_weekend": true,
+              "indicators": []
+            }
+          ],
+          [
+            {
+              "empty": false,
+              "date": "2026-07-20",
+              "day": 20,
+              "is_today": false,
+              "is_weekend": false,
+              "indicators": [
+                {
+                  "slug": "lpr_1y",
+                  "name": "贷款市场报价利率 (LPR) 1年期",
+                  "short_name": "LPR 1Y",
+                  "category": "货币",
+                  "frequency": "monthly",
+                  "latest_date": "2026-06-22"
+                }
+              ]
+            },
+            {
+              "empty": false,
+              "date": "2026-07-21",
+              "day": 21,
+              "is_today": false,
+              "is_weekend": false,
+              "indicators": []
+            },
+            {
+              "empty": false,
+              "date": "2026-07-22",
+              "day": 22,
+              "is_today": false,
+              "is_weekend": false,
+              "indicators": []
+            },
+            {
+              "empty": false,
+              "date": "2026-07-23",
+              "day": 23,
+              "is_today": false,
+              "is_weekend": false,
+              "indicators": []
+            },
+            {
+              "empty": false,
+              "date": "2026-07-24",
+              "day": 24,
+              "is_today": false,
+              "is_weekend": false,
+              "indicators": []
+            },
+            {
+              "empty": false,
+              "date": "2026-07-25",
+              "day": 25,
+              "is_today": false,
+              "is_weekend": true,
+              "indicators": []
+            },
+            {
+              "empty": false,
+              "date": "2026-07-26",
+              "day": 26,
+              "is_today": false,
+              "is_weekend": true,
+              "indicators": []
+            }
+          ],
+          [
+            {
+              "empty": false,
+              "date": "2026-07-27",
+              "day": 27,
+              "is_today": false,
+              "is_weekend": false,
+              "indicators": []
+            },
+            {
+              "empty": false,
+              "date": "2026-07-28",
+              "day": 28,
+              "is_today": false,
+              "is_weekend": false,
+              "indicators": []
+            },
+            {
+              "empty": false,
+              "date": "2026-07-29",
+              "day": 29,
+              "is_today": false,
+              "is_weekend": false,
+              "indicators": []
+            },
+            {
+              "empty": false,
+              "date": "2026-07-30",
+              "day": 30,
+              "is_today": false,
+              "is_weekend": false,
+              "indicators": []
+            },
+            {
+              "empty": false,
+              "date": "2026-07-31",
+              "day": 31,
+              "is_today": false,
+              "is_weekend": false,
+              "indicators": []
+            },
+            {
+              "empty": true
+            },
+            {
+              "empty": true
+            }
+          ]
+        ]
+      }
+    ],
+    "daily_indicators": [
+      {
+        "slug": "usd_cny",
+        "name": "美元/人民币汇率（中间价）",
+        "short_name": "USD/CNY",
+        "category": "货币",
+        "frequency": "daily",
+        "latest_date": "2026-06-29"
+      }
+    ]
+  }
 }

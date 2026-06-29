@@ -218,6 +218,19 @@ def _fetch_ppi() -> FetchResult:
 
 # ════════════════════ 货币篇 ════════════════════
 
+# 同一次 pipeline 运行中，M2 / M1 / M1-M2 剪刀差共用同一份数据源，
+# 避免对 AKShare 的 `macro_china_money_supply` 重复调用 3 次。
+_money_supply_df: pd.DataFrame | None = None
+
+
+def _get_money_supply_df() -> pd.DataFrame:
+    """获取货币供应量表（带一次运行周期内的缓存）。"""
+    global _money_supply_df
+    if _money_supply_df is None:
+        _money_supply_df = ak.macro_china_money_supply()
+    return _money_supply_df
+
+
 def _fetch_usd_cny() -> FetchResult:
     """美元/人民币汇率中间价（每日），数据源：国家外汇管理局。
 
@@ -259,7 +272,7 @@ def _fetch_m2() -> FetchResult:
     AKShare `macro_china_money_supply` 列结构（10列）：
         月份 | M2-数量 | M2-同比增长 | M2-环比增长 | M1-数量 | M1-同比增长 | ... | M0-...
     """
-    df = ak.macro_china_money_supply()
+    df = _get_money_supply_df()
     return _build_history(
         df,
         slug="m2",
@@ -275,7 +288,7 @@ def _fetch_m1() -> FetchResult:
 
     与 M2 同源，取 `macro_china_money_supply` 的 M1-同比增长列。
     """
-    df = ak.macro_china_money_supply()
+    df = _get_money_supply_df()
     return _build_history(
         df,
         slug="m1",
@@ -292,7 +305,7 @@ def _fetch_m1_m2_scissor() -> FetchResult:
     剪刀差 = M1 同比增速 - M2 同比增速。直接从同一张表中提取两列计算，
     保证与独立拉取的 M1、M2 数值一致。
     """
-    df = ak.macro_china_money_supply()
+    df = _get_money_supply_df()
     date_col = df.columns[0]
     m2_col = df.columns[2]   # M2-同比增长
     m1_col = df.columns[5]   # M1-同比增长

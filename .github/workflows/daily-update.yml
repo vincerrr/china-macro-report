@@ -28,7 +28,13 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          fetch-depth: 1
+          fetch-depth: 0
+
+      - name: Pull latest changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git pull --rebase origin main
 
       - name: Set up Python 3.10
         uses: actions/setup-python@v5
@@ -52,13 +58,12 @@ jobs:
 
       - name: Commit updated data + report
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/macro.db data/latest.json output/index.html
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
             git commit -m "chore: daily update $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git pull --rebase origin main
             git push
           fi
 

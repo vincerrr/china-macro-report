@@ -7,6 +7,7 @@
 from __future__ import annotations
 
 import json
+from datetime import datetime
 from pathlib import Path
 from typing import Any
 
@@ -42,6 +43,42 @@ HTML_TEMPLATE = """<!DOCTYPE html>
       · 共 {{ indicators|length }} 个指标
     </p>
   </header>
+
+  {% if upcoming_releases %}
+  <!-- Upcoming Releases Calendar -->
+  <section class="mb-10">
+    <h2 class="text-xl font-semibold text-slate-700 mb-5 flex items-center">
+      <span class="inline-block w-1 h-5 bg-amber-500 mr-3"></span>
+      📅 未来 30 天发布预告
+    </h2>
+
+    <div class="bg-white rounded-lg border border-slate-200 p-6">
+      <div class="space-y-4">
+        {% for event in upcoming_releases %}
+        <div class="flex items-start gap-4 pb-4 border-b border-slate-100 last:border-0 last:pb-0">
+          <div class="flex-shrink-0 w-20 text-center">
+            <div class="text-xs text-slate-500">{{ event.month }}</div>
+            <div class="text-2xl font-bold text-slate-900">{{ event.day }}</div>
+            <div class="text-xs text-slate-400">{{ event.weekday }}</div>
+          </div>
+          <div class="flex-1">
+            {% for ind in event.indicators %}
+            <div class="inline-flex items-center bg-slate-50 rounded-full px-3 py-1 mr-2 mb-2 text-sm">
+              <span class="w-2 h-2 rounded-full mr-2" style="background-color: {{ ind.category_color }}"></span>
+              <span class="text-slate-700">{{ ind.short_name }}</span>
+              <span class="text-xs text-slate-400 ml-2">{{ ind.frequency_zh }}</span>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+      <p class="text-xs text-slate-400 mt-4">
+        * 日期根据历史发布规律估算，实际发布时间可能因节假日或官方调整而变化。
+      </p>
+    </div>
+  </section>
+  {% endif %}
 
   {% for category, items in grouped_indicators %}
   <!-- Category: {{ category }} -->
@@ -310,6 +347,43 @@ def _utc_to_local_str(utc_str: str) -> str:
     return utc_str
 
 
+# 分类颜色（与 JS 中的 COLORS 保持一致）
+CATEGORY_COLORS = {
+    "物价": "#3b82f6",
+    "货币": "#8b5cf6",
+    "增长": "#10b981",
+    "就业": "#f59e0b",
+}
+
+_WEEKDAY_ZH = ["周一", "周二", "周三", "周四", "周五", "周六", "周日"]
+
+
+def _enrich_upcoming_releases(releases: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    """为发布日历补充显示字段。"""
+    enriched = []
+    for event in releases:
+        release_date = datetime.strptime(event["date"], "%Y-%m-%d").date()
+        indicators = []
+        for ind in event["indicators"]:
+            indicators.append(
+                {
+                    **ind,
+                    "frequency_zh": FREQUENCY_ZH.get(ind["frequency"], ind["frequency"]),
+                    "category_color": CATEGORY_COLORS.get(ind["category"], "#64748b"),
+                }
+            )
+        enriched.append(
+            {
+                "date": event["date"],
+                "month": f"{release_date.month}月",
+                "day": f"{release_date.day:02d}",
+                "weekday": _WEEKDAY_ZH[release_date.weekday()],
+                "indicators": indicators,
+            }
+        )
+    return enriched
+
+
 def generate_html(snapshot: dict[str, Any], output_path: Path | None = None) -> Path:
     """生成 HTML 报告。"""
     output_path = output_path or (OUTPUT_DIR / "index.html")
@@ -317,12 +391,14 @@ def generate_html(snapshot: dict[str, Any], output_path: Path | None = None) -> 
 
     enriched_indicators = [_enrich_indicator(ind) for ind in snapshot["indicators"]]
     grouped = _group_by_category(enriched_indicators)
+    upcoming_releases = _enrich_upcoming_releases(snapshot.get("upcoming_releases", []))
 
     template = Template(HTML_TEMPLATE)
     html = template.render(
         generated_at_local=_utc_to_local_str(snapshot["generated_at"]),
         indicators=enriched_indicators,
         grouped_indicators=grouped,
+        upcoming_releases=upcoming_releases,
         snapshot_json=json.dumps(snapshot, ensure_ascii=False),
     )
 

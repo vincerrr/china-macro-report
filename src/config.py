@@ -44,6 +44,7 @@ class IndicatorConfig:
     value_type_label: str = "同比"     # 卡片大数下方的小字标签
     delta_unit: str = "个百分点"       # 环比变化的单位（不是数据本身的 unit）
     chart_baseline: float | None = None  # 图表参考线（如 PMI 的荣枯线 50，同比指标的 0）
+    release_day: int | None = None       # 预计发布日（日频指标可不填）：月频/季频指标通常在下月的第几天发布
 
 
 # 页面展示顺序（按分类）
@@ -64,6 +65,7 @@ INDICATORS: list[IndicatorConfig] = [
         value_type_label="季度同比",
         delta_unit="个百分点",
         chart_baseline=0,
+        release_day=15,
     ),
     IndicatorConfig(
         slug="pmi",
@@ -80,6 +82,7 @@ INDICATORS: list[IndicatorConfig] = [
         value_type_label="指数水平（荣枯线 50）",
         delta_unit="点",
         chart_baseline=50,
+        release_day=1,
     ),
     IndicatorConfig(
         slug="industrial_production",
@@ -96,6 +99,7 @@ INDICATORS: list[IndicatorConfig] = [
         value_type_label="月度同比",
         delta_unit="个百分点",
         chart_baseline=0,
+        release_day=15,
     ),
     IndicatorConfig(
         slug="retail_sales",
@@ -112,6 +116,7 @@ INDICATORS: list[IndicatorConfig] = [
         value_type_label="月度同比",
         delta_unit="个百分点",
         chart_baseline=0,
+        release_day=15,
     ),
 
     # ═══════ 物价篇 ═══════
@@ -130,6 +135,7 @@ INDICATORS: list[IndicatorConfig] = [
         value_type_label="月度同比",
         delta_unit="个百分点",
         chart_baseline=0,
+        release_day=10,
     ),
     IndicatorConfig(
         slug="ppi",
@@ -146,6 +152,7 @@ INDICATORS: list[IndicatorConfig] = [
         value_type_label="月度同比",
         delta_unit="个百分点",
         chart_baseline=0,
+        release_day=10,
     ),
 
     # ═══════ 货币篇 ═══════
@@ -180,6 +187,7 @@ INDICATORS: list[IndicatorConfig] = [
         value_type_label="利率水平",
         delta_unit="个基点",  # bp，1 个基点 = 0.01%
         chart_baseline=None,
+        release_day=20,
     ),
     IndicatorConfig(
         slug="m2",
@@ -196,6 +204,7 @@ INDICATORS: list[IndicatorConfig] = [
         value_type_label="月度同比",
         delta_unit="个百分点",
         chart_baseline=0,
+        release_day=12,
     ),
     IndicatorConfig(
         slug="m1",
@@ -212,6 +221,7 @@ INDICATORS: list[IndicatorConfig] = [
         value_type_label="月度同比",
         delta_unit="个百分点",
         chart_baseline=0,
+        release_day=12,
     ),
     IndicatorConfig(
         slug="m1_m2_scissor",
@@ -228,6 +238,7 @@ INDICATORS: list[IndicatorConfig] = [
         value_type_label="剪刀差（M1同比 - M2同比）",
         delta_unit="个百分点",
         chart_baseline=0,
+        release_day=12,
     ),
     IndicatorConfig(
         slug="new_loan",
@@ -244,6 +255,7 @@ INDICATORS: list[IndicatorConfig] = [
         value_type_label="当月绝对值",
         delta_unit="亿元",
         chart_baseline=0,
+        release_day=12,
     ),
 
     # ═══════ 就业篇 ═══════

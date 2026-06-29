@@ -7,6 +7,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
+from src.calendar import build_release_calendar
 from src.config import DB_PATH, LATEST_JSON_PATH, IndicatorConfig, INDICATORS
 
 # 模块级连接（简单场景下够用）
@@ -224,10 +225,12 @@ def export_snapshot() -> dict[str, Any]:
                 "prev_value": prev_value,
                 "analysis_text": analysis["analysis_text"] if analysis else None,
                 "history": [
-                    {"date": h["date"], "value": h["value"]} for h in history
+                    {"date": h["date"], "value": h["value"], "created_at": h["created_at"]} for h in history
                 ],
             }
         )
+
+    snapshot["upcoming_releases"] = build_release_calendar(snapshot)
     return snapshot
 
 

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T07:33:57Z",
+  "generated_at": "2026-06-29T08:13:55Z",
   "indicators": [
     {
       "slug": "gdp",
@@ -2066,6 +2066,92 @@
           "category": "增长",
           "frequency": "monthly",
           "latest_date": "2026-05"
+        },
+        {
+          "slug": "usd_cny",
+          "name": "美元/人民币汇率（中间价）",
+          "short_name": "USD/CNY",
+          "category": "货币",
+          "frequency": "daily",
+          "latest_date": "2026-06-29"
+        }
+      ]
+    },
+    {
+      "date": "2026-07-02",
+      "indicators": [
+        {
+          "slug": "usd_cny",
+          "name": "美元/人民币汇率（中间价）",
+          "short_name": "USD/CNY",
+          "category": "货币",
+          "frequency": "daily",
+          "latest_date": "2026-06-29"
+        }
+      ]
+    },
+    {
+      "date": "2026-07-03",
+      "indicators": [
+        {
+          "slug": "usd_cny",
+          "name": "美元/人民币汇率（中间价）",
+          "short_name": "USD/CNY",
+          "category": "货币",
+          "frequency": "daily",
+          "latest_date": "2026-06-29"
+        }
+      ]
+    },
+    {
+      "date": "2026-07-06",
+      "indicators": [
+        {
+          "slug": "usd_cny",
+          "name": "美元/人民币汇率（中间价）",
+          "short_name": "USD/CNY",
+          "category": "货币",
+          "frequency": "daily",
+          "latest_date": "2026-06-29"
+        }
+      ]
+    },
+    {
+      "date": "2026-07-07",
+      "indicators": [
+        {
+          "slug": "usd_cny",
+          "name": "美元/人民币汇率（中间价）",
+          "short_name": "USD/CNY",
+          "category": "货币",
+          "frequency": "daily",
+          "latest_date": "2026-06-29"
+        }
+      ]
+    },
+    {
+      "date": "2026-07-08",
+      "indicators": [
+        {
+          "slug": "usd_cny",
+          "name": "美元/人民币汇率（中间价）",
+          "short_name": "USD/CNY",
+          "category": "货币",
+          "frequency": "daily",
+          "latest_date": "2026-06-29"
+        }
+      ]
+    },
+    {
+      "date": "2026-07-09",
+      "indicators": [
+        {
+          "slug": "usd_cny",
+          "name": "美元/人民币汇率（中间价）",
+          "short_name": "USD/CNY",
+          "category": "货币",
+          "frequency": "daily",
+          "latest_date": "2026-06-29"
         }
       ]
     },
@@ -2087,6 +2173,14 @@
           "category": "物价",
           "frequency": "monthly",
           "latest_date": "2026-05"
+        },
+        {
+          "slug": "usd_cny",
+          "name": "美元/人民币汇率（中间价）",
+          "short_name": "USD/CNY",
+          "category": "货币",
+          "frequency": "daily",
+          "latest_date": "2026-06-29"
         }
       ]
     },
@@ -2128,6 +2222,32 @@
       ]
     },
     {
+      "date": "2026-07-13",
+      "indicators": [
+        {
+          "slug": "usd_cny",
+          "name": "美元/人民币汇率（中间价）",
+          "short_name": "USD/CNY",
+          "category": "货币",
+          "frequency": "daily",
+          "latest_date": "2026-06-29"
+        }
+      ]
+    },
+    {
+      "date": "2026-07-14",
+      "indicators": [
+        {
+          "slug": "usd_cny",
+          "name": "美元/人民币汇率（中间价）",
+          "short_name": "USD/CNY",
+          "category": "货币",
+          "frequency": "daily",
+          "latest_date": "2026-06-29"
+        }
+      ]
+    },
+    {
       "date": "2026-07-15",
       "indicators": [
         {
@@ -2153,6 +2273,40 @@
           "category": "增长",
           "frequency": "monthly",
           "latest_date": "2026-05"
+        },
+        {
+          "slug": "usd_cny",
+          "name": "美元/人民币汇率（中间价）",
+          "short_name": "USD/CNY",
+          "category": "货币",
+          "frequency": "daily",
+          "latest_date": "2026-06-29"
+        }
+      ]
+    },
+    {
+      "date": "2026-07-16",
+      "indicators": [
+        {
+          "slug": "usd_cny",
+          "name": "美元/人民币汇率（中间价）",
+          "short_name": "USD/CNY",
+          "category": "货币",
+          "frequency": "daily",
+          "latest_date": "2026-06-29"
+        }
+      ]
+    },
+    {
+      "date": "2026-07-17",
+      "indicators": [
+        {
+          "slug": "usd_cny",
+          "name": "美元/人民币汇率（中间价）",
+          "short_name": "USD/CNY",
+          "category": "货币",
+          "frequency": "daily",
+          "latest_date": "2026-06-29"
         }
       ]
     },
@@ -2160,12 +2314,111 @@
       "date": "2026-07-20",
       "indicators": [
         {
+          "slug": "usd_cny",
+          "name": "美元/人民币汇率（中间价）",
+          "short_name": "USD/CNY",
+          "category": "货币",
+          "frequency": "daily",
+          "latest_date": "2026-06-29"
+        },
+        {
           "slug": "lpr_1y",
           "name": "贷款市场报价利率 (LPR) 1年期",
           "short_name": "LPR 1Y",
           "category": "货币",
           "frequency": "monthly",
           "latest_date": "2026-06-22"
+        }
+      ]
+    },
+    {
+      "date": "2026-07-21",
+      "indicators": [
+        {
+          "slug": "usd_cny",
+          "name": "美元/人民币汇率（中间价）",
+          "short_name": "USD/CNY",
+          "category": "货币",
+          "frequency": "daily",
+          "latest_date": "2026-06-29"
+        }
+      ]
+    },
+    {
+      "date": "2026-07-22",
+      "indicators": [
+        {
+          "slug": "usd_cny",
+          "name": "美元/人民币汇率（中间价）",
+          "short_name": "USD/CNY",
+          "category": "货币",
+          "frequency": "daily",
+          "latest_date": "2026-06-29"
+        }
+      ]
+    },
+    {
+      "date": "2026-07-23",
+      "indicators": [
+        {
+          "slug": "usd_cny",
+          "name": "美元/人民币汇率（中间价）",
+          "short_name": "USD/CNY",
+          "category": "货币",
+          "frequency": "daily",
+          "latest_date": "2026-06-29"
+        }
+      ]
+    },
+    {
+      "date": "2026-07-24",
+      "indicators": [
+        {
+          "slug": "usd_cny",
+          "name": "美元/人民币汇率（中间价）",
+          "short_name": "USD/CNY",
+          "category": "货币",
+          "frequency": "daily",
+          "latest_date": "2026-06-29"
+        }
+      ]
+    },
+    {
+      "date": "2026-07-27",
+      "indicators": [
+        {
+          "slug": "usd_cny",
+          "name": "美元/人民币汇率（中间价）",
+          "short_name": "USD/CNY",
+          "category": "货币",
+          "frequency": "daily",
+          "latest_date": "2026-06-29"
+        }
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "indicators": [
+        {
+          "slug": "usd_cny",
+          "name": "美元/人民币汇率（中间价）",
+          "short_name": "USD/CNY",
+          "category": "货币",
+          "frequency": "daily",
+          "latest_date": "2026-06-29"
+        }
+      ]
+    },
+    {
+      "date": "2026-07-29",
+      "indicators": [
+        {
+          "slug": "usd_cny",
+          "name": "美元/人民币汇率（中间价）",
+          "short_name": "USD/CNY",
+          "category": "货币",
+          "frequency": "daily",
+          "latest_date": "2026-06-29"
         }
       ]
     }

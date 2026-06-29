@@ -257,7 +257,7 @@ def _fetch_m2() -> FetchResult:
     """M2 货币供应量同比（月度），数据源：中国人民银行。
 
     AKShare `macro_china_money_supply` 列结构（10列）：
-        月份 | M2-数量 | M2-同比增长 | M2-环比增长 | M1-数量 | ... | M0-...
+        月份 | M2-数量 | M2-同比增长 | M2-环比增长 | M1-数量 | M1-同比增长 | ... | M0-...
     """
     df = ak.macro_china_money_supply()
     return _build_history(
@@ -268,6 +268,54 @@ def _fetch_m2() -> FetchResult:
         value_col_idx=2,  # M2-同比增长
         date_normalizer=_normalize_year_month,
     )
+
+
+def _fetch_m1() -> FetchResult:
+    """M1 货币供应量同比（月度），数据源：中国人民银行。
+
+    与 M2 同源，取 `macro_china_money_supply` 的 M1-同比增长列。
+    """
+    df = ak.macro_china_money_supply()
+    return _build_history(
+        df,
+        slug="m1",
+        period="monthly",
+        date_col_idx=0,
+        value_col_idx=5,  # M1-同比增长
+        date_normalizer=_normalize_year_month,
+    )
+
+
+def _fetch_m1_m2_scissor() -> FetchResult:
+    """M1-M2 剪刀差（月度），数据源：中国人民银行。
+
+    剪刀差 = M1 同比增速 - M2 同比增速。直接从同一张表中提取两列计算，
+    保证与独立拉取的 M1、M2 数值一致。
+    """
+    df = ak.macro_china_money_supply()
+    date_col = df.columns[0]
+    m2_col = df.columns[2]   # M2-同比增长
+    m1_col = df.columns[5]   # M1-同比增长
+
+    history: list[IndicatorData] = []
+    for _, row in df.iterrows():
+        m2_val = row[m2_col]
+        m1_val = row[m1_col]
+        if pd.isna(m2_val) or pd.isna(m1_val):
+            continue
+        try:
+            diff = float(m1_val) - float(m2_val)
+        except (TypeError, ValueError):
+            continue
+        date_str = _normalize_year_month(row[date_col])
+        history.append(
+            IndicatorData(slug="m1_m2_scissor", date=date_str, value=round(diff, 2), period="monthly")
+        )
+
+    history.sort(key=lambda x: x.date)
+    if not history:
+        raise RuntimeError("m1_m2_scissor: 未拉取到任何有效数据点")
+    return FetchResult(latest=history[-1], history=history)
 
 
 def _fetch_new_loan() -> FetchResult:
@@ -299,6 +347,8 @@ FETCHERS: dict[str, Any] = {
     "usd_cny": _fetch_usd_cny,
     "lpr_1y": _fetch_lpr_1y,
     "m2": _fetch_m2,
+    "m1": _fetch_m1,
+    "m1_m2_scissor": _fetch_m1_m2_scissor,
     "new_loan": _fetch_new_loan,
 }
 

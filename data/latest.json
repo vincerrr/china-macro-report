@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T09:56:56Z",
+  "generated_at": "2026-06-30T05:07:57Z",
   "indicators": [
     {
       "slug": "gdp",
@@ -184,16 +184,11 @@
       "value_type_label": "指数水平（荣枯线 50）",
       "delta_unit": "点",
       "chart_baseline": 50,
-      "latest_value": 50.0,
-      "latest_date": "2026-05",
-      "prev_value": 50.3,
-      "analysis_text": "2026年5月制造业PMI录得50.0，恰好位于荣枯线，表明制造业整体处于扩张与收缩的临界水平，景气度趋于中性。较4月的50.3下降0.3个点，扩张力度明显减弱，环比由微幅扩张转为停滞。可能原因包括：国内有效需求修复节奏放缓，部分行业去库存压力增大，以及外部贸易环境不确定性对出口订单形成扰动。后续需重点关注新订单指数与生产指数的变化，以及稳增长政策是否进一步加码以提振制造业信心。",
+      "latest_value": 50.3,
+      "latest_date": "2026-06",
+      "prev_value": 50.0,
+      "analysis_text": "2026年6月制造业PMI录得50.3，连续第二个月位于扩张区间，表明制造业景气度温和改善。环比上升0.3个点，扩张步伐较上月有所加快，但幅度有限。可能原因包括稳增长政策持续发力、部分行业补库需求释放，但内需修复仍不均衡。后续需关注新订单指数及出厂价格变化，以判断扩张动能的可持续性。",
       "history": [
-        {
-          "date": "2023-12",
-          "value": 49.0,
-          "created_at": "2026-06-23 08:42:10"
-        },
         {
           "date": "2024-01",
           "value": 49.2,
@@ -338,6 +333,11 @@
           "date": "2026-05",
           "value": 50.0,
           "created_at": "2026-06-23 08:42:10"
+        },
+        {
+          "date": "2026-06",
+          "value": 50.3,
+          "created_at": "2026-06-30 05:07:15"
         }
       ]
     },
@@ -1034,16 +1034,11 @@
       "value_type_label": "每日中间价",
       "delta_unit": "CNY/100USD",
       "chart_baseline": null,
-      "latest_value": 681.75,
-      "latest_date": "2026-06-29",
-      "prev_value": 681.66,
-      "analysis_text": "2026年6月29日人民币对美元中间价报681.75，即100美元兑681.75元人民币，显示人民币处于相对弱势水平。较上期（681.66）微升0.09，人民币小幅贬值，幅度极窄，属日常波动范畴。背后可能受近期美元指数震荡、中美利差维持倒挂及市场等待国内经济数据指引的影响。后续需关注美联储利率路径信号、中国央行中间价调控力度及中美经贸动态，若贬值压力持续，或触发政策微调。",
+      "latest_value": 681.09,
+      "latest_date": "2026-06-30",
+      "prev_value": 681.75,
+      "analysis_text": "2026年6月30日人民币对美元中间价报681.09，即1美元兑6.8109元人民币，处于近年相对强势区间。较上期下降0.66个基点，人民币小幅升值约0.1%，延续近期双向波动格局。可能原因包括美元指数阶段性走弱、中国经济基本面韧性及央行汇率预期管理。后续需关注美联储利率路径、中国出口数据变化及中间价形成机制是否释放政策信号。",
       "history": [
-        {
-          "date": "2026-05-18",
-          "value": 684.35,
-          "created_at": "2026-06-22 08:28:03"
-        },
         {
           "date": "2026-05-19",
           "value": 683.75,
@@ -1188,6 +1183,11 @@
           "date": "2026-06-29",
           "value": 681.75,
           "created_at": "2026-06-29 05:53:53"
+        },
+        {
+          "date": "2026-06-30",
+          "value": 681.09,
+          "created_at": "2026-06-30 05:07:46"
         }
       ]
     },
@@ -2052,7 +2052,7 @@
           "short_name": "PMI",
           "category": "增长",
           "frequency": "monthly",
-          "latest_date": "2026-05"
+          "latest_date": "2026-06"
         }
       ]
     },
@@ -2180,16 +2180,7 @@
               "day": 1,
               "is_today": false,
               "is_weekend": false,
-              "indicators": [
-                {
-                  "slug": "pmi",
-                  "name": "制造业采购经理指数 (PMI)",
-                  "short_name": "PMI",
-                  "category": "增长",
-                  "frequency": "monthly",
-                  "latest_date": "2026-05"
-                }
-              ]
+              "indicators": []
             },
             {
               "empty": false,
@@ -2486,7 +2477,7 @@
               "empty": false,
               "date": "2026-06-29",
               "day": 29,
-              "is_today": true,
+              "is_today": false,
               "is_weekend": false,
               "indicators": []
             },
@@ -2494,7 +2485,7 @@
               "empty": false,
               "date": "2026-06-30",
               "day": 30,
-              "is_today": false,
+              "is_today": true,
               "is_weekend": false,
               "indicators": []
             },
@@ -2543,7 +2534,16 @@
               "day": 1,
               "is_today": false,
               "is_weekend": false,
-              "indicators": []
+              "indicators": [
+                {
+                  "slug": "pmi",
+                  "name": "制造业采购经理指数 (PMI)",
+                  "short_name": "PMI",
+                  "category": "增长",
+                  "frequency": "monthly",
+                  "latest_date": "2026-06"
+                }
+              ]
             },
             {
               "empty": false,
@@ -2828,7 +2828,7 @@
         "short_name": "USD/CNY",
         "category": "货币",
         "frequency": "daily",
-        "latest_date": "2026-06-29"
+        "latest_date": "2026-06-30"
       }
     ]
   }

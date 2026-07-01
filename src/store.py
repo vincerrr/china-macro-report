@@ -9,6 +9,7 @@ from typing import Any
 
 from src.calendar import build_release_calendar, build_release_calendar_months
 from src.config import DB_PATH, LATEST_JSON_PATH, IndicatorConfig, INDICATORS
+from src.fetcher import fetch_secondary
 
 # 模块级连接（简单场景下够用）
 _conn: sqlite3.Connection | None = None
@@ -224,6 +225,7 @@ def export_snapshot() -> dict[str, Any]:
                 "latest_date": latest["date"] if latest else None,
                 "prev_value": prev_value,
                 "analysis_text": analysis["analysis_text"] if analysis else None,
+                "secondary": fetch_secondary(ind.slug),
                 "history": [
                     {"date": h["date"], "value": h["value"], "created_at": h["created_at"]} for h in history
                 ],

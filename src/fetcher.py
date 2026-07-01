@@ -116,19 +116,47 @@ def _build_history(
 
 # ════════════════════ 增长篇 ════════════════════
 
+# GDP 表在一次运行内会被同比 fetcher 与绝对值 secondary 共用，缓存避免重复调用。
+_gdp_df: pd.DataFrame | None = None
+
+
+def _get_gdp_df() -> pd.DataFrame:
+    """获取 GDP 表（带一次运行周期内的缓存）。"""
+    global _gdp_df
+    if _gdp_df is None:
+        _gdp_df = ak.macro_china_gdp()
+    return _gdp_df
+
+
 def _fetch_gdp() -> FetchResult:
     """GDP 同比增速（季度），数据源：国家统计局。
 
     AKShare `macro_china_gdp` 返回累计同比数据。列结构：
         季度 | 国内生产总值-绝对值 | 国内生产总值-同比增长 | ...
     """
-    df = ak.macro_china_gdp()
+    df = _get_gdp_df()
     return _build_history(
         df,
         slug="gdp",
         period="quarterly",
         date_col_idx=0,
         value_col_idx=2,  # 国内生产总值-同比增长
+        date_normalizer=_normalize_gdp_period,
+    )
+
+
+def _fetch_gdp_absolute() -> FetchResult:
+    """GDP 绝对值（季度，累计值，单位亿元），数据源：国家统计局。
+
+    与 `_fetch_gdp` 同源，取「国内生产总值-绝对值」列。
+    """
+    df = _get_gdp_df()
+    return _build_history(
+        df,
+        slug="gdp_absolute",
+        period="quarterly",
+        date_col_idx=0,
+        value_col_idx=1,  # 国内生产总值-绝对值
         date_normalizer=_normalize_gdp_period,
     )
 
@@ -151,19 +179,21 @@ def _fetch_pmi() -> FetchResult:
 
 
 def _fetch_industrial_production() -> FetchResult:
-    """规模以上工业增加值同比（月度），数据源：国家统计局（金十数据中转）。
+    """规模以上工业增加值同比（月度），数据源：国家统计局。
 
-    AKShare `macro_china_industrial_production_yoy` 列结构：
-        商品 | 日期 | 今值 | 预测值 | 前值
+    AKShare `macro_china_gyzjz` 列结构：
+        月份 | 同比增长 | 累计增长 | 发布时间
+    （旧源 `macro_china_industrial_production_yoy` 走金十中转，已停更在 2025-08，
+      改用统计局口径的 `macro_china_gyzjz`，数据更及时。）
     """
-    df = ak.macro_china_industrial_production_yoy()
+    df = ak.macro_china_gyzjz()
     return _build_history(
         df,
         slug="industrial_production",
         period="monthly",
-        date_col_idx=1,
-        value_col_idx=2,  # 今值
-        date_normalizer=lambda d: _normalize_iso_date(d)[:7],  # 转月度 YYYY-MM
+        date_col_idx=0,
+        value_col_idx=1,  # 同比增长
+        date_normalizer=_normalize_year_month,
     )
 
 
@@ -186,15 +216,43 @@ def _fetch_retail_sales() -> FetchResult:
 
 # ════════════════════ 物价篇 ════════════════════
 
+# CPI 表在一次运行内会被同比 fetcher 与环比 secondary 共用，缓存避免重复调用。
+_cpi_df: pd.DataFrame | None = None
+
+
+def _get_cpi_df() -> pd.DataFrame:
+    """获取 CPI 表（带一次运行周期内的缓存）。"""
+    global _cpi_df
+    if _cpi_df is None:
+        _cpi_df = ak.macro_china_cpi()
+    return _cpi_df
+
+
 def _fetch_cpi() -> FetchResult:
     """CPI 同比（月度），数据源：国家统计局。"""
-    df = ak.macro_china_cpi()
+    df = _get_cpi_df()
     return _build_history(
         df,
         slug="cpi",
         period="monthly",
         date_col_idx=0,
         value_col_idx=2,  # 全国-同比增长
+        date_normalizer=_normalize_year_month,
+    )
+
+
+def _fetch_cpi_mom() -> FetchResult:
+    """CPI 环比（月度），数据源：国家统计局。
+
+    与 `_fetch_cpi` 同源，取「全国-环比增长」列（idx 3）。
+    """
+    df = _get_cpi_df()
+    return _build_history(
+        df,
+        slug="cpi_mom",
+        period="monthly",
+        date_col_idx=0,
+        value_col_idx=3,  # 全国-环比增长
         date_normalizer=_normalize_year_month,
     )
 
@@ -214,6 +272,17 @@ def _fetch_ppi() -> FetchResult:
         value_col_idx=2,  # 当月同比增长
         date_normalizer=_normalize_year_month,
     )
+
+
+def _fetch_ppi_mom() -> FetchResult | None:
+    """PPI 环比（月度）—— 预留接口。
+
+    AKShare 的 `macro_china_ppi` 及东财 PPI 接口均只提供同比，不含环比；
+    免费结构化源普遍缺 PPI 环比。此处先返回 None，图表仅展示同比。
+    待接入可靠源（统计局新闻稿抓取 / 手动 JSON / 付费源）后在此实现即可，
+    上层会自动开始展示环比曲线。
+    """
+    return None
 
 
 # ════════════════════ 货币篇 ════════════════════
@@ -372,3 +441,39 @@ def fetch_indicator(fetcher_key: str) -> FetchResult:
     if fetcher is None:
         raise ValueError(f"未找到数据拉取函数: {fetcher_key}")
     return fetcher()
+
+
+# ════════════════════ 辅助序列（卡片补充展示 / 图表叠加线）════════════════════
+#
+# 有些指标除了主值外，还想展示一个附加序列：
+#   - GDP：主值=累计同比，附加=绝对值（文字补充）
+#   - CPI：主值=同比，附加=环比（图表叠加线）
+#   - PPI：主值=同比，附加=环比（源缺失，暂不展示）
+# 每个 builder 返回 (label, unit, display, FetchResult|None)，由上层组装成 secondary。
+
+SECONDARY_FETCHERS: dict[str, Any] = {
+    "gdp": {"label": "绝对值", "unit": "亿元", "display": "text", "fetch": _fetch_gdp_absolute},
+    "cpi": {"label": "环比", "unit": "%", "display": "chart_line", "fetch": _fetch_cpi_mom},
+    "ppi": {"label": "环比", "unit": "%", "display": "chart_line", "fetch": _fetch_ppi_mom},
+}
+
+
+def fetch_secondary(slug: str) -> dict[str, Any] | None:
+    """拉取某指标的辅助序列；无配置或源缺失时返回 None。"""
+    spec = SECONDARY_FETCHERS.get(slug)
+    if spec is None:
+        return None
+    try:
+        result = spec["fetch"]()
+    except Exception:
+        return None
+    if result is None:
+        return None
+    return {
+        "label": spec["label"],
+        "unit": spec["unit"],
+        "display": spec["display"],
+        "latest_value": result.latest.value,
+        "latest_date": result.latest.date,
+        "history": [{"date": d.date, "value": d.value} for d in result.history],
+    }

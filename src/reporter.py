@@ -137,6 +137,11 @@ HTML_TEMPLATE = """<!DOCTYPE html>
             {{ ind.latest_value_display }}<span class="text-base text-slate-500 ml-1">{{ ind.unit }}</span>
           </div>
           <div class="text-xs text-slate-400 mt-0.5">{{ ind.value_type_label }}</div>
+          {% if ind.secondary_text %}
+          <div class="text-sm text-slate-600 mt-1">
+            {{ ind.secondary_text }}
+          </div>
+          {% endif %}
           {% if ind.delta_display %}
           <div class="text-sm mt-1 {{ ind.delta_class }}">
             {{ ind.delta_arrow }} {{ ind.delta_display }}
@@ -210,20 +215,78 @@ HTML_TEMPLATE = """<!DOCTYPE html>
       });
     }
 
+    const dates = ind.history.map(p => p.date);
+
+    // 主序列
+    const mainName = ind.value_type_label || ind.short_name;
+    const series = [{
+      name: mainName,
+      type: 'line',
+      data: ind.history.map(p => p.value),
+      smooth: true,
+      symbol: 'circle',
+      symbolSize: 5,
+      lineStyle: { color: color, width: 2 },
+      itemStyle: { color: color },
+      areaStyle: {
+        color: {
+          type: 'linear', x: 0, y: 0, x2: 0, y2: 1,
+          colorStops: [
+            { offset: 0, color: color + '40' },
+            { offset: 1, color: color + '00' }
+          ]
+        }
+      },
+      markLine: markLines.length > 0 ? {
+        symbol: 'none',
+        data: markLines
+      } : undefined
+    }];
+
+    // 辅助序列（如 CPI/PPI 环比），按日期对齐到主序列的 x 轴
+    const legendNames = [mainName];
+    const sec = ind.secondary;
+    if (sec && sec.display === 'chart_line' && sec.history && sec.history.length) {
+      const secColor = '#f59e0b';
+      const secName = sec.label;
+      const secMap = {};
+      sec.history.forEach(p => { secMap[p.date] = p.value; });
+      series.push({
+        name: secName,
+        type: 'line',
+        data: dates.map(d => (d in secMap ? secMap[d] : null)),
+        smooth: true,
+        connectNulls: true,
+        symbol: 'circle',
+        symbolSize: 4,
+        lineStyle: { color: secColor, width: 2, type: 'dashed' },
+        itemStyle: { color: secColor }
+      });
+      legendNames.push(secName);
+    }
+
     chart.setOption({
-      grid: { left: 55, right: 20, top: 20, bottom: 30 },
+      grid: { left: 55, right: 20, top: legendNames.length > 1 ? 40 : 20, bottom: 30 },
+      legend: legendNames.length > 1 ? {
+        data: legendNames,
+        top: 5,
+        textStyle: { color: '#64748b', fontSize: 11 }
+      } : undefined,
       tooltip: {
         trigger: 'axis',
         axisPointer: { type: 'line' },
         formatter: (params) => {
-          const p = params[0];
-          return `${p.axisValueLabel}<br/>` +
-                 `<span style="color:${color}">●</span> ${ind.short_name}: <b>${p.value}</b> ${unit}`;
+          let out = `${params[0].axisValueLabel}<br/>`;
+          params.forEach(p => {
+            if (p.value === null || p.value === undefined) return;
+            out += `<span style="color:${p.color}">●</span> ${p.seriesName}: <b>${p.value}</b> ${unit}<br/>`;
+          });
+          return out;
         }
       },
       xAxis: {
         type: 'category',
-        data: ind.history.map(p => p.date),
+        data: dates,
         axisLine: { lineStyle: { color: '#cbd5e1' } },
         axisLabel: { color: '#64748b', fontSize: 11 }
       },
@@ -236,28 +299,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
         splitLine: { lineStyle: { color: '#e2e8f0' } },
         axisLabel: { color: '#64748b', fontSize: 11 }
       },
-      series: [{
-        type: 'line',
-        data: ind.history.map(p => p.value),
-        smooth: true,
-        symbol: 'circle',
-        symbolSize: 5,
-        lineStyle: { color: color, width: 2 },
-        itemStyle: { color: color },
-        areaStyle: {
-          color: {
-            type: 'linear', x: 0, y: 0, x2: 0, y2: 1,
-            colorStops: [
-              { offset: 0, color: color + '40' },
-              { offset: 1, color: color + '00' }
-            ]
-          }
-        },
-        markLine: markLines.length > 0 ? {
-          symbol: 'none',
-          data: markLines
-        } : undefined
-      }]
+      series: series
     });
     window.addEventListener('resize', () => chart.resize());
   }
@@ -300,6 +342,13 @@ def _format_value(value: float, unit: str) -> str:
         return f"{value:.2f}"
 
 
+def _format_secondary_value(value: float, unit: str) -> str:
+    """格式化辅助值显示。GDP 绝对值（亿元）转成「万亿元」更易读。"""
+    if unit == "亿元":
+        return f"{value / 10000:,.2f} 万亿元"
+    return f"{value:,.2f} {unit}"
+
+
 def _format_delta(delta: float, value_type: str, delta_unit: str) -> str:
     """格式化环比差值显示。
 
@@ -326,6 +375,14 @@ def _enrich_indicator(ind: dict[str, Any]) -> dict[str, Any]:
         enriched["latest_value_display"] = _format_value(ind["latest_value"], ind["unit"])
     else:
         enriched["latest_value_display"] = "—"
+
+    # 辅助文字（如 GDP 绝对值）：display == "text" 时在数字下方展示一行
+    enriched["secondary_text"] = ""
+    sec = ind.get("secondary")
+    if sec and sec.get("display") == "text" and sec.get("latest_value") is not None:
+        enriched["secondary_text"] = (
+            f"{sec['label']}：{_format_secondary_value(sec['latest_value'], sec['unit'])}"
+        )
 
     # 变化箭头与颜色
     enriched["delta_display"] = ""

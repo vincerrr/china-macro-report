@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-02T05:01:06Z",
+  "generated_at": "2026-07-03T04:45:20Z",
   "indicators": [
     {
       "slug": "gdp",
@@ -2264,17 +2264,12 @@
       "value_type_label": "每日中间价",
       "delta_unit": "CNY/100USD",
       "chart_baseline": null,
-      "latest_value": 680.88,
-      "latest_date": "2026-07-02",
-      "prev_value": 680.67,
-      "analysis_text": "2026年7月2日，人民币对美元中间价报680.88（每100美元兑人民币），较前一日680.67微升0.21，显示人民币小幅贬值。当前汇率仍处于6.80附近区间，整体波动平稳。此次贬值幅度极小，或受隔夜美元指数小幅走强、中美利差维持倒挂等短期因素影响。后续需关注美联储政策信号、国内经济修复节奏及央行中间价引导方向，若贬值压力持续累积，可能触发政策微调。",
+      "latest_value": 680.47,
+      "latest_date": "2026-07-03",
+      "prev_value": 680.88,
+      "analysis_text": "2026年7月3日人民币对美元中间价报680.47，较上日下调0.41个基点，显示人民币小幅升值。近期美元指数走弱、国内经济基本面改善或为升值提供支撑。后续需关注美联储政策信号及国内稳增长措施对汇率预期的引导。",
       "secondary": null,
       "history": [
-        {
-          "date": "2026-05-21",
-          "value": 683.49,
-          "created_at": "2026-06-22 08:28:03"
-        },
         {
           "date": "2026-05-22",
           "value": 683.73,
@@ -2419,6 +2414,11 @@
           "date": "2026-07-02",
           "value": 680.88,
           "created_at": "2026-07-02 05:00:47"
+        },
+        {
+          "date": "2026-07-03",
+          "value": 680.47,
+          "created_at": "2026-07-03 04:45:07"
         }
       ]
     },
@@ -3437,7 +3437,7 @@
               "empty": false,
               "date": "2026-07-02",
               "day": 2,
-              "is_today": true,
+              "is_today": false,
               "is_weekend": false,
               "indicators": []
             },
@@ -3445,7 +3445,7 @@
               "empty": false,
               "date": "2026-07-03",
               "day": 3,
-              "is_today": false,
+              "is_today": true,
               "is_weekend": false,
               "indicators": []
             },
@@ -4091,7 +4091,7 @@
         "short_name": "USD/CNY",
         "category": "货币",
         "frequency": "daily",
-        "latest_date": "2026-07-02"
+        "latest_date": "2026-07-03"
       }
     ]
   }

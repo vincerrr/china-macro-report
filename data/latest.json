@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-08T04:17:07Z",
+  "generated_at": "2026-07-10T04:55:46Z",
   "indicators": [
     {
       "slug": "gdp",
@@ -1030,16 +1030,16 @@
       "value_type_label": "月度同比",
       "delta_unit": "个百分点",
       "chart_baseline": 0,
-      "latest_value": 1.2,
-      "latest_date": "2026-05",
+      "latest_value": 1.0,
+      "latest_date": "2026-06",
       "prev_value": 1.2,
-      "analysis_text": "2026年5月CPI同比上涨1.2%，处于温和通胀区间下沿，低于2%-3%的典型温和水平，表明物价总体平稳但内需偏弱。与4月持平，环比无变化，显示价格缺乏上行或下行驱动力。可能原因包括：食品及能源价格波动有限，消费复苏节奏温和，未出现显著供需失衡。后续需关注核心CPI走势、居民消费信心修复进度及宏观政策对需求的提振效果。",
+      "analysis_text": "2026年6月CPI同比上涨1.0%，处于温和通胀区间下沿，接近通缩边界，反映当前物价水平偏弱。较上月回落0.2个百分点，延续下行趋势。可能原因包括内需修复动力不足、部分消费品供应充裕及国际大宗商品价格回落传导，叠加基数效应。后续需关注消费刺激政策落地效果、核心CPI走势及猪肉等关键商品价格变化，警惕通缩风险。",
       "secondary": {
         "label": "环比",
         "unit": "%",
         "display": "chart_line",
-        "latest_value": -0.1,
-        "latest_date": "2026-05",
+        "latest_value": -0.3,
+        "latest_date": "2026-06",
         "history": [
           {
             "date": "2008-01",
@@ -1924,15 +1924,14 @@
           {
             "date": "2026-05",
             "value": -0.1
+          },
+          {
+            "date": "2026-06",
+            "value": -0.3
           }
         ]
       },
       "history": [
-        {
-          "date": "2023-12",
-          "value": -0.3,
-          "created_at": "2026-06-22 08:27:45"
-        },
         {
           "date": "2024-01",
           "value": -0.8,
@@ -2077,6 +2076,11 @@
           "date": "2026-05",
           "value": 1.2,
           "created_at": "2026-06-22 08:27:45"
+        },
+        {
+          "date": "2026-06",
+          "value": 1.0,
+          "created_at": "2026-07-10 04:55:09"
         }
       ]
     },
@@ -2093,17 +2097,12 @@
       "value_type_label": "月度同比",
       "delta_unit": "个百分点",
       "chart_baseline": 0,
-      "latest_value": 3.9,
-      "latest_date": "2026-05",
-      "prev_value": 2.8,
-      "analysis_text": "2026年5月PPI同比上涨3.9%，较4月的2.8%扩大1.1个百分点，工业品价格加速上行，已脱离通缩区间。背后可能受国际大宗商品价格反弹、国内基建投资需求拉动及低基数效应共同推动。需关注上游涨价向CPI传导的节奏，以及央行是否因工业通胀压力调整货币政策取向。",
+      "latest_value": 4.1,
+      "latest_date": "2026-06",
+      "prev_value": 3.9,
+      "analysis_text": "2026年6月PPI同比上涨4.1%，较上期3.9%扩大0.2个百分点，连续两个月处于正增长区间，表明工业品价格温和回升，工业通缩压力进一步缓解。环比涨幅收窄，或受大宗商品价格高位震荡及部分行业需求改善推动。后续需关注上游价格向中下游传导的持续性，以及企业利润修复节奏。",
       "secondary": null,
       "history": [
-        {
-          "date": "2023-12",
-          "value": -2.7,
-          "created_at": "2026-06-23 08:42:25"
-        },
         {
           "date": "2024-01",
           "value": -2.5,
@@ -2248,6 +2247,11 @@
           "date": "2026-05",
           "value": 3.9,
           "created_at": "2026-06-23 08:42:25"
+        },
+        {
+          "date": "2026-06",
+          "value": 4.1,
+          "created_at": "2026-07-10 04:55:16"
         }
       ]
     },
@@ -2264,22 +2268,12 @@
       "value_type_label": "每日中间价",
       "delta_unit": "CNY/100USD",
       "chart_baseline": null,
-      "latest_value": 680.77,
-      "latest_date": "2026-07-08",
-      "prev_value": 680.54,
-      "analysis_text": "2026年7月8日人民币对美元中间价报680.77，意味着100美元可兑换680.77元人民币，人民币处于相对弱势水平。较上期（680.54）小幅贬值0.23个基点，幅度极微，属日常波动。近期美元指数走强或国内经济数据边际偏弱，可能对汇率形成短期压力，但中间价整体保持稳定。后续需关注美联储政策信号、中国外贸数据及央行中间价定价机制，若美元持续走强，人民币或面临小幅贬值压力。",
+      "latest_value": 679.89,
+      "latest_date": "2026-07-10",
+      "prev_value": 680.36,
+      "analysis_text": "7月10日人民币对美元中间价报679.89，较上日下调0.47个基点，延续小幅升值态势。该数值表明每100美元可兑换人民币减少，人民币购买力相对增强。环比变化幅度微弱，反映汇率在窄幅区间内波动。背后可能受美元指数阶段性走弱、国内经济基本面支撑及央行汇率预期管理共同影响。后续需关注美联储利率路径、中美利差变化及7月国内经济数据，中间价是否突破近期波动区间将成为关键信号。",
       "secondary": null,
       "history": [
-        {
-          "date": "2026-05-27",
-          "value": 682.91,
-          "created_at": "2026-06-22 08:28:03"
-        },
-        {
-          "date": "2026-05-28",
-          "value": 682.4,
-          "created_at": "2026-06-22 08:28:03"
-        },
         {
           "date": "2026-05-29",
           "value": 681.76,
@@ -2419,6 +2413,16 @@
           "date": "2026-07-08",
           "value": 680.77,
           "created_at": "2026-07-08 04:16:57"
+        },
+        {
+          "date": "2026-07-09",
+          "value": 680.36,
+          "created_at": "2026-07-10 04:55:34"
+        },
+        {
+          "date": "2026-07-10",
+          "value": 679.89,
+          "created_at": "2026-07-10 04:55:34"
         }
       ]
     },
@@ -3288,7 +3292,7 @@
           "short_name": "CPI",
           "category": "物价",
           "frequency": "monthly",
-          "latest_date": "2026-05"
+          "latest_date": "2026-06"
         },
         {
           "slug": "ppi",
@@ -3296,7 +3300,7 @@
           "short_name": "PPI",
           "category": "物价",
           "frequency": "monthly",
-          "latest_date": "2026-05"
+          "latest_date": "2026-06"
         }
       ]
     },
@@ -3487,7 +3491,7 @@
               "empty": false,
               "date": "2026-07-08",
               "day": 8,
-              "is_today": true,
+              "is_today": false,
               "is_weekend": false,
               "indicators": []
             },
@@ -3503,7 +3507,7 @@
               "empty": false,
               "date": "2026-07-10",
               "day": 10,
-              "is_today": false,
+              "is_today": true,
               "is_weekend": false,
               "indicators": [
                 {
@@ -3512,7 +3516,7 @@
                   "short_name": "CPI",
                   "category": "物价",
                   "frequency": "monthly",
-                  "latest_date": "2026-05"
+                  "latest_date": "2026-06"
                 },
                 {
                   "slug": "ppi",
@@ -3520,7 +3524,7 @@
                   "short_name": "PPI",
                   "category": "物价",
                   "frequency": "monthly",
-                  "latest_date": "2026-05"
+                  "latest_date": "2026-06"
                 }
               ]
             },
@@ -4091,7 +4095,7 @@
         "short_name": "USD/CNY",
         "category": "货币",
         "frequency": "daily",
-        "latest_date": "2026-07-08"
+        "latest_date": "2026-07-10"
       }
     ]
   }

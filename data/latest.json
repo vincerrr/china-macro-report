@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10T04:55:46Z",
+  "generated_at": "2026-07-11T04:15:07Z",
   "indicators": [
     {
       "slug": "gdp",
@@ -3284,27 +3284,6 @@
   ],
   "upcoming_releases": [
     {
-      "date": "2026-07-10",
-      "indicators": [
-        {
-          "slug": "cpi",
-          "name": "居民消费价格指数 (CPI) 同比",
-          "short_name": "CPI",
-          "category": "物价",
-          "frequency": "monthly",
-          "latest_date": "2026-06"
-        },
-        {
-          "slug": "ppi",
-          "name": "工业生产者出厂价格指数 (PPI) 同比",
-          "short_name": "PPI",
-          "category": "物价",
-          "frequency": "monthly",
-          "latest_date": "2026-06"
-        }
-      ]
-    },
-    {
       "date": "2026-07-12",
       "indicators": [
         {
@@ -3391,6 +3370,27 @@
           "name": "制造业采购经理指数 (PMI)",
           "short_name": "PMI",
           "category": "增长",
+          "frequency": "monthly",
+          "latest_date": "2026-06"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-10",
+      "indicators": [
+        {
+          "slug": "cpi",
+          "name": "居民消费价格指数 (CPI) 同比",
+          "short_name": "CPI",
+          "category": "物价",
+          "frequency": "monthly",
+          "latest_date": "2026-06"
+        },
+        {
+          "slug": "ppi",
+          "name": "工业生产者出厂价格指数 (PPI) 同比",
+          "short_name": "PPI",
+          "category": "物价",
           "frequency": "monthly",
           "latest_date": "2026-06"
         }
@@ -3507,7 +3507,7 @@
               "empty": false,
               "date": "2026-07-10",
               "day": 10,
-              "is_today": true,
+              "is_today": false,
               "is_weekend": false,
               "indicators": [
                 {
@@ -3532,7 +3532,7 @@
               "empty": false,
               "date": "2026-07-11",
               "day": 11,
-              "is_today": false,
+              "is_today": true,
               "is_weekend": true,
               "indicators": []
             },

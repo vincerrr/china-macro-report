@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-17T04:10:12Z",
+  "generated_at": "2026-07-18T03:57:17Z",
   "indicators": [
     {
       "slug": "gdp",
@@ -3633,7 +3633,7 @@
               "empty": false,
               "date": "2026-07-17",
               "day": 17,
-              "is_today": true,
+              "is_today": false,
               "is_weekend": false,
               "indicators": []
             },
@@ -3641,7 +3641,7 @@
               "empty": false,
               "date": "2026-07-18",
               "day": 18,
-              "is_today": false,
+              "is_today": true,
               "is_weekend": true,
               "indicators": [
                 {

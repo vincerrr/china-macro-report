@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-18T03:57:17Z",
+  "generated_at": "2026-07-19T04:23:20Z",
   "indicators": [
     {
       "slug": "gdp",
@@ -3288,19 +3288,6 @@
   ],
   "upcoming_releases": [
     {
-      "date": "2026-07-18",
-      "indicators": [
-        {
-          "slug": "industrial_production",
-          "name": "规模以上工业增加值 同比",
-          "short_name": "工业增加值",
-          "category": "增长",
-          "frequency": "monthly",
-          "latest_date": "2026-06"
-        }
-      ]
-    },
-    {
       "date": "2026-07-20",
       "indicators": [
         {
@@ -3391,6 +3378,19 @@
           "slug": "retail_sales",
           "name": "社会消费品零售总额 同比",
           "short_name": "社零总额",
+          "category": "增长",
+          "frequency": "monthly",
+          "latest_date": "2026-06"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-18",
+      "indicators": [
+        {
+          "slug": "industrial_production",
+          "name": "规模以上工业增加值 同比",
+          "short_name": "工业增加值",
           "category": "增长",
           "frequency": "monthly",
           "latest_date": "2026-06"
@@ -3641,7 +3641,7 @@
               "empty": false,
               "date": "2026-07-18",
               "day": 18,
-              "is_today": true,
+              "is_today": false,
               "is_weekend": true,
               "indicators": [
                 {
@@ -3658,7 +3658,7 @@
               "empty": false,
               "date": "2026-07-19",
               "day": 19,
-              "is_today": false,
+              "is_today": true,
               "is_weekend": true,
               "indicators": []
             }

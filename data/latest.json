@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T04:25:58Z",
+  "generated_at": "2026-08-03T04:33:04Z",
   "indicators": [
     {
       "slug": "gdp",
@@ -2272,17 +2272,12 @@
       "value_type_label": "每日中间价",
       "delta_unit": "CNY/100USD",
       "chart_baseline": null,
-      "latest_value": 678.94,
-      "latest_date": "2026-07-31",
-      "prev_value": 678.92,
-      "analysis_text": "7月31日人民币对美元中间价报678.94，较上期微升0.02，延续窄幅波动态势。当前水平表明人民币汇率保持基本稳定，贬值压力可控。环比变动幅度极小，反映近期市场供需均衡，央行继续通过中间价引导预期。背后可能受制于中美利差倒挂、国内经济复苏节奏以及外部美元指数波动。后续需关注美联储政策路径、中国出口数据及跨境资本流动，中间价或维持双向波动。",
+      "latest_value": 678.98,
+      "latest_date": "2026-08-03",
+      "prev_value": 678.94,
+      "analysis_text": "2026年8月3日，美元/人民币中间价报678.98，即100美元兑678.98元人民币，较上期678.94微升0.04，人民币小幅贬值0.006%。幅度极小，反映汇率在央行的维稳区间内窄幅波动。背后可能受近期美元指数走强、中美利差倒挂持续影响，但央行逆周期因子或仍有调节。后续关注美联储议息信号及国内稳增长政策力度，若美元持续偏强，人民币或面临小幅贬值压力。",
       "secondary": null,
       "history": [
-        {
-          "date": "2026-06-22",
-          "value": 681.5,
-          "created_at": "2026-06-22 08:28:03"
-        },
         {
           "date": "2026-06-23",
           "value": 681.71,
@@ -2427,6 +2422,11 @@
           "date": "2026-07-31",
           "value": 678.94,
           "created_at": "2026-07-31 04:25:07"
+        },
+        {
+          "date": "2026-08-03",
+          "value": 678.98,
+          "created_at": "2026-08-03 04:32:52"
         }
       ]
     },
@@ -3442,7 +3442,7 @@
               "empty": false,
               "date": "2026-08-02",
               "day": 2,
-              "is_today": true,
+              "is_today": false,
               "is_weekend": true,
               "indicators": []
             }
@@ -3452,7 +3452,7 @@
               "empty": false,
               "date": "2026-08-03",
               "day": 3,
-              "is_today": false,
+              "is_today": true,
               "is_weekend": false,
               "indicators": []
             },
@@ -4084,7 +4084,7 @@
         "short_name": "USD/CNY",
         "category": "货币",
         "frequency": "daily",
-        "latest_date": "2026-07-31"
+        "latest_date": "2026-08-03"
       }
     ]
   }

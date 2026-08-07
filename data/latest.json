@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-06T04:15:46Z",
+  "generated_at": "2026-08-07T03:52:03Z",
   "indicators": [
     {
       "slug": "gdp",
@@ -2272,17 +2272,12 @@
       "value_type_label": "每日中间价",
       "delta_unit": "CNY/100USD",
       "chart_baseline": null,
-      "latest_value": 678.95,
-      "latest_date": "2026-08-06",
-      "prev_value": 678.89,
-      "analysis_text": "2026年8月6日，人民币对美元汇率中间价报678.95，较上期微升0.06点，延续窄幅波动格局。本期数值仍处于近期的相对低位区间，显示人民币汇率整体稳定。环比变动幅度极小，方向为轻微贬值，反映市场供求基本均衡，央行中间价继续发挥“定盘星”作用。背后可能受美联储政策预期摇摆、国内经济基本面平稳及跨境资本流动均衡的影响。后续关注中美利差变化、7月进出口数据及央行汇率政策信号，若外部冲击加大，中间价或维持双向波动但弹性可控。",
+      "latest_value": 679.04,
+      "latest_date": "2026-08-07",
+      "prev_value": 678.95,
+      "analysis_text": "2026年8月7日人民币对美元中间价报679.04，较上期微贬0.09个基点，延续近期窄幅震荡格局。本期贬值幅度极小，显示汇率在6.79附近保持稳定。短期可能受美元指数波动、国内经济复苏节奏预期及中美利差变化影响。后续需关注美联储政策信号、中国贸易顺差走势及央行对汇率预期的引导，中间价斜率变化或预示政策取向。",
       "secondary": null,
       "history": [
-        {
-          "date": "2026-06-26",
-          "value": 681.66,
-          "created_at": "2026-06-26 05:11:28"
-        },
         {
           "date": "2026-06-29",
           "value": 681.75,
@@ -2427,6 +2422,11 @@
           "date": "2026-08-06",
           "value": 678.95,
           "created_at": "2026-08-06 04:15:24"
+        },
+        {
+          "date": "2026-08-07",
+          "value": 679.04,
+          "created_at": "2026-08-07 03:51:53"
         }
       ]
     },
@@ -3476,7 +3476,7 @@
               "empty": false,
               "date": "2026-08-06",
               "day": 6,
-              "is_today": true,
+              "is_today": false,
               "is_weekend": false,
               "indicators": []
             },
@@ -3484,7 +3484,7 @@
               "empty": false,
               "date": "2026-08-07",
               "day": 7,
-              "is_today": false,
+              "is_today": true,
               "is_weekend": false,
               "indicators": []
             },
@@ -4084,7 +4084,7 @@
         "short_name": "USD/CNY",
         "category": "货币",
         "frequency": "daily",
-        "latest_date": "2026-08-06"
+        "latest_date": "2026-08-07"
       }
     ]
   }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T02:56:16Z",
+  "generated_at": "2026-08-09T03:03:10Z",
   "indicators": [
     {
       "slug": "gdp",
@@ -1034,16 +1034,16 @@
       "value_type_label": "月度同比",
       "delta_unit": "个百分点",
       "chart_baseline": 0,
-      "latest_value": 1.0,
-      "latest_date": "2026-06",
-      "prev_value": 1.2,
-      "analysis_text": "2026年6月CPI同比上涨1.0%，处于温和通胀区间下沿，接近通缩边界，反映当前物价水平偏弱。较上月回落0.2个百分点，延续下行趋势。可能原因包括内需修复动力不足、部分消费品供应充裕及国际大宗商品价格回落传导，叠加基数效应。后续需关注消费刺激政策落地效果、核心CPI走势及猪肉等关键商品价格变化，警惕通缩风险。",
+      "latest_value": 0.5,
+      "latest_date": "2026-07",
+      "prev_value": 1.0,
+      "analysis_text": "2026年7月CPI同比上涨0.5%，处于极低水平，距通缩仅一步之遥，反映当前总需求明显偏弱，物价缺乏上行动力。较6月1.0%回落0.5个百分点，降幅较大，表明通缩压力有所加剧。背后可能受消费修复放缓、居民收入预期偏弱、部分商品供给过剩及基数效应影响。后续需密切关注核心CPI走势、增量消费刺激政策落地效果，以及是否出现通缩螺旋风险。",
       "secondary": {
         "label": "环比",
         "unit": "%",
         "display": "chart_line",
-        "latest_value": -0.3,
-        "latest_date": "2026-06",
+        "latest_value": -0.1,
+        "latest_date": "2026-07",
         "history": [
           {
             "date": "2008-01",
@@ -1932,15 +1932,14 @@
           {
             "date": "2026-06",
             "value": -0.3
+          },
+          {
+            "date": "2026-07",
+            "value": -0.1
           }
         ]
       },
       "history": [
-        {
-          "date": "2024-01",
-          "value": -0.8,
-          "created_at": "2026-06-22 08:27:45"
-        },
         {
           "date": "2024-02",
           "value": 0.7,
@@ -2085,6 +2084,11 @@
           "date": "2026-06",
           "value": 1.0,
           "created_at": "2026-07-10 04:55:09"
+        },
+        {
+          "date": "2026-07",
+          "value": 0.5,
+          "created_at": "2026-08-09 03:02:41"
         }
       ]
     },
@@ -3291,14 +3295,6 @@
       "date": "2026-08-10",
       "indicators": [
         {
-          "slug": "cpi",
-          "name": "居民消费价格指数 (CPI) 同比",
-          "short_name": "CPI",
-          "category": "物价",
-          "frequency": "monthly",
-          "latest_date": "2026-06"
-        },
-        {
           "slug": "ppi",
           "name": "工业生产者出厂价格指数 (PPI) 同比",
           "short_name": "PPI",
@@ -3381,6 +3377,19 @@
           "category": "货币",
           "frequency": "monthly",
           "latest_date": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-21",
+      "indicators": [
+        {
+          "slug": "cpi",
+          "name": "居民消费价格指数 (CPI) 同比",
+          "short_name": "CPI",
+          "category": "物价",
+          "frequency": "monthly",
+          "latest_date": "2026-07"
         }
       ]
     },
@@ -3492,7 +3501,7 @@
               "empty": false,
               "date": "2026-08-08",
               "day": 8,
-              "is_today": true,
+              "is_today": false,
               "is_weekend": true,
               "indicators": []
             },
@@ -3500,7 +3509,7 @@
               "empty": false,
               "date": "2026-08-09",
               "day": 9,
-              "is_today": false,
+              "is_today": true,
               "is_weekend": true,
               "indicators": []
             }
@@ -3513,14 +3522,6 @@
               "is_today": false,
               "is_weekend": false,
               "indicators": [
-                {
-                  "slug": "cpi",
-                  "name": "居民消费价格指数 (CPI) 同比",
-                  "short_name": "CPI",
-                  "category": "物价",
-                  "frequency": "monthly",
-                  "latest_date": "2026-06"
-                },
                 {
                   "slug": "ppi",
                   "name": "工业生产者出厂价格指数 (PPI) 同比",
@@ -3679,7 +3680,16 @@
               "day": 21,
               "is_today": false,
               "is_weekend": false,
-              "indicators": []
+              "indicators": [
+                {
+                  "slug": "cpi",
+                  "name": "居民消费价格指数 (CPI) 同比",
+                  "short_name": "CPI",
+                  "category": "物价",
+                  "frequency": "monthly",
+                  "latest_date": "2026-07"
+                }
+              ]
             },
             {
               "empty": false,

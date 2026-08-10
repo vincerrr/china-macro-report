@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T03:03:10Z",
+  "generated_at": "2026-08-10T03:13:08Z",
   "indicators": [
     {
       "slug": "gdp",
@@ -2105,17 +2105,12 @@
       "value_type_label": "月度同比",
       "delta_unit": "个百分点",
       "chart_baseline": 0,
-      "latest_value": 4.1,
-      "latest_date": "2026-06",
-      "prev_value": 3.9,
-      "analysis_text": "2026年6月PPI同比上涨4.1%，较上期3.9%扩大0.2个百分点，连续两个月处于正增长区间，表明工业品价格温和回升，工业通缩压力进一步缓解。环比涨幅收窄，或受大宗商品价格高位震荡及部分行业需求改善推动。后续需关注上游价格向中下游传导的持续性，以及企业利润修复节奏。",
+      "latest_value": 3.5,
+      "latest_date": "2026-07",
+      "prev_value": 4.1,
+      "analysis_text": "2026年7月PPI同比上涨3.5%，仍处正区间，但较上月4.1%回落0.6个百分点，涨幅连续收窄。这一变化反映工业品价格高位趋缓，可能源于大宗商品价格回调、上年同期基数抬升及下游需求边际走弱。后续关注PPI同比是否继续下行，以及利润承压对制造业投资的影响，同时留意价格传导对CPI的滞后效应。",
       "secondary": null,
       "history": [
-        {
-          "date": "2024-01",
-          "value": -2.5,
-          "created_at": "2026-06-23 08:42:25"
-        },
         {
           "date": "2024-02",
           "value": -2.7,
@@ -2260,6 +2255,11 @@
           "date": "2026-06",
           "value": 4.1,
           "created_at": "2026-07-10 04:55:16"
+        },
+        {
+          "date": "2026-07",
+          "value": 3.5,
+          "created_at": "2026-08-10 03:12:31"
         }
       ]
     },
@@ -2276,17 +2276,12 @@
       "value_type_label": "每日中间价",
       "delta_unit": "CNY/100USD",
       "chart_baseline": null,
-      "latest_value": 679.04,
-      "latest_date": "2026-08-07",
-      "prev_value": 678.95,
-      "analysis_text": "2026年8月7日人民币对美元中间价报679.04，较上期微贬0.09个基点，延续近期窄幅震荡格局。本期贬值幅度极小，显示汇率在6.79附近保持稳定。短期可能受美元指数波动、国内经济复苏节奏预期及中美利差变化影响。后续需关注美联储政策信号、中国贸易顺差走势及央行对汇率预期的引导，中间价斜率变化或预示政策取向。",
+      "latest_value": 678.84,
+      "latest_date": "2026-08-10",
+      "prev_value": 679.04,
+      "analysis_text": "2026年8月10日，人民币对美元汇率中间价报678.84，表示1美元可兑换6.7884元人民币，人民币处于相对强势区间。与上期679.04相比，人民币升值0.02%（0.20个基点），升值幅度温和。可能原因：近期美元指数走弱，或中国出口数据维持韧性、市场对人民币需求稳定；同时央行可能通过中间价引导汇率保持基本稳定。后续关注美联储货币政策动向、国内经济复苏力度及跨境资本流动，人民币汇率或维持双向波动格局。",
       "secondary": null,
       "history": [
-        {
-          "date": "2026-06-29",
-          "value": 681.75,
-          "created_at": "2026-06-29 05:53:53"
-        },
         {
           "date": "2026-06-30",
           "value": 681.09,
@@ -2431,6 +2426,11 @@
           "date": "2026-08-07",
           "value": 679.04,
           "created_at": "2026-08-07 03:51:53"
+        },
+        {
+          "date": "2026-08-10",
+          "value": 678.84,
+          "created_at": "2026-08-10 03:12:56"
         }
       ]
     },
@@ -3292,19 +3292,6 @@
   ],
   "upcoming_releases": [
     {
-      "date": "2026-08-10",
-      "indicators": [
-        {
-          "slug": "ppi",
-          "name": "工业生产者出厂价格指数 (PPI) 同比",
-          "short_name": "PPI",
-          "category": "物价",
-          "frequency": "monthly",
-          "latest_date": "2026-06"
-        }
-      ]
-    },
-    {
       "date": "2026-08-12",
       "indicators": [
         {
@@ -3387,6 +3374,19 @@
           "slug": "cpi",
           "name": "居民消费价格指数 (CPI) 同比",
           "short_name": "CPI",
+          "category": "物价",
+          "frequency": "monthly",
+          "latest_date": "2026-07"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-22",
+      "indicators": [
+        {
+          "slug": "ppi",
+          "name": "工业生产者出厂价格指数 (PPI) 同比",
+          "short_name": "PPI",
           "category": "物价",
           "frequency": "monthly",
           "latest_date": "2026-07"
@@ -3509,7 +3509,7 @@
               "empty": false,
               "date": "2026-08-09",
               "day": 9,
-              "is_today": true,
+              "is_today": false,
               "is_weekend": true,
               "indicators": []
             }
@@ -3519,18 +3519,9 @@
               "empty": false,
               "date": "2026-08-10",
               "day": 10,
-              "is_today": false,
+              "is_today": true,
               "is_weekend": false,
-              "indicators": [
-                {
-                  "slug": "ppi",
-                  "name": "工业生产者出厂价格指数 (PPI) 同比",
-                  "short_name": "PPI",
-                  "category": "物价",
-                  "frequency": "monthly",
-                  "latest_date": "2026-06"
-                }
-              ]
+              "indicators": []
             },
             {
               "empty": false,
@@ -3697,7 +3688,16 @@
               "day": 22,
               "is_today": false,
               "is_weekend": true,
-              "indicators": []
+              "indicators": [
+                {
+                  "slug": "ppi",
+                  "name": "工业生产者出厂价格指数 (PPI) 同比",
+                  "short_name": "PPI",
+                  "category": "物价",
+                  "frequency": "monthly",
+                  "latest_date": "2026-07"
+                }
+              ]
             },
             {
               "empty": false,
@@ -4094,7 +4094,7 @@
         "short_name": "USD/CNY",
         "category": "货币",
         "frequency": "daily",
-        "latest_date": "2026-08-07"
+        "latest_date": "2026-08-10"
       }
     ]
   }

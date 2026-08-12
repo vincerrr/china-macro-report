@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T03:05:31Z",
+  "generated_at": "2026-08-12T03:24:24Z",
   "indicators": [
     {
       "slug": "gdp",
@@ -2276,17 +2276,12 @@
       "value_type_label": "每日中间价",
       "delta_unit": "CNY/100USD",
       "chart_baseline": null,
-      "latest_value": 679.0,
-      "latest_date": "2026-08-11",
-      "prev_value": 678.84,
-      "analysis_text": "本期人民币对美元中间价报679.0，较上期678.84小幅走弱0.16点，为连续第二个交易日贬值。幅度极小，显示汇率维持窄幅波动格局。短期可能受美元指数反弹、中美利差变化或临近关键数据公布前的市场情绪影响。后续需关注美联储利率路径信号及中国7月经济数据，若美元持续偏强，人民币或面临阶段性贬值压力，但央行稳定预期工具仍充足。",
+      "latest_value": 678.82,
+      "latest_date": "2026-08-12",
+      "prev_value": 679.0,
+      "analysis_text": "本期人民币兑美元中间价为678.82，即100美元兑换678.82元人民币，处于6.78区间，表明人民币汇率相对稳定。较上期环比下降0.18点，人民币小幅升值0.03%，升值幅度温和。可能原因包括近期中国经济数据边际改善、美元指数走弱或央行引导汇率预期平稳。后续关注美联储货币政策转向节奏、国内出口韧性及中间价调控信号。",
       "secondary": null,
       "history": [
-        {
-          "date": "2026-07-01",
-          "value": 680.67,
-          "created_at": "2026-07-01 01:25:26"
-        },
         {
           "date": "2026-07-02",
           "value": 680.88,
@@ -2431,6 +2426,11 @@
           "date": "2026-08-11",
           "value": 679.0,
           "created_at": "2026-08-11 03:05:18"
+        },
+        {
+          "date": "2026-08-12",
+          "value": 678.82,
+          "created_at": "2026-08-12 03:24:13"
         }
       ]
     },
@@ -3527,7 +3527,7 @@
               "empty": false,
               "date": "2026-08-11",
               "day": 11,
-              "is_today": true,
+              "is_today": false,
               "is_weekend": false,
               "indicators": []
             },
@@ -3535,7 +3535,7 @@
               "empty": false,
               "date": "2026-08-12",
               "day": 12,
-              "is_today": false,
+              "is_today": true,
               "is_weekend": false,
               "indicators": [
                 {
@@ -4094,7 +4094,7 @@
         "short_name": "USD/CNY",
         "category": "货币",
         "frequency": "daily",
-        "latest_date": "2026-08-11"
+        "latest_date": "2026-08-12"
       }
     ]
   }

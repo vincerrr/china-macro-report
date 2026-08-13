@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T03:24:24Z",
+  "generated_at": "2026-08-13T03:28:01Z",
   "indicators": [
     {
       "slug": "gdp",
@@ -2276,17 +2276,12 @@
       "value_type_label": "每日中间价",
       "delta_unit": "CNY/100USD",
       "chart_baseline": null,
-      "latest_value": 678.82,
-      "latest_date": "2026-08-12",
-      "prev_value": 679.0,
-      "analysis_text": "本期人民币兑美元中间价为678.82，即100美元兑换678.82元人民币，处于6.78区间，表明人民币汇率相对稳定。较上期环比下降0.18点，人民币小幅升值0.03%，升值幅度温和。可能原因包括近期中国经济数据边际改善、美元指数走弱或央行引导汇率预期平稳。后续关注美联储货币政策转向节奏、国内出口韧性及中间价调控信号。",
+      "latest_value": 678.88,
+      "latest_date": "2026-08-13",
+      "prev_value": 678.82,
+      "analysis_text": "2026年8月13日，人民币对美元汇率中间价报678.88 CNY/100USD，较上期微升0.06点，显示人民币汇率基本持平，处于近期窄幅波动区间。本期汇率水平隐含人民币相对美元的温和稳定态势，贬值幅度仅0.0088%，几无实际变动。这一极窄波动可能反映央行维持汇率预期稳定的政策意图，以及近期国际外汇市场缺乏方向性驱动。后续需关注美联储货币政策信号、中国出口数据及中间价定价机制是否出现调整，以判断人民币是否进入新的均衡区间。",
       "secondary": null,
       "history": [
-        {
-          "date": "2026-07-02",
-          "value": 680.88,
-          "created_at": "2026-07-02 05:00:47"
-        },
         {
           "date": "2026-07-03",
           "value": 680.47,
@@ -2431,6 +2426,11 @@
           "date": "2026-08-12",
           "value": 678.82,
           "created_at": "2026-08-12 03:24:13"
+        },
+        {
+          "date": "2026-08-13",
+          "value": 678.88,
+          "created_at": "2026-08-13 03:27:50"
         }
       ]
     },
@@ -3292,43 +3292,6 @@
   ],
   "upcoming_releases": [
     {
-      "date": "2026-08-12",
-      "indicators": [
-        {
-          "slug": "m2",
-          "name": "货币供应量 (M2) 同比",
-          "short_name": "M2",
-          "category": "货币",
-          "frequency": "monthly",
-          "latest_date": "2026-06"
-        },
-        {
-          "slug": "m1",
-          "name": "货币供应量 (M1) 同比",
-          "short_name": "M1",
-          "category": "货币",
-          "frequency": "monthly",
-          "latest_date": "2026-06"
-        },
-        {
-          "slug": "m1_m2_scissor",
-          "name": "M1-M2 剪刀差",
-          "short_name": "M1-M2 剪刀差",
-          "category": "货币",
-          "frequency": "monthly",
-          "latest_date": "2026-06"
-        },
-        {
-          "slug": "new_loan",
-          "name": "新增人民币贷款（当月）",
-          "short_name": "新增贷款",
-          "category": "货币",
-          "frequency": "monthly",
-          "latest_date": "2026-06"
-        }
-      ]
-    },
-    {
       "date": "2026-08-15",
       "indicators": [
         {
@@ -3403,6 +3366,43 @@
           "category": "增长",
           "frequency": "monthly",
           "latest_date": "2026-07"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-12",
+      "indicators": [
+        {
+          "slug": "m2",
+          "name": "货币供应量 (M2) 同比",
+          "short_name": "M2",
+          "category": "货币",
+          "frequency": "monthly",
+          "latest_date": "2026-06"
+        },
+        {
+          "slug": "m1",
+          "name": "货币供应量 (M1) 同比",
+          "short_name": "M1",
+          "category": "货币",
+          "frequency": "monthly",
+          "latest_date": "2026-06"
+        },
+        {
+          "slug": "m1_m2_scissor",
+          "name": "M1-M2 剪刀差",
+          "short_name": "M1-M2 剪刀差",
+          "category": "货币",
+          "frequency": "monthly",
+          "latest_date": "2026-06"
+        },
+        {
+          "slug": "new_loan",
+          "name": "新增人民币贷款（当月）",
+          "short_name": "新增贷款",
+          "category": "货币",
+          "frequency": "monthly",
+          "latest_date": "2026-06"
         }
       ]
     }
@@ -3535,7 +3535,7 @@
               "empty": false,
               "date": "2026-08-12",
               "day": 12,
-              "is_today": true,
+              "is_today": false,
               "is_weekend": false,
               "indicators": [
                 {
@@ -3576,7 +3576,7 @@
               "empty": false,
               "date": "2026-08-13",
               "day": 13,
-              "is_today": false,
+              "is_today": true,
               "is_weekend": false,
               "indicators": []
             },
@@ -4094,7 +4094,7 @@
         "short_name": "USD/CNY",
         "category": "货币",
         "frequency": "daily",
-        "latest_date": "2026-08-12"
+        "latest_date": "2026-08-13"
       }
     ]
   }

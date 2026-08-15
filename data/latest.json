@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T03:26:02Z",
+  "generated_at": "2026-08-15T02:15:10Z",
   "indicators": [
     {
       "slug": "gdp",
@@ -2618,17 +2618,12 @@
       "value_type_label": "月度同比",
       "delta_unit": "个百分点",
       "chart_baseline": 0,
-      "latest_value": 8.0,
-      "latest_date": "2026-06",
-      "prev_value": 8.6,
-      "analysis_text": "2026年6月M2同比增速为8.0%，较5月的8.6%回落0.6个百分点，货币扩张速度明显放缓，当前水平处于近年低位，反映流动性边际收紧。回落幅度较大，可能源于央行主动调控信贷节奏以防范金融风险，或实体经济融资需求阶段性走弱。后续需关注货币政策是否进一步转向宽松，以及社融、PMI等数据对经济复苏动能的验证。",
+      "latest_value": 7.7,
+      "latest_date": "2026-07",
+      "prev_value": 8.0,
+      "analysis_text": "2026年7月M2同比增速录得7.7%，较上期回落0.3个百分点，连续两个月下行，显示当前货币总量扩张速度放缓，流动性环境边际收紧，但绝对水平仍处于适度宽松区间。环比下降0.3个百分点，降幅温和，表明货币政策未出现急转弯，但短期宽松力度有所减弱。背后可能原因包括：年中信贷投放节奏季节性放缓、央行对前期过快增长的货币供给进行主动调控、以及经济复苏基础尚不稳固下避免资金空转。后续需关注8月社融及信贷数据是否同步走弱，以及央行是否通过降准或结构性工具对冲流动性压力，以判断政策取向是否会边际转松。",
       "secondary": null,
       "history": [
-        {
-          "date": "2024-01",
-          "value": 8.7,
-          "created_at": "2026-06-23 08:42:56"
-        },
         {
           "date": "2024-02",
           "value": 8.7,
@@ -2773,6 +2768,11 @@
           "date": "2026-06",
           "value": 8.0,
           "created_at": "2026-07-16 04:11:23"
+        },
+        {
+          "date": "2026-07",
+          "value": 7.7,
+          "created_at": "2026-08-15 02:14:49"
         }
       ]
     },
@@ -2790,16 +2790,11 @@
       "delta_unit": "个百分点",
       "chart_baseline": 0,
       "latest_value": 4.0,
-      "latest_date": "2026-06",
-      "prev_value": 5.5,
-      "analysis_text": "2026年6月M1同比增速录得4.0%，较5月的5.5%回落1.5个百分点，显示企业活期存款与现金增长明显放缓，经济活跃度有所降温。该增速处于近年偏低水平，反映企业交易意愿与资金活化程度减弱。环比降幅扩大，可能受信贷投放节奏放缓、企业投资预期偏弱及部分行业去库存影响。后续需关注M1-M2剪刀差变化及企业中长期贷款数据，以判断实体经济资金活化能否修复。",
+      "latest_date": "2026-07",
+      "prev_value": 4.0,
+      "analysis_text": "2026年7月M1同比增速4.0%，与上月持平，显示经济活跃度维持稳定，企业交易意愿未见明显扩张。当前增速处于相对低位，反映资金活化程度偏弱，实体需求复苏节奏平缓。持平走势表明短期货币流动性环境未发生方向性变化，可能与信贷投放节奏稳健、企业投资意愿审慎有关。后续需关注M1与M2增速剪刀差变化，以及企业中长期贷款、PMI等指标，以判断内生动能是否出现拐点。",
       "secondary": null,
       "history": [
-        {
-          "date": "2024-01",
-          "value": 5.9,
-          "created_at": "2026-06-29 06:02:01"
-        },
         {
           "date": "2024-02",
           "value": 1.2,
@@ -2944,6 +2939,11 @@
           "date": "2026-06",
           "value": 4.0,
           "created_at": "2026-07-16 04:11:27"
+        },
+        {
+          "date": "2026-07",
+          "value": 4.0,
+          "created_at": "2026-08-15 02:14:53"
         }
       ]
     },
@@ -2960,17 +2960,12 @@
       "value_type_label": "剪刀差（M1同比 - M2同比）",
       "delta_unit": "个百分点",
       "chart_baseline": 0,
-      "latest_value": -4.0,
-      "latest_date": "2026-06",
-      "prev_value": -3.1,
-      "analysis_text": "2026年6月M1-M2剪刀差录得-4.0个百分点，较5月的-3.1个百分点进一步走阔0.9个百分点。负值加深表明资金活化程度持续减弱，企业更倾向于持有定期存款或理财，实体经济投资意愿低迷。背后可能反映二季度经济修复动能放缓、企业盈利预期偏弱，以及信贷投放结构偏向中长期而非短期流动性。后续需关注央行是否加大逆周期调节力度，以及M1增速能否在财政支出加速或房地产销售回暖带动下企稳回升。",
+      "latest_value": -3.7,
+      "latest_date": "2026-07",
+      "prev_value": -4.0,
+      "analysis_text": "2026年7月M1-M2剪刀差为-3.7个百分点，较6月的-4.0个百分点收窄0.3个百分点，连续两个月负值但边际改善。负值区间仍表明企业活期存款与定期存款增速倒挂，资金沉淀现象延续，实体经济投资意愿偏弱。环比改善可能源于信贷投放结构性优化或企业短期流动性好转，例如专项债资金拨付加速或部分行业补库存需求。后续需关注M1同比能否转正，以及房地产销售、制造业PMI等先行指标对资金活化动能的指引。",
       "secondary": null,
       "history": [
-        {
-          "date": "2024-01",
-          "value": -2.8,
-          "created_at": "2026-06-29 06:02:05"
-        },
         {
           "date": "2024-02",
           "value": -7.5,
@@ -3115,6 +3110,11 @@
           "date": "2026-06",
           "value": -4.0,
           "created_at": "2026-07-16 04:11:30"
+        },
+        {
+          "date": "2026-07",
+          "value": -3.7,
+          "created_at": "2026-08-15 02:14:59"
         }
       ]
     },
@@ -3131,17 +3131,12 @@
       "value_type_label": "当月绝对值",
       "delta_unit": "亿元",
       "chart_baseline": 0,
-      "latest_value": 17650.0,
-      "latest_date": "2026-06",
-      "prev_value": 4965.0,
-      "analysis_text": "2026年6月新增人民币贷款录得17650亿元，处于年内高位，反映信贷需求显著回暖，实体经济融资意愿增强。环比大幅增加12685亿元，增幅达255.5%，扭转了5月的低迷态势。这一跃升可能源于季末银行冲量、稳增长政策加码及基建项目集中落地，同时房地产销售边际改善或也贡献部分居民中长期贷款。后续需关注7月信贷节奏是否回落，以及企业中长期贷款占比能否持续提升，以判断经济内生修复动能的持续性。",
+      "latest_value": -5896.0,
+      "latest_date": "2026-07",
+      "prev_value": 17650.0,
+      "analysis_text": "2026年7月新增人民币贷款录得-5896亿元，为近十年来首次月度净偿还，显示信贷需求急剧收缩。环比骤降23546亿元，不仅由6月信贷冲量后的季节性回落所致，更反映企业和居民融资意愿显著走弱，叠加房地产贷款持续收缩、地方债置换等因素，实体经济有效需求不足。后续需关注央行是否重启降准或结构性工具以稳定信贷，以及8-9月信贷能否回归正增长。",
       "secondary": null,
       "history": [
-        {
-          "date": "2024-01",
-          "value": 48401.0,
-          "created_at": "2026-06-23 08:42:59"
-        },
         {
           "date": "2024-02",
           "value": 9773.0,
@@ -3286,6 +3281,11 @@
           "date": "2026-06",
           "value": 17650.0,
           "created_at": "2026-07-16 04:11:36"
+        },
+        {
+          "date": "2026-07",
+          "value": -5896.0,
+          "created_at": "2026-08-15 02:15:04"
         }
       ]
     }
@@ -3353,6 +3353,22 @@
           "category": "物价",
           "frequency": "monthly",
           "latest_date": "2026-07"
+        },
+        {
+          "slug": "m2",
+          "name": "货币供应量 (M2) 同比",
+          "short_name": "M2",
+          "category": "货币",
+          "frequency": "monthly",
+          "latest_date": "2026-07"
+        },
+        {
+          "slug": "new_loan",
+          "name": "新增人民币贷款（当月）",
+          "short_name": "新增贷款",
+          "category": "货币",
+          "frequency": "monthly",
+          "latest_date": "2026-07"
         }
       ]
     },
@@ -3370,23 +3386,15 @@
       ]
     },
     {
-      "date": "2026-09-12",
+      "date": "2026-08-28",
       "indicators": [
-        {
-          "slug": "m2",
-          "name": "货币供应量 (M2) 同比",
-          "short_name": "M2",
-          "category": "货币",
-          "frequency": "monthly",
-          "latest_date": "2026-06"
-        },
         {
           "slug": "m1",
           "name": "货币供应量 (M1) 同比",
           "short_name": "M1",
           "category": "货币",
           "frequency": "monthly",
-          "latest_date": "2026-06"
+          "latest_date": "2026-07"
         },
         {
           "slug": "m1_m2_scissor",
@@ -3394,15 +3402,7 @@
           "short_name": "M1-M2 剪刀差",
           "category": "货币",
           "frequency": "monthly",
-          "latest_date": "2026-06"
-        },
-        {
-          "slug": "new_loan",
-          "name": "新增人民币贷款（当月）",
-          "short_name": "新增贷款",
-          "category": "货币",
-          "frequency": "monthly",
-          "latest_date": "2026-06"
+          "latest_date": "2026-07"
         }
       ]
     }
@@ -3537,40 +3537,7 @@
               "day": 12,
               "is_today": false,
               "is_weekend": false,
-              "indicators": [
-                {
-                  "slug": "m2",
-                  "name": "货币供应量 (M2) 同比",
-                  "short_name": "M2",
-                  "category": "货币",
-                  "frequency": "monthly",
-                  "latest_date": "2026-06"
-                },
-                {
-                  "slug": "m1",
-                  "name": "货币供应量 (M1) 同比",
-                  "short_name": "M1",
-                  "category": "货币",
-                  "frequency": "monthly",
-                  "latest_date": "2026-06"
-                },
-                {
-                  "slug": "m1_m2_scissor",
-                  "name": "M1-M2 剪刀差",
-                  "short_name": "M1-M2 剪刀差",
-                  "category": "货币",
-                  "frequency": "monthly",
-                  "latest_date": "2026-06"
-                },
-                {
-                  "slug": "new_loan",
-                  "name": "新增人民币贷款（当月）",
-                  "short_name": "新增贷款",
-                  "category": "货币",
-                  "frequency": "monthly",
-                  "latest_date": "2026-06"
-                }
-              ]
+              "indicators": []
             },
             {
               "empty": false,
@@ -3584,7 +3551,7 @@
               "empty": false,
               "date": "2026-08-14",
               "day": 14,
-              "is_today": true,
+              "is_today": false,
               "is_weekend": false,
               "indicators": []
             },
@@ -3592,7 +3559,7 @@
               "empty": false,
               "date": "2026-08-15",
               "day": 15,
-              "is_today": false,
+              "is_today": true,
               "is_weekend": true,
               "indicators": [
                 {
@@ -3696,6 +3663,22 @@
                   "category": "物价",
                   "frequency": "monthly",
                   "latest_date": "2026-07"
+                },
+                {
+                  "slug": "m2",
+                  "name": "货币供应量 (M2) 同比",
+                  "short_name": "M2",
+                  "category": "货币",
+                  "frequency": "monthly",
+                  "latest_date": "2026-07"
+                },
+                {
+                  "slug": "new_loan",
+                  "name": "新增人民币贷款（当月）",
+                  "short_name": "新增贷款",
+                  "category": "货币",
+                  "frequency": "monthly",
+                  "latest_date": "2026-07"
                 }
               ]
             },
@@ -3756,7 +3739,24 @@
               "day": 28,
               "is_today": false,
               "is_weekend": false,
-              "indicators": []
+              "indicators": [
+                {
+                  "slug": "m1",
+                  "name": "货币供应量 (M1) 同比",
+                  "short_name": "M1",
+                  "category": "货币",
+                  "frequency": "monthly",
+                  "latest_date": "2026-07"
+                },
+                {
+                  "slug": "m1_m2_scissor",
+                  "name": "M1-M2 剪刀差",
+                  "short_name": "M1-M2 剪刀差",
+                  "category": "货币",
+                  "frequency": "monthly",
+                  "latest_date": "2026-07"
+                }
+              ]
             },
             {
               "empty": false,

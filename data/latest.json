@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T02:15:10Z",
+  "generated_at": "2026-08-16T02:22:12Z",
   "indicators": [
     {
       "slug": "gdp",
@@ -3292,19 +3292,6 @@
   ],
   "upcoming_releases": [
     {
-      "date": "2026-08-15",
-      "indicators": [
-        {
-          "slug": "retail_sales",
-          "name": "社会消费品零售总额 同比",
-          "short_name": "社零总额",
-          "category": "增长",
-          "frequency": "monthly",
-          "latest_date": "2026-06"
-        }
-      ]
-    },
-    {
       "date": "2026-08-18",
       "indicators": [
         {
@@ -3403,6 +3390,19 @@
           "category": "货币",
           "frequency": "monthly",
           "latest_date": "2026-07"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-15",
+      "indicators": [
+        {
+          "slug": "retail_sales",
+          "name": "社会消费品零售总额 同比",
+          "short_name": "社零总额",
+          "category": "增长",
+          "frequency": "monthly",
+          "latest_date": "2026-06"
         }
       ]
     }
@@ -3559,7 +3559,7 @@
               "empty": false,
               "date": "2026-08-15",
               "day": 15,
-              "is_today": true,
+              "is_today": false,
               "is_weekend": true,
               "indicators": [
                 {
@@ -3576,7 +3576,7 @@
               "empty": false,
               "date": "2026-08-16",
               "day": 16,
-              "is_today": false,
+              "is_today": true,
               "is_weekend": true,
               "indicators": []
             }

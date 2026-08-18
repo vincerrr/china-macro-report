@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T02:21:17Z",
+  "generated_at": "2026-08-18T02:17:37Z",
   "indicators": [
     {
       "slug": "gdp",
@@ -692,17 +692,12 @@
       "value_type_label": "月度同比",
       "delta_unit": "个百分点",
       "chart_baseline": 0,
-      "latest_value": 5.3,
-      "latest_date": "2026-06",
-      "prev_value": 4.5,
-      "analysis_text": "2026年6月规模以上工业增加值同比增速录得5.3%，较上月提高0.8个百分点，回升至年内较高水平。数据表明工业生产端景气度有所改善，可能与稳增长政策持续发力、企业补库需求释放及部分行业开工率提升有关。后续需关注外需韧性及房地产产业链修复节奏对工业生产的支撑持续性。",
+      "latest_value": 4.5,
+      "latest_date": "2026-07",
+      "prev_value": 5.3,
+      "analysis_text": "2026年7月规模以上工业增加值同比增速录得4.5%，较6月的5.3%回落0.8个百分点，显示工业产出扩张步伐放缓。环比降幅明显，指向短期生产动能减弱，可能受需求端疲软、部分行业去库存及高温天气等季节性因素影响。后续需关注内需修复节奏、出口订单变化及政策端对制造业的提振力度，尤其是高技术制造业的韧性表现。",
       "secondary": null,
       "history": [
-        {
-          "date": "2023-09",
-          "value": 4.5,
-          "created_at": "2026-06-23 08:42:16"
-        },
         {
           "date": "2023-10",
           "value": 4.6,
@@ -847,6 +842,11 @@
           "date": "2026-06",
           "value": 5.3,
           "created_at": "2026-07-16 04:10:41"
+        },
+        {
+          "date": "2026-07",
+          "value": 4.5,
+          "created_at": "2026-08-18 02:16:52"
         }
       ]
     },
@@ -863,17 +863,12 @@
       "value_type_label": "月度同比",
       "delta_unit": "个百分点",
       "chart_baseline": 0,
-      "latest_value": 1.0,
-      "latest_date": "2026-06",
-      "prev_value": -0.6,
-      "analysis_text": "2026年6月社会消费品零售总额同比增速由负转正至1.0%，较上月提升1.6个百分点，结束连续两个月收缩态势，显示消费市场出现边际回暖。低基数效应、前期促消费政策逐步落地以及居民出行意愿回升或为主要推动力。后续需关注消费复苏的持续性，尤其是就业与收入预期改善能否支撑内需进一步修复。",
+      "latest_value": 0.6,
+      "latest_date": "2026-07",
+      "prev_value": 1.0,
+      "analysis_text": "2026年7月社会消费品零售总额同比仅增长0.6%，较6月1.0%回落0.4个百分点，消费增速明显放缓，内需修复动能偏弱。这一读数低于市场预期，反映居民消费意愿持续低迷，可能与收入预期走弱、就业压力及房地产财富效应缩水等因素有关。后续需重点关注促消费政策落地效果，特别是汽车、家电等大宗消费补贴能否撬动需求，以及居民可支配收入增速能否企稳回升。",
       "secondary": null,
       "history": [
-        {
-          "date": "2023-07",
-          "value": 2.5,
-          "created_at": "2026-06-23 08:42:20"
-        },
         {
           "date": "2023-08",
           "value": 4.6,
@@ -1018,6 +1013,11 @@
           "date": "2026-06",
           "value": 1.0,
           "created_at": "2026-07-16 04:10:49"
+        },
+        {
+          "date": "2026-07",
+          "value": 0.6,
+          "created_at": "2026-08-18 02:16:58"
         }
       ]
     },
@@ -2276,17 +2276,12 @@
       "value_type_label": "每日中间价",
       "delta_unit": "CNY/100USD",
       "chart_baseline": null,
-      "latest_value": 678.73,
-      "latest_date": "2026-08-17",
-      "prev_value": 678.78,
-      "analysis_text": "本期人民币兑美元中间价报678.73，较上期微降0.05，幅度极小，表明人民币汇率基本稳定在当前水平。环比变化方向为升值，但幅度仅0.007%，实际波动可忽略不计，反映近期外汇市场供求及央行调控均维持均衡。背后可能原因：美元指数震荡偏弱、国内经济数据企稳及央行持续引导汇率预期。后续关注：美联储降息节奏、中美利差变化及中国经济复苏力度对汇率的潜在影响。",
+      "latest_value": 679.05,
+      "latest_date": "2026-08-18",
+      "prev_value": 678.73,
+      "analysis_text": "2026年8月18日，人民币对美元中间价报679.05，较前一日上调0.32，意味着人民币小幅贬值。当前汇率水平仍处于近阶段波动区间内，单日变动幅度有限，反映市场预期相对平稳。此次贬值可能受隔夜美元指数走强、中美利差变化或短期跨境资金流动等因素影响，但未出现趋势性信号。后续需关注美联储政策动向、国内经济数据表现及央行中间价定价机制，以判断汇率是否延续窄幅震荡或面临方向性突破。",
       "secondary": null,
       "history": [
-        {
-          "date": "2026-07-07",
-          "value": 680.54,
-          "created_at": "2026-07-07 04:55:32"
-        },
         {
           "date": "2026-07-08",
           "value": 680.77,
@@ -2431,6 +2426,11 @@
           "date": "2026-08-17",
           "value": 678.73,
           "created_at": "2026-08-17 02:21:05"
+        },
+        {
+          "date": "2026-08-18",
+          "value": 679.05,
+          "created_at": "2026-08-18 02:17:23"
         }
       ]
     },
@@ -3292,19 +3292,6 @@
   ],
   "upcoming_releases": [
     {
-      "date": "2026-08-18",
-      "indicators": [
-        {
-          "slug": "industrial_production",
-          "name": "规模以上工业增加值 同比",
-          "short_name": "工业增加值",
-          "category": "增长",
-          "frequency": "monthly",
-          "latest_date": "2026-06"
-        }
-      ]
-    },
-    {
       "date": "2026-08-20",
       "indicators": [
         {
@@ -3360,6 +3347,19 @@
       ]
     },
     {
+      "date": "2026-08-23",
+      "indicators": [
+        {
+          "slug": "retail_sales",
+          "name": "社会消费品零售总额 同比",
+          "short_name": "社零总额",
+          "category": "增长",
+          "frequency": "monthly",
+          "latest_date": "2026-07"
+        }
+      ]
+    },
+    {
       "date": "2026-08-24",
       "indicators": [
         {
@@ -3394,15 +3394,15 @@
       ]
     },
     {
-      "date": "2026-09-15",
+      "date": "2026-09-17",
       "indicators": [
         {
-          "slug": "retail_sales",
-          "name": "社会消费品零售总额 同比",
-          "short_name": "社零总额",
+          "slug": "industrial_production",
+          "name": "规模以上工业增加值 同比",
+          "short_name": "工业增加值",
           "category": "增长",
           "frequency": "monthly",
-          "latest_date": "2026-06"
+          "latest_date": "2026-07"
         }
       ]
     }
@@ -3561,16 +3561,7 @@
               "day": 15,
               "is_today": false,
               "is_weekend": true,
-              "indicators": [
-                {
-                  "slug": "retail_sales",
-                  "name": "社会消费品零售总额 同比",
-                  "short_name": "社零总额",
-                  "category": "增长",
-                  "frequency": "monthly",
-                  "latest_date": "2026-06"
-                }
-              ]
+              "indicators": []
             },
             {
               "empty": false,
@@ -3586,14 +3577,6 @@
               "empty": false,
               "date": "2026-08-17",
               "day": 17,
-              "is_today": true,
-              "is_weekend": false,
-              "indicators": []
-            },
-            {
-              "empty": false,
-              "date": "2026-08-18",
-              "day": 18,
               "is_today": false,
               "is_weekend": false,
               "indicators": [
@@ -3603,9 +3586,17 @@
                   "short_name": "工业增加值",
                   "category": "增长",
                   "frequency": "monthly",
-                  "latest_date": "2026-06"
+                  "latest_date": "2026-07"
                 }
               ]
+            },
+            {
+              "empty": false,
+              "date": "2026-08-18",
+              "day": 18,
+              "is_today": true,
+              "is_weekend": false,
+              "indicators": []
             },
             {
               "empty": false,
@@ -3688,7 +3679,16 @@
               "day": 23,
               "is_today": false,
               "is_weekend": true,
-              "indicators": []
+              "indicators": [
+                {
+                  "slug": "retail_sales",
+                  "name": "社会消费品零售总额 同比",
+                  "short_name": "社零总额",
+                  "category": "增长",
+                  "frequency": "monthly",
+                  "latest_date": "2026-07"
+                }
+              ]
             }
           ],
           [
@@ -4094,7 +4094,7 @@
         "short_name": "USD/CNY",
         "category": "货币",
         "frequency": "daily",
-        "latest_date": "2026-08-17"
+        "latest_date": "2026-08-18"
       }
     ]
   }

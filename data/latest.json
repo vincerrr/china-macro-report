@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T02:16:36Z",
+  "generated_at": "2026-08-23T02:24:58Z",
   "indicators": [
     {
       "slug": "gdp",
@@ -3292,35 +3292,6 @@
   ],
   "upcoming_releases": [
     {
-      "date": "2026-08-22",
-      "indicators": [
-        {
-          "slug": "ppi",
-          "name": "工业生产者出厂价格指数 (PPI) 同比",
-          "short_name": "PPI",
-          "category": "物价",
-          "frequency": "monthly",
-          "latest_date": "2026-07"
-        },
-        {
-          "slug": "m2",
-          "name": "货币供应量 (M2) 同比",
-          "short_name": "M2",
-          "category": "货币",
-          "frequency": "monthly",
-          "latest_date": "2026-07"
-        },
-        {
-          "slug": "new_loan",
-          "name": "新增人民币贷款（当月）",
-          "short_name": "新增贷款",
-          "category": "货币",
-          "frequency": "monthly",
-          "latest_date": "2026-07"
-        }
-      ]
-    },
-    {
       "date": "2026-08-23",
       "indicators": [
         {
@@ -3388,6 +3359,35 @@
           "name": "居民消费价格指数 (CPI) 同比",
           "short_name": "CPI",
           "category": "物价",
+          "frequency": "monthly",
+          "latest_date": "2026-07"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-22",
+      "indicators": [
+        {
+          "slug": "ppi",
+          "name": "工业生产者出厂价格指数 (PPI) 同比",
+          "short_name": "PPI",
+          "category": "物价",
+          "frequency": "monthly",
+          "latest_date": "2026-07"
+        },
+        {
+          "slug": "m2",
+          "name": "货币供应量 (M2) 同比",
+          "short_name": "M2",
+          "category": "货币",
+          "frequency": "monthly",
+          "latest_date": "2026-07"
+        },
+        {
+          "slug": "new_loan",
+          "name": "新增人民币贷款（当月）",
+          "short_name": "新增贷款",
+          "category": "货币",
           "frequency": "monthly",
           "latest_date": "2026-07"
         }
@@ -3622,7 +3622,7 @@
               "empty": false,
               "date": "2026-08-22",
               "day": 22,
-              "is_today": true,
+              "is_today": false,
               "is_weekend": true,
               "indicators": [
                 {
@@ -3655,7 +3655,7 @@
               "empty": false,
               "date": "2026-08-23",
               "day": 23,
-              "is_today": false,
+              "is_today": true,
               "is_weekend": true,
               "indicators": [
                 {

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T02:24:58Z",
+  "generated_at": "2026-08-24T02:24:08Z",
   "indicators": [
     {
       "slug": "gdp",
@@ -2276,17 +2276,12 @@
       "value_type_label": "每日中间价",
       "delta_unit": "CNY/100USD",
       "chart_baseline": null,
-      "latest_value": 678.17,
-      "latest_date": "2026-08-21",
-      "prev_value": 678.08,
-      "analysis_text": "2026年8月21日，人民币兑美元中间价报678.17，较前日小幅上调0.09个点，显示人民币微幅贬值，整体仍处于近期窄幅波动区间。这一变化幅度极小，反映市场供需基本平衡，或受隔夜美元指数小幅走强及中美利差维持倒挂的影响。后续需关注美联储货币政策信号及国内经济复苏力度，若外部压力持续，人民币可能面临阶段性贬值压力。",
+      "latest_value": 678.41,
+      "latest_date": "2026-08-24",
+      "prev_value": 678.17,
+      "analysis_text": "8月24日人民币对美元中间价报678.41，较前一日小幅上调0.24点，显示人民币出现微幅贬值。当前中间价仍处于近期区间偏低水平，反映汇率在合理均衡区间内双向波动。短期贬值压力或受美元指数企稳、中美利差变化及国内经济修复节奏影响，中间价调升幅度有限，显示央行维持汇率预期稳定的意图。后续需关注美联储政策路径、国内稳增长政策效果及跨境资本流动对汇率弹性的影响。",
       "secondary": null,
       "history": [
-        {
-          "date": "2026-07-13",
-          "value": 679.72,
-          "created_at": "2026-07-13 04:32:18"
-        },
         {
           "date": "2026-07-14",
           "value": 679.9,
@@ -2431,6 +2426,11 @@
           "date": "2026-08-21",
           "value": 678.17,
           "created_at": "2026-08-21 02:24:14"
+        },
+        {
+          "date": "2026-08-24",
+          "value": 678.41,
+          "created_at": "2026-08-24 02:23:57"
         }
       ]
     },
@@ -3292,19 +3292,6 @@
   ],
   "upcoming_releases": [
     {
-      "date": "2026-08-23",
-      "indicators": [
-        {
-          "slug": "retail_sales",
-          "name": "社会消费品零售总额 同比",
-          "short_name": "社零总额",
-          "category": "增长",
-          "frequency": "monthly",
-          "latest_date": "2026-07"
-        }
-      ]
-    },
-    {
       "date": "2026-08-24",
       "indicators": [
         {
@@ -3390,6 +3377,27 @@
           "category": "货币",
           "frequency": "monthly",
           "latest_date": "2026-07"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-23",
+      "indicators": [
+        {
+          "slug": "retail_sales",
+          "name": "社会消费品零售总额 同比",
+          "short_name": "社零总额",
+          "category": "增长",
+          "frequency": "monthly",
+          "latest_date": "2026-07"
+        },
+        {
+          "slug": "lpr_1y",
+          "name": "贷款市场报价利率 (LPR) 1年期",
+          "short_name": "LPR 1Y",
+          "category": "货币",
+          "frequency": "monthly",
+          "latest_date": "2026-08-20"
         }
       ]
     }
@@ -3655,7 +3663,7 @@
               "empty": false,
               "date": "2026-08-23",
               "day": 23,
-              "is_today": true,
+              "is_today": false,
               "is_weekend": true,
               "indicators": [
                 {
@@ -3674,7 +3682,7 @@
               "empty": false,
               "date": "2026-08-24",
               "day": 24,
-              "is_today": false,
+              "is_today": true,
               "is_weekend": false,
               "indicators": [
                 {
@@ -4081,7 +4089,7 @@
         "short_name": "USD/CNY",
         "category": "货币",
         "frequency": "daily",
-        "latest_date": "2026-08-21"
+        "latest_date": "2026-08-24"
       }
     ]
   }

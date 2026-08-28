@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T02:26:04Z",
+  "generated_at": "2026-08-28T12:35:21Z",
   "indicators": [
     {
       "slug": "gdp",
@@ -2276,22 +2276,12 @@
       "value_type_label": "每日中间价",
       "delta_unit": "CNY/100USD",
       "chart_baseline": null,
-      "latest_value": 678.29,
-      "latest_date": "2026-08-26",
-      "prev_value": 678.52,
-      "analysis_text": "2026年8月26日人民币对美元中间价报678.29，较上期下调0.23个基点，人民币小幅升值。当前汇率处于近月波动区间中位，反映市场供需与政策引导的均衡。短期升值动能或来自出口企业结汇需求释放及美元指数阶段性走弱。后续需关注美联储政策路径、国内经济复苏力度及央行中间价调控信号，预计汇率维持双向波动格局。",
+      "latest_value": 678.11,
+      "latest_date": "2026-08-28",
+      "prev_value": 678.4,
+      "analysis_text": "本期美元/人民币中间价报678.11，人民币处于相对强势区间。较上期贬值0.29个基点，环比微升0.04%，升值幅度温和。可能受近期国内经济数据企稳、美元指数回调或跨境资本流动改善影响。后续需关注美联储政策路径、国内稳增长政策效果及贸易顺差变化对汇率中枢的支撑力度。",
       "secondary": null,
       "history": [
-        {
-          "date": "2026-07-16",
-          "value": 679.09,
-          "created_at": "2026-07-16 04:11:13"
-        },
-        {
-          "date": "2026-07-17",
-          "value": 679.34,
-          "created_at": "2026-07-17 04:10:03"
-        },
         {
           "date": "2026-07-20",
           "value": 679.48,
@@ -2431,6 +2421,16 @@
           "date": "2026-08-26",
           "value": 678.29,
           "created_at": "2026-08-26 02:25:52"
+        },
+        {
+          "date": "2026-08-27",
+          "value": 678.4,
+          "created_at": "2026-08-28 12:35:07"
+        },
+        {
+          "date": "2026-08-28",
+          "value": 678.11,
+          "created_at": "2026-08-28 12:35:07"
         }
       ]
     },
@@ -3707,7 +3707,7 @@
               "empty": false,
               "date": "2026-08-26",
               "day": 26,
-              "is_today": true,
+              "is_today": false,
               "is_weekend": false,
               "indicators": []
             },
@@ -3723,7 +3723,7 @@
               "empty": false,
               "date": "2026-08-28",
               "day": 28,
-              "is_today": false,
+              "is_today": true,
               "is_weekend": false,
               "indicators": [
                 {
@@ -4089,7 +4089,7 @@
         "short_name": "USD/CNY",
         "category": "货币",
         "frequency": "daily",
-        "latest_date": "2026-08-26"
+        "latest_date": "2026-08-28"
       }
     ]
   }

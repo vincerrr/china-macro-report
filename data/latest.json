@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T05:48:43Z",
+  "generated_at": "2026-09-10T05:42:53Z",
   "indicators": [
     {
       "slug": "gdp",
@@ -2280,17 +2280,12 @@
       "value_type_label": "每日中间价",
       "delta_unit": "CNY/100USD",
       "chart_baseline": null,
-      "latest_value": 677.69,
-      "latest_date": "2026-09-09",
-      "prev_value": 678.04,
-      "analysis_text": "2026年9月9日，人民币对美元中间价报677.69元/100美元，较上日下调0.35个点，人民币小幅升值。当前汇率水平接近近期低位，反映人民币相对美元温和走强。环比变化方向为升值，幅度有限，显示市场供需基本均衡。背后可能受美元指数阶段性回落、国内稳增长政策预期提振以及出口结汇需求释放等因素影响。后续需关注美联储利率路径、国内经济复苏强度及中美利差变动，中间价是否持续向升值方向引导值得留意。",
+      "latest_value": 677.66,
+      "latest_date": "2026-09-10",
+      "prev_value": 677.69,
+      "analysis_text": "9月10日人民币对美元汇率中间价报677.66，较上期微降0.03，人民币小幅升值。当前数值表明汇率延续近期窄幅波动格局，维持相对强势。微幅变动反映市场供需基本均衡，可能受美元指数短期走弱、国内经济基本面稳定及央行汇率预期引导等因素影响。后续需关注美联储政策信号、中国外贸数据及跨境资金流动变化，这些因素或打破当前的平衡状态。",
       "secondary": null,
       "history": [
-        {
-          "date": "2026-07-30",
-          "value": 678.92,
-          "created_at": "2026-07-30 04:08:18"
-        },
         {
           "date": "2026-07-31",
           "value": 678.94,
@@ -2435,6 +2430,11 @@
           "date": "2026-09-09",
           "value": 677.69,
           "created_at": "2026-09-09 05:48:31"
+        },
+        {
+          "date": "2026-09-10",
+          "value": 677.66,
+          "created_at": "2026-09-10 05:42:42"
         }
       ]
     },
@@ -3496,7 +3496,7 @@
               "empty": false,
               "date": "2026-09-09",
               "day": 9,
-              "is_today": true,
+              "is_today": false,
               "is_weekend": false,
               "indicators": []
             },
@@ -3504,7 +3504,7 @@
               "empty": false,
               "date": "2026-09-10",
               "day": 10,
-              "is_today": false,
+              "is_today": true,
               "is_weekend": false,
               "indicators": []
             },
@@ -4078,7 +4078,7 @@
         "short_name": "USD/CNY",
         "category": "货币",
         "frequency": "daily",
-        "latest_date": "2026-09-09"
+        "latest_date": "2026-09-10"
       }
     ]
   }

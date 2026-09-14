@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T05:45:32Z",
+  "generated_at": "2026-09-14T05:56:18Z",
   "indicators": [
     {
       "slug": "gdp",
@@ -2280,17 +2280,12 @@
       "value_type_label": "每日中间价",
       "delta_unit": "CNY/100USD",
       "chart_baseline": null,
-      "latest_value": 677.43,
-      "latest_date": "2026-09-11",
-      "prev_value": 677.66,
-      "analysis_text": "本期美元兑人民币中间价报677.43，即1美元兑6.7743元人民币，处于近年相对低位，表明人民币汇率偏强。与上期677.66相比，下降0.23个基点，人民币小幅升值约0.03%，延续短期窄幅波动格局。此番升值可能受美元指数阶段性走弱、国内稳增长政策预期升温及外贸结汇需求支撑。后续重点关注美联储9月议息会议信号、中国8月经济数据表现及央行中间价引导意图。",
+      "latest_value": 676.98,
+      "latest_date": "2026-09-14",
+      "prev_value": 677.43,
+      "analysis_text": "2026年9月14日人民币对美元中间价报676.98，较上期升值0.45个基点，表明人民币小幅走强。近期美元指数承压、国内经济基本面边际改善或为升值主因，同时央行引导汇率预期稳定。后续需关注美联储政策信号及中国出口数据变化，汇率或维持双向波动。",
       "secondary": null,
       "history": [
-        {
-          "date": "2026-08-03",
-          "value": 678.98,
-          "created_at": "2026-08-03 04:32:52"
-        },
         {
           "date": "2026-08-04",
           "value": 679.17,
@@ -2435,6 +2430,11 @@
           "date": "2026-09-11",
           "value": 677.43,
           "created_at": "2026-09-12 05:28:56"
+        },
+        {
+          "date": "2026-09-14",
+          "value": 676.98,
+          "created_at": "2026-09-14 05:56:07"
         }
       ]
     },
@@ -3528,7 +3528,7 @@
               "empty": false,
               "date": "2026-09-13",
               "day": 13,
-              "is_today": true,
+              "is_today": false,
               "is_weekend": true,
               "indicators": []
             }
@@ -3538,7 +3538,7 @@
               "empty": false,
               "date": "2026-09-14",
               "day": 14,
-              "is_today": false,
+              "is_today": true,
               "is_weekend": false,
               "indicators": []
             },
@@ -4078,7 +4078,7 @@
         "short_name": "USD/CNY",
         "category": "货币",
         "frequency": "daily",
-        "latest_date": "2026-09-11"
+        "latest_date": "2026-09-14"
       }
     ]
   }

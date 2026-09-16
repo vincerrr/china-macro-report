@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T05:58:10Z",
+  "generated_at": "2026-09-16T05:45:46Z",
   "indicators": [
     {
       "slug": "gdp",
@@ -2280,17 +2280,12 @@
       "value_type_label": "每日中间价",
       "delta_unit": "CNY/100USD",
       "chart_baseline": null,
-      "latest_value": 676.7,
-      "latest_date": "2026-09-15",
-      "prev_value": 676.98,
-      "analysis_text": "本期人民币对美元中间价报676.7，即100美元兑676.7元人民币，数值处于近年相对强势区间，显示人民币购买力较强。与上期676.98相比，下调0.28点，人民币小幅升值，幅度约0.04%，延续近期双向波动格局。背后原因可能包括：国内经济基本面边际改善、美元指数阶段性承压，以及央行通过中间价引导汇率预期保持基本稳定。后续需关注美联储利率决议、国内出口数据及地缘政治风险对人民币走向的扰动。",
+      "latest_value": 676.28,
+      "latest_date": "2026-09-16",
+      "prev_value": 676.7,
+      "analysis_text": "2026年9月16日人民币对美元中间价报676.28元/100美元，较上日下调0.42基点，延续小幅升值趋势，显示人民币汇率维持强势。环比变化幅度不足0.1%，波动温和。近期人民币走强可能受国内经济企稳预期、美元指数回调以及跨境资金流入带动。后续需关注美联储议息决议、中美利差变化及出口企业结汇节奏对汇率走势的影响。",
       "secondary": null,
       "history": [
-        {
-          "date": "2026-08-05",
-          "value": 678.89,
-          "created_at": "2026-08-05 04:13:04"
-        },
         {
           "date": "2026-08-06",
           "value": 678.95,
@@ -2435,6 +2430,11 @@
           "date": "2026-09-15",
           "value": 676.7,
           "created_at": "2026-09-15 05:57:38"
+        },
+        {
+          "date": "2026-09-16",
+          "value": 676.28,
+          "created_at": "2026-09-16 05:45:35"
         }
       ]
     },
@@ -3559,7 +3559,7 @@
               "empty": false,
               "date": "2026-09-15",
               "day": 15,
-              "is_today": true,
+              "is_today": false,
               "is_weekend": false,
               "indicators": []
             },
@@ -3567,7 +3567,7 @@
               "empty": false,
               "date": "2026-09-16",
               "day": 16,
-              "is_today": false,
+              "is_today": true,
               "is_weekend": false,
               "indicators": []
             },
@@ -4091,7 +4091,7 @@
         "short_name": "USD/CNY",
         "category": "货币",
         "frequency": "daily",
-        "latest_date": "2026-09-15"
+        "latest_date": "2026-09-16"
       }
     ]
   }

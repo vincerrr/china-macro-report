@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T05:34:04Z",
+  "generated_at": "2026-09-20T05:52:33Z",
   "indicators": [
     {
       "slug": "gdp",
@@ -2452,16 +2452,11 @@
       "delta_unit": "个基点",
       "chart_baseline": null,
       "latest_value": 3.0,
-      "latest_date": "2026-08-20",
+      "latest_date": "2026-09-20",
       "prev_value": 3.0,
-      "analysis_text": "2026年8月20日1年期LPR维持3.0%，与上月持平，连续处于历史低位水平，表明当前短期融资成本保持稳定。环比零变动，反映货币政策进入观察期，未作进一步宽松或收紧调整。背后可能原因包括：经济延续温和复苏但基础尚不稳固，央行倾向维持现有利率以支持实体经济；同时物价水平偏低，为利率稳定提供空间。后续需关注MLF利率是否调整、三季度经济数据表现，以及房地产和中小微企业信贷需求变化，这些因素可能触发LPR的下一次变动。",
+      "analysis_text": "2026年9月20日，1年期LPR维持3.0%不变，与上期持平。该水平处于历史低位，反映当前实体经济融资成本稳定在较低区间，对降低企业短期贷款成本、支持经济复苏具有积极意义。环比零变化意味着本月未进行市场利率调整，可能受制于MLF利率未动、银行净息差承压以及经济复苏基础仍需巩固等因素。后续需关注通胀走势、房地产信贷需求及美联储政策转向对国内利率空间的潜在影响，四季度或有进一步降息可能。",
       "secondary": null,
       "history": [
-        {
-          "date": "2024-03-20",
-          "value": 3.45,
-          "created_at": "2026-06-23 08:42:53"
-        },
         {
           "date": "2024-04-22",
           "value": 3.45,
@@ -2606,6 +2601,11 @@
           "date": "2026-08-20",
           "value": 3.0,
           "created_at": "2026-08-20 02:18:29"
+        },
+        {
+          "date": "2026-09-20",
+          "value": 3.0,
+          "created_at": "2026-09-20 05:52:27"
         }
       ]
     },
@@ -3346,19 +3346,6 @@
       ]
     },
     {
-      "date": "2026-09-23",
-      "indicators": [
-        {
-          "slug": "lpr_1y",
-          "name": "贷款市场报价利率 (LPR) 1年期",
-          "short_name": "LPR 1Y",
-          "category": "货币",
-          "frequency": "monthly",
-          "latest_date": "2026-08-20"
-        }
-      ]
-    },
-    {
       "date": "2026-09-24",
       "indicators": [
         {
@@ -3600,7 +3587,7 @@
               "empty": false,
               "date": "2026-09-19",
               "day": 19,
-              "is_today": true,
+              "is_today": false,
               "is_weekend": true,
               "indicators": []
             },
@@ -3608,7 +3595,7 @@
               "empty": false,
               "date": "2026-09-20",
               "day": 20,
-              "is_today": false,
+              "is_today": true,
               "is_weekend": true,
               "indicators": []
             }
@@ -3678,16 +3665,7 @@
               "day": 23,
               "is_today": false,
               "is_weekend": false,
-              "indicators": [
-                {
-                  "slug": "lpr_1y",
-                  "name": "贷款市场报价利率 (LPR) 1年期",
-                  "short_name": "LPR 1Y",
-                  "category": "货币",
-                  "frequency": "monthly",
-                  "latest_date": "2026-08-20"
-                }
-              ]
+              "indicators": []
             },
             {
               "empty": false,
@@ -4009,7 +3987,16 @@
               "day": 23,
               "is_today": false,
               "is_weekend": false,
-              "indicators": []
+              "indicators": [
+                {
+                  "slug": "lpr_1y",
+                  "name": "贷款市场报价利率 (LPR) 1年期",
+                  "short_name": "LPR 1Y",
+                  "category": "货币",
+                  "frequency": "monthly",
+                  "latest_date": "2026-09-20"
+                }
+              ]
             },
             {
               "empty": false,

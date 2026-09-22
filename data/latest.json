@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T06:00:22Z",
+  "generated_at": "2026-09-22T05:56:52Z",
   "indicators": [
     {
       "slug": "gdp",
@@ -2280,17 +2280,12 @@
       "value_type_label": "每日中间价",
       "delta_unit": "CNY/100USD",
       "chart_baseline": null,
-      "latest_value": 674.87,
-      "latest_date": "2026-09-21",
-      "prev_value": 675.21,
-      "analysis_text": "本期人民币兑美元中间价报674.87（每100美元兑人民币），数值下降意味着人民币小幅升值。与上期675.21相比，下降0.34，幅度温和。这或反映美元指数近期回调、国内经济基本面韧性支撑以及央行维持汇率预期稳定的政策意图。后续需关注美联储利率路径、中美利差变动及季节性结汇需求对汇率的扰动。",
+      "latest_value": 674.59,
+      "latest_date": "2026-09-22",
+      "prev_value": 674.87,
+      "analysis_text": "本期人民币对美元汇率中间价报674.59，即1美元兑6.7459元人民币，人民币处于相对强势区间。与上期相比，中间价下调0.28个基点，人民币微幅升值0.04%，延续近期窄幅波动态势。背后可能受美联储加息预期趋弱、中国出口韧性支撑以及央行维持汇率基本稳定取向的共同影响。后续需关注美国通胀及就业数据对加息路径的扰动、中国三季度经济表现，以及中美利差变化对跨境资金流动的冲击。",
       "secondary": null,
       "history": [
-        {
-          "date": "2026-08-11",
-          "value": 679.0,
-          "created_at": "2026-08-11 03:05:18"
-        },
         {
           "date": "2026-08-12",
           "value": 678.82,
@@ -2435,6 +2430,11 @@
           "date": "2026-09-21",
           "value": 674.87,
           "created_at": "2026-09-21 06:00:10"
+        },
+        {
+          "date": "2026-09-22",
+          "value": 674.59,
+          "created_at": "2026-09-22 05:56:33"
         }
       ]
     },
@@ -3296,19 +3296,6 @@
   ],
   "upcoming_releases": [
     {
-      "date": "2026-09-21",
-      "indicators": [
-        {
-          "slug": "cpi",
-          "name": "居民消费价格指数 (CPI) 同比",
-          "short_name": "CPI",
-          "category": "物价",
-          "frequency": "monthly",
-          "latest_date": "2026-08"
-        }
-      ]
-    },
-    {
       "date": "2026-09-22",
       "indicators": [
         {
@@ -3400,6 +3387,19 @@
           "name": "规模以上工业增加值 同比",
           "short_name": "工业增加值",
           "category": "增长",
+          "frequency": "monthly",
+          "latest_date": "2026-08"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-21",
+      "indicators": [
+        {
+          "slug": "cpi",
+          "name": "居民消费价格指数 (CPI) 同比",
+          "short_name": "CPI",
+          "category": "物价",
           "frequency": "monthly",
           "latest_date": "2026-08"
         }
@@ -3605,7 +3605,7 @@
               "empty": false,
               "date": "2026-09-21",
               "day": 21,
-              "is_today": true,
+              "is_today": false,
               "is_weekend": false,
               "indicators": [
                 {
@@ -3622,7 +3622,7 @@
               "empty": false,
               "date": "2026-09-22",
               "day": 22,
-              "is_today": false,
+              "is_today": true,
               "is_weekend": false,
               "indicators": [
                 {
@@ -4078,7 +4078,7 @@
         "short_name": "USD/CNY",
         "category": "货币",
         "frequency": "daily",
-        "latest_date": "2026-09-21"
+        "latest_date": "2026-09-22"
       }
     ]
   }

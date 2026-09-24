@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T05:38:59Z",
+  "generated_at": "2026-09-24T05:56:42Z",
   "indicators": [
     {
       "slug": "gdp",
@@ -2280,17 +2280,12 @@
       "value_type_label": "每日中间价",
       "delta_unit": "CNY/100USD",
       "chart_baseline": null,
-      "latest_value": 674.68,
-      "latest_date": "2026-09-23",
-      "prev_value": 674.59,
-      "analysis_text": "9月23日人民币对美元中间价报674.68，较上日微贬0.09点，仍运行在6.75附近区间。本期数据反映汇率延续窄幅波动格局，贬值幅度极小，显示市场预期分化但整体平稳。短期波动或受美联储政策预期扰动及中美利差变化影响，同时央行中间价逆周期因子持续发挥稳定作用。后续需关注美元指数走势、国内经济修复力度及跨境资金流动对人民币的支撑。",
+      "latest_value": 674.89,
+      "latest_date": "2026-09-24",
+      "prev_value": 674.68,
+      "analysis_text": "9月24日人民币对美元中间价报674.89，较上日上调0.21点，显示人民币微幅贬值，但整体仍维持在6.75附近窄幅波动。本次贬值幅度极小（约0.03%），属于日常交易调整，不构成趋势转向。可能原因包括隔夜美元指数小幅走强，或临近季末市场结售汇需求短暂变化。后续关注美联储利率决议信号、国内三季度经济指标及央行中间价定价逻辑是否出现连续调整。",
       "secondary": null,
       "history": [
-        {
-          "date": "2026-08-13",
-          "value": 678.88,
-          "created_at": "2026-08-13 03:27:50"
-        },
         {
           "date": "2026-08-14",
           "value": 678.78,
@@ -2435,6 +2430,11 @@
           "date": "2026-09-23",
           "value": 674.68,
           "created_at": "2026-09-23 05:38:47"
+        },
+        {
+          "date": "2026-09-24",
+          "value": 674.89,
+          "created_at": "2026-09-24 05:56:30"
         }
       ]
     },
@@ -3676,7 +3676,7 @@
               "empty": false,
               "date": "2026-09-23",
               "day": 23,
-              "is_today": true,
+              "is_today": false,
               "is_weekend": false,
               "indicators": []
             },
@@ -3684,7 +3684,7 @@
               "empty": false,
               "date": "2026-09-24",
               "day": 24,
-              "is_today": false,
+              "is_today": true,
               "is_weekend": false,
               "indicators": [
                 {
@@ -4091,7 +4091,7 @@
         "short_name": "USD/CNY",
         "category": "货币",
         "frequency": "daily",
-        "latest_date": "2026-09-23"
+        "latest_date": "2026-09-24"
       }
     ]
   }

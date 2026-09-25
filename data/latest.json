@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T05:56:42Z",
+  "generated_at": "2026-09-25T05:58:42Z",
   "indicators": [
     {
       "slug": "gdp",
@@ -3296,19 +3296,6 @@
   ],
   "upcoming_releases": [
     {
-      "date": "2026-09-24",
-      "indicators": [
-        {
-          "slug": "pmi",
-          "name": "制造业采购经理指数 (PMI)",
-          "short_name": "PMI",
-          "category": "增长",
-          "frequency": "monthly",
-          "latest_date": "2026-08"
-        }
-      ]
-    },
-    {
       "date": "2026-09-28",
       "indicators": [
         {
@@ -3415,6 +3402,19 @@
           "category": "货币",
           "frequency": "monthly",
           "latest_date": "2026-09-20"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-24",
+      "indicators": [
+        {
+          "slug": "pmi",
+          "name": "制造业采购经理指数 (PMI)",
+          "short_name": "PMI",
+          "category": "增长",
+          "frequency": "monthly",
+          "latest_date": "2026-08"
         }
       ]
     }
@@ -3684,7 +3684,7 @@
               "empty": false,
               "date": "2026-09-24",
               "day": 24,
-              "is_today": true,
+              "is_today": false,
               "is_weekend": false,
               "indicators": [
                 {
@@ -3701,7 +3701,7 @@
               "empty": false,
               "date": "2026-09-25",
               "day": 25,
-              "is_today": false,
+              "is_today": true,
               "is_weekend": false,
               "indicators": []
             },

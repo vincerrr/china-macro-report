@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T07:29:12Z",
+  "generated_at": "2026-10-14T05:55:51Z",
   "indicators": [
     {
       "slug": "gdp",
@@ -1034,16 +1034,16 @@
       "value_type_label": "月度同比",
       "delta_unit": "个百分点",
       "chart_baseline": 0,
-      "latest_value": 0.8,
-      "latest_date": "2026-08",
-      "prev_value": 0.5,
-      "analysis_text": "2026年8月CPI同比上涨0.8%，仍处于低通胀区间（低于2%），但已脱离通缩边缘。较上月回升0.3个百分点，物价温和回暖。可能原因包括基数效应减弱、暑期消费需求提振及部分食品价格季节性上涨。后续需关注核心CPI走势及9月开学季、秋收对供需的扰动，以判断物价回升是否具有持续性。",
+      "latest_value": 0.9,
+      "latest_date": "2026-09",
+      "prev_value": 0.8,
+      "analysis_text": "本期CPI同比上涨0.9%，低于2%-3%温和通胀区间下沿，接近通缩边缘，反映总需求偏弱、物价上涨动力不足。较上月0.8%回升0.1个百分点，延续低位小幅修复。回升可能受食品价格降幅收窄、服务消费温和回暖及低基数等因素带动，但幅度有限，内需恢复基础尚不牢固。后续关注核心CPI变化、猪肉与能源价格走势，以及稳增长政策对消费需求的提振效果。",
       "secondary": {
         "label": "环比",
         "unit": "%",
         "display": "chart_line",
-        "latest_value": 0.4,
-        "latest_date": "2026-08",
+        "latest_value": 0.2,
+        "latest_date": "2026-09",
         "history": [
           {
             "date": "2008-01",
@@ -1940,15 +1940,14 @@
           {
             "date": "2026-08",
             "value": 0.4
+          },
+          {
+            "date": "2026-09",
+            "value": 0.2
           }
         ]
       },
       "history": [
-        {
-          "date": "2024-03",
-          "value": 0.1,
-          "created_at": "2026-06-22 08:27:45"
-        },
         {
           "date": "2024-04",
           "value": 0.3,
@@ -2093,6 +2092,11 @@
           "date": "2026-08",
           "value": 0.8,
           "created_at": "2026-09-09 05:47:59"
+        },
+        {
+          "date": "2026-09",
+          "value": 0.9,
+          "created_at": "2026-10-14 05:55:17"
         }
       ]
     },
@@ -2109,17 +2113,12 @@
       "value_type_label": "月度同比",
       "delta_unit": "个百分点",
       "chart_baseline": 0,
-      "latest_value": 3.8,
-      "latest_date": "2026-08",
-      "prev_value": 3.5,
-      "analysis_text": "2026年8月PPI同比上涨3.8%，处于高位，表明工业品出厂价格显著高于去年同期，工业领域存在明显通胀压力，而非通缩，企业成本端承压但利润空间取决于传导效率。较上期3.5%扩大0.3个百分点，涨幅加快，价格上行趋势增强。可能受国际大宗商品价格走强、国内需求回暖或供给端约束等因素推动。后续需关注PPI向CPI的传导速度，以及上游涨价对中下游企业利润的挤压，是否引发货币政策边际调整。",
+      "latest_value": 5.0,
+      "latest_date": "2026-09",
+      "prev_value": 3.8,
+      "analysis_text": "2026年9月PPI同比上涨5.0%，涨幅较8月扩大1.2个百分点，工业品价格由温和回升转为较快上涨。这一水平显著高于零值，显示工业领域已无通缩压力，企业营收环境总体改善。涨幅扩大或与需求回暖、大宗商品价格传导及低基数效应有关。后续需关注上游涨价对中下游利润的挤压，以及PPI向CPI的传导是否加速，同时留意政策端对工业品价格过快上涨的应对。",
       "secondary": null,
       "history": [
-        {
-          "date": "2024-03",
-          "value": -2.8,
-          "created_at": "2026-06-23 08:42:25"
-        },
         {
           "date": "2024-04",
           "value": -2.5,
@@ -2264,6 +2263,11 @@
           "date": "2026-08",
           "value": 3.8,
           "created_at": "2026-09-09 05:48:04"
+        },
+        {
+          "date": "2026-09",
+          "value": 5.0,
+          "created_at": "2026-10-14 05:55:26"
         }
       ]
     },
@@ -2280,17 +2284,12 @@
       "value_type_label": "每日中间价",
       "delta_unit": "CNY/100USD",
       "chart_baseline": null,
-      "latest_value": 672.98,
-      "latest_date": "2026-10-13",
-      "prev_value": 673.13,
-      "analysis_text": "本期美元兑人民币中间价为672.98，意味着100美元可兑672.98元人民币，汇率处于6.73附近的相对强势区间。较上期673.13下降0.15，人民币小幅升值约0.02%，延续近期稳中偏强走势。可能受美元指数回调、国内经济基本面支撑及季节性结汇需求等因素影响。后续关注美联储政策动向、国内经济数据表现及国际市场风险偏好变化对汇率走向的扰动。",
+      "latest_value": 672.49,
+      "latest_date": "2026-10-14",
+      "prev_value": 672.98,
+      "analysis_text": "10月14日人民币对美元中间价报672.49，较上期下降0.49，显示人民币小幅升值。当前水平仍处于相对平稳区间，单日波动幅度有限，反映汇率预期总体稳定。此次升值或受美元指数阶段性回调、国内经济基本面企稳以及跨境资金流动改善等因素影响，但幅度温和，尚不足以形成趋势性变化。后续需关注美联储政策路径、中美利差变化及国内经济数据对汇率预期的边际影响，警惕外部不确定性引发的双向波动风险。",
       "secondary": null,
       "history": [
-        {
-          "date": "2026-08-25",
-          "value": 678.52,
-          "created_at": "2026-08-25 02:19:20"
-        },
         {
           "date": "2026-08-26",
           "value": 678.29,
@@ -2435,6 +2434,11 @@
           "date": "2026-10-13",
           "value": 672.98,
           "created_at": "2026-10-13 07:28:59"
+        },
+        {
+          "date": "2026-10-14",
+          "value": 672.49,
+          "created_at": "2026-10-14 05:55:39"
         }
       ]
     },
@@ -3322,7 +3326,7 @@
       ]
     },
     {
-      "date": "2026-10-21",
+      "date": "2026-10-20",
       "indicators": [
         {
           "slug": "cpi",
@@ -3330,7 +3334,20 @@
           "short_name": "CPI",
           "category": "物价",
           "frequency": "monthly",
-          "latest_date": "2026-08"
+          "latest_date": "2026-09"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-21",
+      "indicators": [
+        {
+          "slug": "ppi",
+          "name": "工业生产者出厂价格指数 (PPI) 同比",
+          "short_name": "PPI",
+          "category": "物价",
+          "frequency": "monthly",
+          "latest_date": "2026-09"
         }
       ]
     },
@@ -3342,14 +3359,6 @@
           "name": "社会消费品零售总额 同比",
           "short_name": "社零总额",
           "category": "增长",
-          "frequency": "monthly",
-          "latest_date": "2026-08"
-        },
-        {
-          "slug": "ppi",
-          "name": "工业生产者出厂价格指数 (PPI) 同比",
-          "short_name": "PPI",
-          "category": "物价",
           "frequency": "monthly",
           "latest_date": "2026-08"
         },
@@ -3549,7 +3558,7 @@
               "empty": false,
               "date": "2026-10-13",
               "day": 13,
-              "is_today": true,
+              "is_today": false,
               "is_weekend": false,
               "indicators": []
             },
@@ -3557,7 +3566,7 @@
               "empty": false,
               "date": "2026-10-14",
               "day": 14,
-              "is_today": false,
+              "is_today": true,
               "is_weekend": false,
               "indicators": []
             },
@@ -3627,7 +3636,16 @@
               "day": 20,
               "is_today": false,
               "is_weekend": false,
-              "indicators": []
+              "indicators": [
+                {
+                  "slug": "cpi",
+                  "name": "居民消费价格指数 (CPI) 同比",
+                  "short_name": "CPI",
+                  "category": "物价",
+                  "frequency": "monthly",
+                  "latest_date": "2026-09"
+                }
+              ]
             },
             {
               "empty": false,
@@ -3637,12 +3655,12 @@
               "is_weekend": false,
               "indicators": [
                 {
-                  "slug": "cpi",
-                  "name": "居民消费价格指数 (CPI) 同比",
-                  "short_name": "CPI",
+                  "slug": "ppi",
+                  "name": "工业生产者出厂价格指数 (PPI) 同比",
+                  "short_name": "PPI",
                   "category": "物价",
                   "frequency": "monthly",
-                  "latest_date": "2026-08"
+                  "latest_date": "2026-09"
                 }
               ]
             },
@@ -3658,14 +3676,6 @@
                   "name": "社会消费品零售总额 同比",
                   "short_name": "社零总额",
                   "category": "增长",
-                  "frequency": "monthly",
-                  "latest_date": "2026-08"
-                },
-                {
-                  "slug": "ppi",
-                  "name": "工业生产者出厂价格指数 (PPI) 同比",
-                  "short_name": "PPI",
-                  "category": "物价",
                   "frequency": "monthly",
                   "latest_date": "2026-08"
                 },
@@ -4114,7 +4124,7 @@
         "short_name": "USD/CNY",
         "category": "货币",
         "frequency": "daily",
-        "latest_date": "2026-10-13"
+        "latest_date": "2026-10-14"
       }
     ]
   }

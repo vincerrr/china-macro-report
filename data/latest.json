@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T05:40:57Z",
+  "generated_at": "2026-10-16T05:35:57Z",
   "indicators": [
     {
       "slug": "gdp",
@@ -2284,17 +2284,12 @@
       "value_type_label": "每日中间价",
       "delta_unit": "CNY/100USD",
       "chart_baseline": null,
-      "latest_value": 672.53,
-      "latest_date": "2026-10-15",
-      "prev_value": 672.49,
-      "analysis_text": "本期人民币对美元中间价报672.53，较上期上调0.04，幅度极小，汇率总体延续平稳运行态势。数值微升显示人民币略有贬值，但波动不足万分之六，属正常交易性调整。背景上，或受美元指数短期反复、中美利差及市场情绪边际变化影响，国内基本面未现明显转向。后续关注美联储政策路径、国内经济数据及跨境资金流动，若外部扰动加剧，中间价双向波动弹性或有所增强。",
+      "latest_value": 672.2,
+      "latest_date": "2026-10-16",
+      "prev_value": 672.53,
+      "analysis_text": "本期人民币对美元中间价报672.2，较上期下调0.33个点，显示人民币小幅升值。该水平延续近期双向波动格局，整体仍处于区间运行。变化幅度温和，反映市场情绪平稳。可能原因包括美元指数波动、跨境资金流动变化及季节性结汇需求等因素。后续关注美联储政策预期、国内经济数据表现及中间价对市场预期的引导作用。",
       "secondary": null,
       "history": [
-        {
-          "date": "2026-08-27",
-          "value": 678.4,
-          "created_at": "2026-08-28 12:35:07"
-        },
         {
           "date": "2026-08-28",
           "value": 678.11,
@@ -2439,6 +2434,11 @@
           "date": "2026-10-15",
           "value": 672.53,
           "created_at": "2026-10-15 05:40:18"
+        },
+        {
+          "date": "2026-10-16",
+          "value": 672.2,
+          "created_at": "2026-10-16 05:35:48"
         }
       ]
     },
@@ -3300,19 +3300,6 @@
   ],
   "upcoming_releases": [
     {
-      "date": "2026-10-15",
-      "indicators": [
-        {
-          "slug": "gdp",
-          "name": "国内生产总值 (GDP) 同比",
-          "short_name": "GDP",
-          "category": "增长",
-          "frequency": "quarterly",
-          "latest_date": "2026-Q2"
-        }
-      ]
-    },
-    {
       "date": "2026-10-17",
       "indicators": [
         {
@@ -3574,7 +3561,7 @@
               "empty": false,
               "date": "2026-10-15",
               "day": 15,
-              "is_today": true,
+              "is_today": false,
               "is_weekend": false,
               "indicators": [
                 {
@@ -3591,7 +3578,7 @@
               "empty": false,
               "date": "2026-10-16",
               "day": 16,
-              "is_today": false,
+              "is_today": true,
               "is_weekend": false,
               "indicators": []
             },
@@ -4124,7 +4111,7 @@
         "short_name": "USD/CNY",
         "category": "货币",
         "frequency": "daily",
-        "latest_date": "2026-10-15"
+        "latest_date": "2026-10-16"
       }
     ]
   }

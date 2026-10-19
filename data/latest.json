@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T05:32:24Z",
+  "generated_at": "2026-10-19T05:53:17Z",
   "indicators": [
     {
       "slug": "gdp",
@@ -14,16 +14,16 @@
       "value_type_label": "季度同比",
       "delta_unit": "个百分点",
       "chart_baseline": 0,
-      "latest_value": 4.7,
-      "latest_date": "2026-Q2",
-      "prev_value": 5.0,
-      "analysis_text": "2026年二季度GDP同比增速录得4.7%，较一季度5.0%回落0.3个百分点，低于市场预期，显示经济修复动能边际放缓。分项看，内需复苏不均衡，房地产投资持续拖累，叠加外需面临全球贸易摩擦扰动，是增速下滑的主因。后续关注三季度专项债加速落地及消费刺激政策对需求的提振效果，以及出口韧性是否持续。",
+      "latest_value": 4.6,
+      "latest_date": "2026-Q3",
+      "prev_value": 4.7,
+      "analysis_text": "2026年三季度GDP同比增速为4.6%，较二季度回落0.1个百分点，表明经济总体延续增长态势，但扩张动能略有减弱。增速仍处于合理区间，与全年预期目标衔接。回落幅度较小，可能受内需修复偏慢、部分行业去库存及外部不确定性扰动影响，同时基数抬升对同比读数构成一定压制。后续应重点关注稳增长政策落地实效、四季度消费与投资边际变化，以及出口景气度能否维持，以判断经济是否企稳回升。",
       "secondary": {
         "label": "绝对值",
         "unit": "亿元",
         "display": "text",
-        "latest_value": 695704.0,
-        "latest_date": "2026-Q2",
+        "latest_value": 1071071.0,
+        "latest_date": "2026-Q3",
         "history": [
           {
             "date": "2006-Q1",
@@ -319,7 +319,7 @@
           },
           {
             "date": "2024-Q2",
-            "value": 633599.4
+            "value": 633110.6
           },
           {
             "date": "2024-Q3",
@@ -352,15 +352,14 @@
           {
             "date": "2026-Q2",
             "value": 695704.0
+          },
+          {
+            "date": "2026-Q3",
+            "value": 1071071.0
           }
         ]
       },
       "history": [
-        {
-          "date": "2019-Q1",
-          "value": 6.4,
-          "created_at": "2026-06-23 08:42:05"
-        },
         {
           "date": "2019-Q2",
           "value": 6.2,
@@ -505,6 +504,11 @@
           "date": "2026-Q2",
           "value": 4.7,
           "created_at": "2026-07-16 04:10:36"
+        },
+        {
+          "date": "2026-Q3",
+          "value": 4.6,
+          "created_at": "2026-10-19 05:52:31"
         }
       ]
     },
@@ -692,17 +696,12 @@
       "value_type_label": "月度同比",
       "delta_unit": "个百分点",
       "chart_baseline": 0,
-      "latest_value": 5.2,
-      "latest_date": "2026-08",
-      "prev_value": 4.5,
-      "analysis_text": "2026年8月规模以上工业增加值同比增速为5.2%，较上月提高0.7个百分点，重回扩张区间并创近期新高。数据表明工业生产端景气度明显提升，稳增长政策效果或逐步显现，需求回暖与基数效应共同推动增速改善。后续需关注政策持续性、外需韧性及行业结构分化，以判断复苏基础是否稳固。",
+      "latest_value": 5.5,
+      "latest_date": "2026-09",
+      "prev_value": 5.2,
+      "analysis_text": "2026年9月规模以上工业增加值同比增速5.5%，高于8月的5.2%，环比加快0.3个百分点，显示工业产出动能有所增强。增速处于中高位，反映制造业生产活跃度提升，或与稳增长政策显效、外需韧性及部分行业补库存有关。需关注后续增速能否延续，以及需求端消费和投资回暖的持续性，尤其注意基数抬升后对读数的影响。",
       "secondary": null,
       "history": [
-        {
-          "date": "2023-11",
-          "value": 6.6,
-          "created_at": "2026-06-23 08:42:16"
-        },
         {
           "date": "2023-12",
           "value": 6.8,
@@ -847,6 +846,11 @@
           "date": "2026-08",
           "value": 5.2,
           "created_at": "2026-09-15 05:57:14"
+        },
+        {
+          "date": "2026-09",
+          "value": 5.5,
+          "created_at": "2026-10-19 05:52:38"
         }
       ]
     },
@@ -863,17 +867,12 @@
       "value_type_label": "月度同比",
       "delta_unit": "个百分点",
       "chart_baseline": 0,
-      "latest_value": 0.4,
-      "latest_date": "2026-08",
-      "prev_value": 0.6,
-      "analysis_text": "2026年8月社会消费品零售总额同比仅增长0.4%，显著低于疫情前常态水平，显示居民消费扩张动能依然疲弱。较7月的0.6%回落0.2个百分点，且增速已连续两个月收窄，指向内需修复斜率趋缓。可能原因包括居民收入预期偏弱、预防性储蓄倾向较高，以及暑期消费效应消退。后续需关注三季度末传统消费旺季能否带动增速企稳，以及就业市场与居民可支配收入的变化。",
+      "latest_value": 1.1,
+      "latest_date": "2026-09",
+      "prev_value": 0.4,
+      "analysis_text": "2026年9月社会消费品零售总额同比增速为1.1%，较8月的0.4%回升0.7个百分点。读数仍处低位，显示居民消费整体偏弱，但边际改善迹象明显。回升或受促消费政策持续发力、暑期消费余温及部分商品促销带动；同时，低基数也可能有所贡献。后续需关注消费回升的可持续性，重点跟踪居民收入预期与消费信心变化，以及政策对汽车、家电等大宗消费的提振效果能否延续。",
       "secondary": null,
       "history": [
-        {
-          "date": "2023-09",
-          "value": 5.5,
-          "created_at": "2026-06-23 08:42:20"
-        },
         {
           "date": "2023-10",
           "value": 7.6,
@@ -1018,6 +1017,11 @@
           "date": "2026-08",
           "value": 0.4,
           "created_at": "2026-09-15 05:57:22"
+        },
+        {
+          "date": "2026-09",
+          "value": 1.1,
+          "created_at": "2026-10-19 05:52:44"
         }
       ]
     },
@@ -2284,17 +2288,12 @@
       "value_type_label": "每日中间价",
       "delta_unit": "CNY/100USD",
       "chart_baseline": null,
-      "latest_value": 672.2,
-      "latest_date": "2026-10-16",
-      "prev_value": 672.53,
-      "analysis_text": "本期人民币对美元中间价报672.2，较上期下调0.33个点，显示人民币小幅升值。该水平延续近期双向波动格局，整体仍处于区间运行。变化幅度温和，反映市场情绪平稳。可能原因包括美元指数波动、跨境资金流动变化及季节性结汇需求等因素。后续关注美联储政策预期、国内经济数据表现及中间价对市场预期的引导作用。",
+      "latest_value": 672.08,
+      "latest_date": "2026-10-19",
+      "prev_value": 672.2,
+      "analysis_text": "本期美元兑人民币中间价报672.08，较上期下降0.12，显示人民币小幅升值。数值仍处相对高位，反映整体汇率韧性较强。短期波动可能受中美经济数据差异、美元指数走势及市场预期调整影响。后续需关注美联储利率路径、国内政策变化及国际资本流动，以判断人民币汇率能否延续企稳态势。",
       "secondary": null,
       "history": [
-        {
-          "date": "2026-08-28",
-          "value": 678.11,
-          "created_at": "2026-08-28 12:35:07"
-        },
         {
           "date": "2026-08-31",
           "value": 678.28,
@@ -2439,6 +2438,11 @@
           "date": "2026-10-16",
           "value": 672.2,
           "created_at": "2026-10-16 05:35:48"
+        },
+        {
+          "date": "2026-10-19",
+          "value": 672.08,
+          "created_at": "2026-10-19 05:53:05"
         }
       ]
     },
@@ -3334,7 +3338,7 @@
           "short_name": "社零总额",
           "category": "增长",
           "frequency": "monthly",
-          "latest_date": "2026-08"
+          "latest_date": "2026-09"
         },
         {
           "slug": "m2",
@@ -3357,6 +3361,14 @@
     {
       "date": "2026-10-23",
       "indicators": [
+        {
+          "slug": "gdp",
+          "name": "国内生产总值 (GDP) 同比",
+          "short_name": "GDP",
+          "category": "增长",
+          "frequency": "quarterly",
+          "latest_date": "2026-Q3"
+        },
         {
           "slug": "lpr_1y",
           "name": "贷款市场报价利率 (LPR) 1年期",
@@ -3410,7 +3422,7 @@
           "short_name": "工业增加值",
           "category": "增长",
           "frequency": "monthly",
-          "latest_date": "2026-08"
+          "latest_date": "2026-09"
         }
       ]
     }
@@ -3563,16 +3575,7 @@
               "day": 15,
               "is_today": false,
               "is_weekend": false,
-              "indicators": [
-                {
-                  "slug": "gdp",
-                  "name": "国内生产总值 (GDP) 同比",
-                  "short_name": "GDP",
-                  "category": "增长",
-                  "frequency": "quarterly",
-                  "latest_date": "2026-Q2"
-                }
-              ]
+              "indicators": []
             },
             {
               "empty": false,
@@ -3595,7 +3598,7 @@
                   "short_name": "工业增加值",
                   "category": "增长",
                   "frequency": "monthly",
-                  "latest_date": "2026-08"
+                  "latest_date": "2026-09"
                 }
               ]
             },
@@ -3603,7 +3606,7 @@
               "empty": false,
               "date": "2026-10-18",
               "day": 18,
-              "is_today": true,
+              "is_today": false,
               "is_weekend": true,
               "indicators": []
             }
@@ -3613,7 +3616,7 @@
               "empty": false,
               "date": "2026-10-19",
               "day": 19,
-              "is_today": false,
+              "is_today": true,
               "is_weekend": false,
               "indicators": []
             },
@@ -3664,7 +3667,7 @@
                   "short_name": "社零总额",
                   "category": "增长",
                   "frequency": "monthly",
-                  "latest_date": "2026-08"
+                  "latest_date": "2026-09"
                 },
                 {
                   "slug": "m2",
@@ -3691,6 +3694,14 @@
               "is_today": false,
               "is_weekend": false,
               "indicators": [
+                {
+                  "slug": "gdp",
+                  "name": "国内生产总值 (GDP) 同比",
+                  "short_name": "GDP",
+                  "category": "增长",
+                  "frequency": "quarterly",
+                  "latest_date": "2026-Q3"
+                },
                 {
                   "slug": "lpr_1y",
                   "name": "贷款市场报价利率 (LPR) 1年期",
@@ -4111,7 +4122,7 @@
         "short_name": "USD/CNY",
         "category": "货币",
         "frequency": "daily",
-        "latest_date": "2026-10-16"
+        "latest_date": "2026-10-19"
       }
     ]
   }

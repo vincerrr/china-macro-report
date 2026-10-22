@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T05:48:51Z",
+  "generated_at": "2026-10-22T05:52:09Z",
   "indicators": [
     {
       "slug": "gdp",
@@ -2288,17 +2288,12 @@
       "value_type_label": "每日中间价",
       "delta_unit": "CNY/100USD",
       "chart_baseline": null,
-      "latest_value": 671.92,
-      "latest_date": "2026-10-21",
-      "prev_value": 672.0,
-      "analysis_text": "本期人民币对美元中间价为671.92人民币/100美元，即1美元兑6.7192元人民币，表明人民币处于相对偏强水平。与上期672.0相比，中间价下调0.08，人民币微幅升值约0.012%，波动极为有限，或属日常交易与报价的正常调整。可能受美元指数走势、中美利差及市场供求等因素综合影响，但当前幅度不足以指向趋势性变化。后续宜关注美联储货币政策动向、跨境资金流动及国内经济数据对汇率预期的边际影响。",
+      "latest_value": 671.95,
+      "latest_date": "2026-10-22",
+      "prev_value": 671.92,
+      "analysis_text": "本期人民币对美元中间价为671.95，即1美元兑6.7195元人民币，处于近期窄幅区间。较上期微升0.03点（人民币贬值约0.004%），幅度几乎可忽略，显示汇率延续大致平稳态势。这种微调可能反映隔夜美元指数小幅波动或市场供求基本均衡，也体现中间价继续以稳为主。后续关注美联储利率路径、国内经济基本面及美元走向，若外部扰动加大，人民币或呈双向波动，需留意是否突破当前运行区间。",
       "secondary": null,
       "history": [
-        {
-          "date": "2026-09-02",
-          "value": 678.29,
-          "created_at": "2026-09-02 05:32:41"
-        },
         {
           "date": "2026-09-03",
           "value": 678.07,
@@ -2443,6 +2438,11 @@
           "date": "2026-10-21",
           "value": 671.92,
           "created_at": "2026-10-21 05:48:35"
+        },
+        {
+          "date": "2026-10-22",
+          "value": 671.95,
+          "created_at": "2026-10-22 05:51:53"
         }
       ]
     },
@@ -3304,19 +3304,6 @@
   ],
   "upcoming_releases": [
     {
-      "date": "2026-10-21",
-      "indicators": [
-        {
-          "slug": "ppi",
-          "name": "工业生产者出厂价格指数 (PPI) 同比",
-          "short_name": "PPI",
-          "category": "物价",
-          "frequency": "monthly",
-          "latest_date": "2026-09"
-        }
-      ]
-    },
-    {
       "date": "2026-10-22",
       "indicators": [
         {
@@ -3412,6 +3399,19 @@
           "slug": "cpi",
           "name": "居民消费价格指数 (CPI) 同比",
           "short_name": "CPI",
+          "category": "物价",
+          "frequency": "monthly",
+          "latest_date": "2026-09"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-21",
+      "indicators": [
+        {
+          "slug": "ppi",
+          "name": "工业生产者出厂价格指数 (PPI) 同比",
+          "short_name": "PPI",
           "category": "物价",
           "frequency": "monthly",
           "latest_date": "2026-09"
@@ -3633,7 +3633,7 @@
               "empty": false,
               "date": "2026-10-21",
               "day": 21,
-              "is_today": true,
+              "is_today": false,
               "is_weekend": false,
               "indicators": [
                 {
@@ -3650,7 +3650,7 @@
               "empty": false,
               "date": "2026-10-22",
               "day": 22,
-              "is_today": false,
+              "is_today": true,
               "is_weekend": false,
               "indicators": [
                 {
@@ -4115,7 +4115,7 @@
         "short_name": "USD/CNY",
         "category": "货币",
         "frequency": "daily",
-        "latest_date": "2026-10-21"
+        "latest_date": "2026-10-22"
       }
     ]
   }

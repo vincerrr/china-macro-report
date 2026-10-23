@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T05:52:09Z",
+  "generated_at": "2026-10-23T05:50:08Z",
   "indicators": [
     {
       "slug": "gdp",
@@ -22,7 +22,7 @@
         "label": "绝对值",
         "unit": "亿元",
         "display": "text",
-        "latest_value": 1071071.0,
+        "latest_value": 1071071.2,
         "latest_date": "2026-Q3",
         "history": [
           {
@@ -355,7 +355,7 @@
           },
           {
             "date": "2026-Q3",
-            "value": 1071071.0
+            "value": 1071071.2
           }
         ]
       },
@@ -2288,17 +2288,12 @@
       "value_type_label": "每日中间价",
       "delta_unit": "CNY/100USD",
       "chart_baseline": null,
-      "latest_value": 671.95,
-      "latest_date": "2026-10-22",
-      "prev_value": 671.92,
-      "analysis_text": "本期人民币对美元中间价为671.95，即1美元兑6.7195元人民币，处于近期窄幅区间。较上期微升0.03点（人民币贬值约0.004%），幅度几乎可忽略，显示汇率延续大致平稳态势。这种微调可能反映隔夜美元指数小幅波动或市场供求基本均衡，也体现中间价继续以稳为主。后续关注美联储利率路径、国内经济基本面及美元走向，若外部扰动加大，人民币或呈双向波动，需留意是否突破当前运行区间。",
+      "latest_value": 671.8,
+      "latest_date": "2026-10-23",
+      "prev_value": 671.95,
+      "analysis_text": "本期人民币中间价报671.8，即1美元兑6.718元，延续近期偏强运行格局。较上期下调0.15个点，人民币小幅升值，幅度温和，显示汇率中枢保持稳定。背后可能受美元指数波动、国内基本面预期改善或稳汇率政策引导影响。后续关注美联储利率路径、外贸结售汇变化及中间价调控信号，警惕外部不确定性带来的双向波动。",
       "secondary": null,
       "history": [
-        {
-          "date": "2026-09-03",
-          "value": 678.07,
-          "created_at": "2026-09-03 05:33:16"
-        },
         {
           "date": "2026-09-04",
           "value": 677.87,
@@ -2443,6 +2438,11 @@
           "date": "2026-10-22",
           "value": 671.95,
           "created_at": "2026-10-22 05:51:53"
+        },
+        {
+          "date": "2026-10-23",
+          "value": 671.8,
+          "created_at": "2026-10-23 05:49:56"
         }
       ]
     },
@@ -3304,35 +3304,6 @@
   ],
   "upcoming_releases": [
     {
-      "date": "2026-10-22",
-      "indicators": [
-        {
-          "slug": "retail_sales",
-          "name": "社会消费品零售总额 同比",
-          "short_name": "社零总额",
-          "category": "增长",
-          "frequency": "monthly",
-          "latest_date": "2026-09"
-        },
-        {
-          "slug": "m2",
-          "name": "货币供应量 (M2) 同比",
-          "short_name": "M2",
-          "category": "货币",
-          "frequency": "monthly",
-          "latest_date": "2026-09"
-        },
-        {
-          "slug": "new_loan",
-          "name": "新增人民币贷款（当月）",
-          "short_name": "新增贷款",
-          "category": "货币",
-          "frequency": "monthly",
-          "latest_date": "2026-09"
-        }
-      ]
-    },
-    {
       "date": "2026-10-23",
       "indicators": [
         {
@@ -3413,6 +3384,35 @@
           "name": "工业生产者出厂价格指数 (PPI) 同比",
           "short_name": "PPI",
           "category": "物价",
+          "frequency": "monthly",
+          "latest_date": "2026-09"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-22",
+      "indicators": [
+        {
+          "slug": "retail_sales",
+          "name": "社会消费品零售总额 同比",
+          "short_name": "社零总额",
+          "category": "增长",
+          "frequency": "monthly",
+          "latest_date": "2026-09"
+        },
+        {
+          "slug": "m2",
+          "name": "货币供应量 (M2) 同比",
+          "short_name": "M2",
+          "category": "货币",
+          "frequency": "monthly",
+          "latest_date": "2026-09"
+        },
+        {
+          "slug": "new_loan",
+          "name": "新增人民币贷款（当月）",
+          "short_name": "新增贷款",
+          "category": "货币",
           "frequency": "monthly",
           "latest_date": "2026-09"
         }
@@ -3650,7 +3650,7 @@
               "empty": false,
               "date": "2026-10-22",
               "day": 22,
-              "is_today": true,
+              "is_today": false,
               "is_weekend": false,
               "indicators": [
                 {
@@ -3683,7 +3683,7 @@
               "empty": false,
               "date": "2026-10-23",
               "day": 23,
-              "is_today": false,
+              "is_today": true,
               "is_weekend": false,
               "indicators": [
                 {
@@ -4115,7 +4115,7 @@
         "short_name": "USD/CNY",
         "category": "货币",
         "frequency": "daily",
-        "latest_date": "2026-10-22"
+        "latest_date": "2026-10-23"
       }
     ]
   }

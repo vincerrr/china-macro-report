@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T05:50:08Z",
+  "generated_at": "2026-10-24T05:31:53Z",
   "indicators": [
     {
       "slug": "gdp",
@@ -3304,19 +3304,6 @@
   ],
   "upcoming_releases": [
     {
-      "date": "2026-10-23",
-      "indicators": [
-        {
-          "slug": "gdp",
-          "name": "国内生产总值 (GDP) 同比",
-          "short_name": "GDP",
-          "category": "增长",
-          "frequency": "quarterly",
-          "latest_date": "2026-Q3"
-        }
-      ]
-    },
-    {
       "date": "2026-10-24",
       "indicators": [
         {
@@ -3415,6 +3402,19 @@
           "category": "货币",
           "frequency": "monthly",
           "latest_date": "2026-09"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-23",
+      "indicators": [
+        {
+          "slug": "lpr_1y",
+          "name": "贷款市场报价利率 (LPR) 1年期",
+          "short_name": "LPR 1Y",
+          "category": "货币",
+          "frequency": "monthly",
+          "latest_date": "2026-10-20"
         }
       ]
     }
@@ -3683,7 +3683,7 @@
               "empty": false,
               "date": "2026-10-23",
               "day": 23,
-              "is_today": true,
+              "is_today": false,
               "is_weekend": false,
               "indicators": [
                 {
@@ -3700,7 +3700,7 @@
               "empty": false,
               "date": "2026-10-24",
               "day": 24,
-              "is_today": false,
+              "is_today": true,
               "is_weekend": true,
               "indicators": [
                 {

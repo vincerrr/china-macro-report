@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T05:49:08Z",
+  "generated_at": "2026-10-26T05:52:01Z",
   "indicators": [
     {
       "slug": "gdp",
@@ -2288,17 +2288,12 @@
       "value_type_label": "每日中间价",
       "delta_unit": "CNY/100USD",
       "chart_baseline": null,
-      "latest_value": 671.8,
-      "latest_date": "2026-10-23",
-      "prev_value": 671.95,
-      "analysis_text": "本期人民币中间价报671.8，即1美元兑6.718元，延续近期偏强运行格局。较上期下调0.15个点，人民币小幅升值，幅度温和，显示汇率中枢保持稳定。背后可能受美元指数波动、国内基本面预期改善或稳汇率政策引导影响。后续关注美联储利率路径、外贸结售汇变化及中间价调控信号，警惕外部不确定性带来的双向波动。",
+      "latest_value": 671.62,
+      "latest_date": "2026-10-26",
+      "prev_value": 671.8,
+      "analysis_text": "本期美元兑人民币中间价为671.62，即每100美元兑换671.62元人民币，延续6.71区间运行，人民币币值处于相对稳定且略偏强势的水平。较上期下降0.18个点，显示人民币小幅升值，幅度温和。可能受美元指数阶段性回落、国内经济基本面预期改善及跨境资金流动平稳影响。后续需关注美联储货币政策走向、国内经济数据表现及国际地缘政治变化对汇率的扰动。",
       "secondary": null,
       "history": [
-        {
-          "date": "2026-09-04",
-          "value": 677.87,
-          "created_at": "2026-09-04 05:40:05"
-        },
         {
           "date": "2026-09-07",
           "value": 677.95,
@@ -2443,6 +2438,11 @@
           "date": "2026-10-23",
           "value": 671.8,
           "created_at": "2026-10-23 05:49:56"
+        },
+        {
+          "date": "2026-10-26",
+          "value": 671.62,
+          "created_at": "2026-10-26 05:51:51"
         }
       ]
     },
@@ -3717,7 +3717,7 @@
               "empty": false,
               "date": "2026-10-25",
               "day": 25,
-              "is_today": true,
+              "is_today": false,
               "is_weekend": true,
               "indicators": []
             }
@@ -3727,7 +3727,7 @@
               "empty": false,
               "date": "2026-10-26",
               "day": 26,
-              "is_today": false,
+              "is_today": true,
               "is_weekend": false,
               "indicators": []
             },
@@ -4115,7 +4115,7 @@
         "short_name": "USD/CNY",
         "category": "货币",
         "frequency": "daily",
-        "latest_date": "2026-10-23"
+        "latest_date": "2026-10-26"
       }
     ]
   }

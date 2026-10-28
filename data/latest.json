@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T06:04:47Z",
+  "generated_at": "2026-10-28T06:43:17Z",
   "indicators": [
     {
       "slug": "gdp",
@@ -2288,17 +2288,12 @@
       "value_type_label": "每日中间价",
       "delta_unit": "CNY/100USD",
       "chart_baseline": null,
-      "latest_value": 671.71,
-      "latest_date": "2026-10-27",
-      "prev_value": 671.62,
-      "analysis_text": "本期美元兑人民币中间价为671.71，意味着每100美元可兑换671.71元人民币，人民币处于相对弱势水平。较上期671.62微幅上升0.09，显示人民币仅出现象征性贬值，幅度极小，反映市场供需整体平稳。这一微调或与美元指数短期走强、中美利差变化及季节性购汇需求有关。后续需关注美元走势、国内经济基本面变化及中间价定价信号的引导方向，以判断人民币是否维持当前区间震荡格局。",
+      "latest_value": 671.65,
+      "latest_date": "2026-10-28",
+      "prev_value": 671.71,
+      "analysis_text": "本期人民币对美元中间价为671.65，即6.7165元人民币兑1美元，汇率水平处于相对强势区间。较上期下调0.06个点，人民币微幅升值，幅度极为有限，延续近期双向波动格局。可能受隔夜美元指数小幅走弱、国内经济预期平稳及月末结汇需求等因素影响。后续关注美联储政策路径、中美利差变化及国内稳增长政策落地效果，汇率或维持区间震荡。",
       "secondary": null,
       "history": [
-        {
-          "date": "2026-09-08",
-          "value": 678.04,
-          "created_at": "2026-09-08 05:43:08"
-        },
         {
           "date": "2026-09-09",
           "value": 677.69,
@@ -2443,6 +2438,11 @@
           "date": "2026-10-27",
           "value": 671.71,
           "created_at": "2026-10-27 06:04:32"
+        },
+        {
+          "date": "2026-10-28",
+          "value": 671.65,
+          "created_at": "2026-10-28 06:43:04"
         }
       ]
     },
@@ -3304,27 +3304,6 @@
   ],
   "upcoming_releases": [
     {
-      "date": "2026-10-27",
-      "indicators": [
-        {
-          "slug": "m1",
-          "name": "货币供应量 (M1) 同比",
-          "short_name": "M1",
-          "category": "货币",
-          "frequency": "monthly",
-          "latest_date": "2026-09"
-        },
-        {
-          "slug": "m1_m2_scissor",
-          "name": "M1-M2 剪刀差",
-          "short_name": "M1-M2 剪刀差",
-          "category": "货币",
-          "frequency": "monthly",
-          "latest_date": "2026-09"
-        }
-      ]
-    },
-    {
       "date": "2026-11-17",
       "indicators": [
         {
@@ -3413,6 +3392,27 @@
           "name": "制造业采购经理指数 (PMI)",
           "short_name": "PMI",
           "category": "增长",
+          "frequency": "monthly",
+          "latest_date": "2026-09"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-27",
+      "indicators": [
+        {
+          "slug": "m1",
+          "name": "货币供应量 (M1) 同比",
+          "short_name": "M1",
+          "category": "货币",
+          "frequency": "monthly",
+          "latest_date": "2026-09"
+        },
+        {
+          "slug": "m1_m2_scissor",
+          "name": "M1-M2 剪刀差",
+          "short_name": "M1-M2 剪刀差",
+          "category": "货币",
           "frequency": "monthly",
           "latest_date": "2026-09"
         }
@@ -3735,7 +3735,7 @@
               "empty": false,
               "date": "2026-10-27",
               "day": 27,
-              "is_today": true,
+              "is_today": false,
               "is_weekend": false,
               "indicators": [
                 {
@@ -3760,7 +3760,7 @@
               "empty": false,
               "date": "2026-10-28",
               "day": 28,
-              "is_today": false,
+              "is_today": true,
               "is_weekend": false,
               "indicators": []
             },
@@ -4115,7 +4115,7 @@
         "short_name": "USD/CNY",
         "category": "货币",
         "frequency": "daily",
-        "latest_date": "2026-10-27"
+        "latest_date": "2026-10-28"
       }
     ]
   }

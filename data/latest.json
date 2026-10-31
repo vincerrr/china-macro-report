@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T06:54:02Z",
+  "generated_at": "2026-10-31T06:47:19Z",
   "indicators": [
     {
       "slug": "gdp",
@@ -525,17 +525,12 @@
       "value_type_label": "指数水平（荣枯线 50）",
       "delta_unit": "点",
       "chart_baseline": 50,
-      "latest_value": 50.1,
-      "latest_date": "2026-09",
-      "prev_value": 49.8,
-      "analysis_text": "2026年9月制造业PMI为50.1，时隔一个月重返荣枯线上方，表明制造业景气度边际改善，但扩张力度较弱。较上月回升0.3个百分点，升幅温和，指向生产端与需求端同步修复，可能受稳增长政策落地、订单季节性回暖及部分行业补库带动。后续关注新订单与从业人员指数的持续性，以及原材料价格波动对企业利润的扰动，确认修复动能能否稳固。",
+      "latest_value": 49.3,
+      "latest_date": "2026-10",
+      "prev_value": 50.1,
+      "analysis_text": "2026年10月制造业PMI录得49.3，低于荣枯线，显示制造业活动由扩张转为收缩，景气度走弱。较上月回落0.8个百分点，收缩幅度较为明显。可能受需求不足、外需承压及季节性因素影响，企业生产预期趋于谨慎。后续需关注新订单、从业人员指数变化，以及稳增长政策对制造业信心的修复效果。",
       "secondary": null,
       "history": [
-        {
-          "date": "2024-04",
-          "value": 50.4,
-          "created_at": "2026-06-23 08:42:10"
-        },
         {
           "date": "2024-05",
           "value": 49.5,
@@ -680,6 +675,11 @@
           "date": "2026-09",
           "value": 50.1,
           "created_at": "2026-09-30 06:24:19"
+        },
+        {
+          "date": "2026-10",
+          "value": 49.3,
+          "created_at": "2026-10-31 06:46:45"
         }
       ]
     },
@@ -3393,7 +3393,7 @@
           "short_name": "PMI",
           "category": "增长",
           "frequency": "monthly",
-          "latest_date": "2026-09"
+          "latest_date": "2026-10"
         }
       ]
     },
@@ -3702,16 +3702,7 @@
               "day": 24,
               "is_today": false,
               "is_weekend": true,
-              "indicators": [
-                {
-                  "slug": "pmi",
-                  "name": "制造业采购经理指数 (PMI)",
-                  "short_name": "PMI",
-                  "category": "增长",
-                  "frequency": "monthly",
-                  "latest_date": "2026-09"
-                }
-              ]
+              "indicators": []
             },
             {
               "empty": false,
@@ -3776,7 +3767,7 @@
               "empty": false,
               "date": "2026-10-30",
               "day": 30,
-              "is_today": true,
+              "is_today": false,
               "is_weekend": false,
               "indicators": []
             },
@@ -3784,7 +3775,7 @@
               "empty": false,
               "date": "2026-10-31",
               "day": 31,
-              "is_today": false,
+              "is_today": true,
               "is_weekend": true,
               "indicators": []
             },
@@ -4034,7 +4025,16 @@
               "day": 24,
               "is_today": false,
               "is_weekend": false,
-              "indicators": []
+              "indicators": [
+                {
+                  "slug": "pmi",
+                  "name": "制造业采购经理指数 (PMI)",
+                  "short_name": "PMI",
+                  "category": "增长",
+                  "frequency": "monthly",
+                  "latest_date": "2026-10"
+                }
+              ]
             },
             {
               "empty": false,

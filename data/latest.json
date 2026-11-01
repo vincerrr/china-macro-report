@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T06:47:19Z",
+  "generated_at": "2026-11-01T07:13:59Z",
   "indicators": [
     {
       "slug": "gdp",
@@ -3423,370 +3423,6 @@
     "months": [
       {
         "year": 2026,
-        "month": 10,
-        "title": "2026年10月",
-        "weekday_headers": [
-          "一",
-          "二",
-          "三",
-          "四",
-          "五",
-          "六",
-          "日"
-        ],
-        "weeks": [
-          [
-            {
-              "empty": true
-            },
-            {
-              "empty": true
-            },
-            {
-              "empty": true
-            },
-            {
-              "empty": false,
-              "date": "2026-10-01",
-              "day": 1,
-              "is_today": false,
-              "is_weekend": false,
-              "indicators": []
-            },
-            {
-              "empty": false,
-              "date": "2026-10-02",
-              "day": 2,
-              "is_today": false,
-              "is_weekend": false,
-              "indicators": []
-            },
-            {
-              "empty": false,
-              "date": "2026-10-03",
-              "day": 3,
-              "is_today": false,
-              "is_weekend": true,
-              "indicators": []
-            },
-            {
-              "empty": false,
-              "date": "2026-10-04",
-              "day": 4,
-              "is_today": false,
-              "is_weekend": true,
-              "indicators": []
-            }
-          ],
-          [
-            {
-              "empty": false,
-              "date": "2026-10-05",
-              "day": 5,
-              "is_today": false,
-              "is_weekend": false,
-              "indicators": []
-            },
-            {
-              "empty": false,
-              "date": "2026-10-06",
-              "day": 6,
-              "is_today": false,
-              "is_weekend": false,
-              "indicators": []
-            },
-            {
-              "empty": false,
-              "date": "2026-10-07",
-              "day": 7,
-              "is_today": false,
-              "is_weekend": false,
-              "indicators": []
-            },
-            {
-              "empty": false,
-              "date": "2026-10-08",
-              "day": 8,
-              "is_today": false,
-              "is_weekend": false,
-              "indicators": []
-            },
-            {
-              "empty": false,
-              "date": "2026-10-09",
-              "day": 9,
-              "is_today": false,
-              "is_weekend": false,
-              "indicators": []
-            },
-            {
-              "empty": false,
-              "date": "2026-10-10",
-              "day": 10,
-              "is_today": false,
-              "is_weekend": true,
-              "indicators": []
-            },
-            {
-              "empty": false,
-              "date": "2026-10-11",
-              "day": 11,
-              "is_today": false,
-              "is_weekend": true,
-              "indicators": []
-            }
-          ],
-          [
-            {
-              "empty": false,
-              "date": "2026-10-12",
-              "day": 12,
-              "is_today": false,
-              "is_weekend": false,
-              "indicators": []
-            },
-            {
-              "empty": false,
-              "date": "2026-10-13",
-              "day": 13,
-              "is_today": false,
-              "is_weekend": false,
-              "indicators": []
-            },
-            {
-              "empty": false,
-              "date": "2026-10-14",
-              "day": 14,
-              "is_today": false,
-              "is_weekend": false,
-              "indicators": []
-            },
-            {
-              "empty": false,
-              "date": "2026-10-15",
-              "day": 15,
-              "is_today": false,
-              "is_weekend": false,
-              "indicators": []
-            },
-            {
-              "empty": false,
-              "date": "2026-10-16",
-              "day": 16,
-              "is_today": false,
-              "is_weekend": false,
-              "indicators": []
-            },
-            {
-              "empty": false,
-              "date": "2026-10-17",
-              "day": 17,
-              "is_today": false,
-              "is_weekend": true,
-              "indicators": [
-                {
-                  "slug": "industrial_production",
-                  "name": "规模以上工业增加值 同比",
-                  "short_name": "工业增加值",
-                  "category": "增长",
-                  "frequency": "monthly",
-                  "latest_date": "2026-09"
-                }
-              ]
-            },
-            {
-              "empty": false,
-              "date": "2026-10-18",
-              "day": 18,
-              "is_today": false,
-              "is_weekend": true,
-              "indicators": []
-            }
-          ],
-          [
-            {
-              "empty": false,
-              "date": "2026-10-19",
-              "day": 19,
-              "is_today": false,
-              "is_weekend": false,
-              "indicators": []
-            },
-            {
-              "empty": false,
-              "date": "2026-10-20",
-              "day": 20,
-              "is_today": false,
-              "is_weekend": false,
-              "indicators": [
-                {
-                  "slug": "cpi",
-                  "name": "居民消费价格指数 (CPI) 同比",
-                  "short_name": "CPI",
-                  "category": "物价",
-                  "frequency": "monthly",
-                  "latest_date": "2026-09"
-                }
-              ]
-            },
-            {
-              "empty": false,
-              "date": "2026-10-21",
-              "day": 21,
-              "is_today": false,
-              "is_weekend": false,
-              "indicators": [
-                {
-                  "slug": "ppi",
-                  "name": "工业生产者出厂价格指数 (PPI) 同比",
-                  "short_name": "PPI",
-                  "category": "物价",
-                  "frequency": "monthly",
-                  "latest_date": "2026-09"
-                }
-              ]
-            },
-            {
-              "empty": false,
-              "date": "2026-10-22",
-              "day": 22,
-              "is_today": false,
-              "is_weekend": false,
-              "indicators": [
-                {
-                  "slug": "retail_sales",
-                  "name": "社会消费品零售总额 同比",
-                  "short_name": "社零总额",
-                  "category": "增长",
-                  "frequency": "monthly",
-                  "latest_date": "2026-09"
-                },
-                {
-                  "slug": "m2",
-                  "name": "货币供应量 (M2) 同比",
-                  "short_name": "M2",
-                  "category": "货币",
-                  "frequency": "monthly",
-                  "latest_date": "2026-09"
-                },
-                {
-                  "slug": "new_loan",
-                  "name": "新增人民币贷款（当月）",
-                  "short_name": "新增贷款",
-                  "category": "货币",
-                  "frequency": "monthly",
-                  "latest_date": "2026-09"
-                }
-              ]
-            },
-            {
-              "empty": false,
-              "date": "2026-10-23",
-              "day": 23,
-              "is_today": false,
-              "is_weekend": false,
-              "indicators": [
-                {
-                  "slug": "gdp",
-                  "name": "国内生产总值 (GDP) 同比",
-                  "short_name": "GDP",
-                  "category": "增长",
-                  "frequency": "quarterly",
-                  "latest_date": "2026-Q3"
-                }
-              ]
-            },
-            {
-              "empty": false,
-              "date": "2026-10-24",
-              "day": 24,
-              "is_today": false,
-              "is_weekend": true,
-              "indicators": []
-            },
-            {
-              "empty": false,
-              "date": "2026-10-25",
-              "day": 25,
-              "is_today": false,
-              "is_weekend": true,
-              "indicators": []
-            }
-          ],
-          [
-            {
-              "empty": false,
-              "date": "2026-10-26",
-              "day": 26,
-              "is_today": false,
-              "is_weekend": false,
-              "indicators": []
-            },
-            {
-              "empty": false,
-              "date": "2026-10-27",
-              "day": 27,
-              "is_today": false,
-              "is_weekend": false,
-              "indicators": [
-                {
-                  "slug": "m1",
-                  "name": "货币供应量 (M1) 同比",
-                  "short_name": "M1",
-                  "category": "货币",
-                  "frequency": "monthly",
-                  "latest_date": "2026-09"
-                },
-                {
-                  "slug": "m1_m2_scissor",
-                  "name": "M1-M2 剪刀差",
-                  "short_name": "M1-M2 剪刀差",
-                  "category": "货币",
-                  "frequency": "monthly",
-                  "latest_date": "2026-09"
-                }
-              ]
-            },
-            {
-              "empty": false,
-              "date": "2026-10-28",
-              "day": 28,
-              "is_today": false,
-              "is_weekend": false,
-              "indicators": []
-            },
-            {
-              "empty": false,
-              "date": "2026-10-29",
-              "day": 29,
-              "is_today": false,
-              "is_weekend": false,
-              "indicators": []
-            },
-            {
-              "empty": false,
-              "date": "2026-10-30",
-              "day": 30,
-              "is_today": false,
-              "is_weekend": false,
-              "indicators": []
-            },
-            {
-              "empty": false,
-              "date": "2026-10-31",
-              "day": 31,
-              "is_today": true,
-              "is_weekend": true,
-              "indicators": []
-            },
-            {
-              "empty": true
-            }
-          ]
-        ]
-      },
-      {
-        "year": 2026,
         "month": 11,
         "title": "2026年11月",
         "weekday_headers": [
@@ -3822,7 +3458,7 @@
               "empty": false,
               "date": "2026-11-01",
               "day": 1,
-              "is_today": false,
+              "is_today": true,
               "is_weekend": true,
               "indicators": []
             }
@@ -3958,7 +3594,16 @@
               "day": 17,
               "is_today": false,
               "is_weekend": false,
-              "indicators": []
+              "indicators": [
+                {
+                  "slug": "industrial_production",
+                  "name": "规模以上工业增加值 同比",
+                  "short_name": "工业增加值",
+                  "category": "增长",
+                  "frequency": "monthly",
+                  "latest_date": "2026-09"
+                }
+              ]
             },
             {
               "empty": false,
@@ -3982,7 +3627,16 @@
               "day": 20,
               "is_today": false,
               "is_weekend": false,
-              "indicators": []
+              "indicators": [
+                {
+                  "slug": "cpi",
+                  "name": "居民消费价格指数 (CPI) 同比",
+                  "short_name": "CPI",
+                  "category": "物价",
+                  "frequency": "monthly",
+                  "latest_date": "2026-09"
+                }
+              ]
             },
             {
               "empty": false,
@@ -3990,7 +3644,16 @@
               "day": 21,
               "is_today": false,
               "is_weekend": true,
-              "indicators": []
+              "indicators": [
+                {
+                  "slug": "ppi",
+                  "name": "工业生产者出厂价格指数 (PPI) 同比",
+                  "short_name": "PPI",
+                  "category": "物价",
+                  "frequency": "monthly",
+                  "latest_date": "2026-09"
+                }
+              ]
             },
             {
               "empty": false,
@@ -3998,7 +3661,32 @@
               "day": 22,
               "is_today": false,
               "is_weekend": true,
-              "indicators": []
+              "indicators": [
+                {
+                  "slug": "retail_sales",
+                  "name": "社会消费品零售总额 同比",
+                  "short_name": "社零总额",
+                  "category": "增长",
+                  "frequency": "monthly",
+                  "latest_date": "2026-09"
+                },
+                {
+                  "slug": "m2",
+                  "name": "货币供应量 (M2) 同比",
+                  "short_name": "M2",
+                  "category": "货币",
+                  "frequency": "monthly",
+                  "latest_date": "2026-09"
+                },
+                {
+                  "slug": "new_loan",
+                  "name": "新增人民币贷款（当月）",
+                  "short_name": "新增贷款",
+                  "category": "货币",
+                  "frequency": "monthly",
+                  "latest_date": "2026-09"
+                }
+              ]
             }
           ],
           [
@@ -4058,7 +3746,24 @@
               "day": 27,
               "is_today": false,
               "is_weekend": false,
-              "indicators": []
+              "indicators": [
+                {
+                  "slug": "m1",
+                  "name": "货币供应量 (M1) 同比",
+                  "short_name": "M1",
+                  "category": "货币",
+                  "frequency": "monthly",
+                  "latest_date": "2026-09"
+                },
+                {
+                  "slug": "m1_m2_scissor",
+                  "name": "M1-M2 剪刀差",
+                  "short_name": "M1-M2 剪刀差",
+                  "category": "货币",
+                  "frequency": "monthly",
+                  "latest_date": "2026-09"
+                }
+              ]
             },
             {
               "empty": false,
@@ -4094,6 +3799,292 @@
             },
             {
               "empty": true
+            },
+            {
+              "empty": true
+            },
+            {
+              "empty": true
+            },
+            {
+              "empty": true
+            }
+          ]
+        ]
+      },
+      {
+        "year": 2026,
+        "month": 12,
+        "title": "2026年12月",
+        "weekday_headers": [
+          "一",
+          "二",
+          "三",
+          "四",
+          "五",
+          "六",
+          "日"
+        ],
+        "weeks": [
+          [
+            {
+              "empty": true
+            },
+            {
+              "empty": false,
+              "date": "2026-12-01",
+              "day": 1,
+              "is_today": false,
+              "is_weekend": false,
+              "indicators": []
+            },
+            {
+              "empty": false,
+              "date": "2026-12-02",
+              "day": 2,
+              "is_today": false,
+              "is_weekend": false,
+              "indicators": []
+            },
+            {
+              "empty": false,
+              "date": "2026-12-03",
+              "day": 3,
+              "is_today": false,
+              "is_weekend": false,
+              "indicators": []
+            },
+            {
+              "empty": false,
+              "date": "2026-12-04",
+              "day": 4,
+              "is_today": false,
+              "is_weekend": false,
+              "indicators": []
+            },
+            {
+              "empty": false,
+              "date": "2026-12-05",
+              "day": 5,
+              "is_today": false,
+              "is_weekend": true,
+              "indicators": []
+            },
+            {
+              "empty": false,
+              "date": "2026-12-06",
+              "day": 6,
+              "is_today": false,
+              "is_weekend": true,
+              "indicators": []
+            }
+          ],
+          [
+            {
+              "empty": false,
+              "date": "2026-12-07",
+              "day": 7,
+              "is_today": false,
+              "is_weekend": false,
+              "indicators": []
+            },
+            {
+              "empty": false,
+              "date": "2026-12-08",
+              "day": 8,
+              "is_today": false,
+              "is_weekend": false,
+              "indicators": []
+            },
+            {
+              "empty": false,
+              "date": "2026-12-09",
+              "day": 9,
+              "is_today": false,
+              "is_weekend": false,
+              "indicators": []
+            },
+            {
+              "empty": false,
+              "date": "2026-12-10",
+              "day": 10,
+              "is_today": false,
+              "is_weekend": false,
+              "indicators": []
+            },
+            {
+              "empty": false,
+              "date": "2026-12-11",
+              "day": 11,
+              "is_today": false,
+              "is_weekend": false,
+              "indicators": []
+            },
+            {
+              "empty": false,
+              "date": "2026-12-12",
+              "day": 12,
+              "is_today": false,
+              "is_weekend": true,
+              "indicators": []
+            },
+            {
+              "empty": false,
+              "date": "2026-12-13",
+              "day": 13,
+              "is_today": false,
+              "is_weekend": true,
+              "indicators": []
+            }
+          ],
+          [
+            {
+              "empty": false,
+              "date": "2026-12-14",
+              "day": 14,
+              "is_today": false,
+              "is_weekend": false,
+              "indicators": []
+            },
+            {
+              "empty": false,
+              "date": "2026-12-15",
+              "day": 15,
+              "is_today": false,
+              "is_weekend": false,
+              "indicators": []
+            },
+            {
+              "empty": false,
+              "date": "2026-12-16",
+              "day": 16,
+              "is_today": false,
+              "is_weekend": false,
+              "indicators": []
+            },
+            {
+              "empty": false,
+              "date": "2026-12-17",
+              "day": 17,
+              "is_today": false,
+              "is_weekend": false,
+              "indicators": []
+            },
+            {
+              "empty": false,
+              "date": "2026-12-18",
+              "day": 18,
+              "is_today": false,
+              "is_weekend": false,
+              "indicators": []
+            },
+            {
+              "empty": false,
+              "date": "2026-12-19",
+              "day": 19,
+              "is_today": false,
+              "is_weekend": true,
+              "indicators": []
+            },
+            {
+              "empty": false,
+              "date": "2026-12-20",
+              "day": 20,
+              "is_today": false,
+              "is_weekend": true,
+              "indicators": []
+            }
+          ],
+          [
+            {
+              "empty": false,
+              "date": "2026-12-21",
+              "day": 21,
+              "is_today": false,
+              "is_weekend": false,
+              "indicators": []
+            },
+            {
+              "empty": false,
+              "date": "2026-12-22",
+              "day": 22,
+              "is_today": false,
+              "is_weekend": false,
+              "indicators": []
+            },
+            {
+              "empty": false,
+              "date": "2026-12-23",
+              "day": 23,
+              "is_today": false,
+              "is_weekend": false,
+              "indicators": []
+            },
+            {
+              "empty": false,
+              "date": "2026-12-24",
+              "day": 24,
+              "is_today": false,
+              "is_weekend": false,
+              "indicators": []
+            },
+            {
+              "empty": false,
+              "date": "2026-12-25",
+              "day": 25,
+              "is_today": false,
+              "is_weekend": false,
+              "indicators": []
+            },
+            {
+              "empty": false,
+              "date": "2026-12-26",
+              "day": 26,
+              "is_today": false,
+              "is_weekend": true,
+              "indicators": []
+            },
+            {
+              "empty": false,
+              "date": "2026-12-27",
+              "day": 27,
+              "is_today": false,
+              "is_weekend": true,
+              "indicators": []
+            }
+          ],
+          [
+            {
+              "empty": false,
+              "date": "2026-12-28",
+              "day": 28,
+              "is_today": false,
+              "is_weekend": false,
+              "indicators": []
+            },
+            {
+              "empty": false,
+              "date": "2026-12-29",
+              "day": 29,
+              "is_today": false,
+              "is_weekend": false,
+              "indicators": []
+            },
+            {
+              "empty": false,
+              "date": "2026-12-30",
+              "day": 30,
+              "is_today": false,
+              "is_weekend": false,
+              "indicators": []
+            },
+            {
+              "empty": false,
+              "date": "2026-12-31",
+              "day": 31,
+              "is_today": false,
+              "is_weekend": false,
+              "indicators": []
             },
             {
               "empty": true

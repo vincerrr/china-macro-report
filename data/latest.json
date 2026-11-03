@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T07:28:13Z",
+  "generated_at": "2026-11-03T07:43:06Z",
   "indicators": [
     {
       "slug": "gdp",
@@ -2288,17 +2288,12 @@
       "value_type_label": "每日中间价",
       "delta_unit": "CNY/100USD",
       "chart_baseline": null,
-      "latest_value": 671.46,
-      "latest_date": "2026-11-02",
-      "prev_value": 671.38,
-      "analysis_text": "本期人民币兑美元中间价为671.46，即1美元兑6.7146元人民币，水平整体平稳。较上期上调0.08，人民币小幅贬值，幅度极微，显示汇率保持稳定。可能受美元指数短线波动、中美利差及市场预期影响，但无明显方向性信号。后续关注美元走势及央行中间价设定是否延续区间操作，以及结售汇数据对汇率支撑力度的变化。",
+      "latest_value": 671.5,
+      "latest_date": "2026-11-03",
+      "prev_value": 671.46,
+      "analysis_text": "本期人民币对美元中间价为671.5，意味1美元兑6.715元人民币，整体处于近月相对平稳区间。较上期上调0.04个点，人民币微幅贬值，变动极小，显示汇率延续双向波动格局。背后可能受美元指数扰动、中美利差预期及年末结售汇需求变化影响，但单日波动未反映趋势逆转。后续关注美国通胀及美联储政策路径、国内经济修复力度，以及中间价定价对市场预期的引导作用。",
       "secondary": null,
       "history": [
-        {
-          "date": "2026-09-14",
-          "value": 676.98,
-          "created_at": "2026-09-14 05:56:07"
-        },
         {
           "date": "2026-09-15",
           "value": 676.7,
@@ -2443,6 +2438,11 @@
           "date": "2026-11-02",
           "value": 671.46,
           "created_at": "2026-11-02 07:28:01"
+        },
+        {
+          "date": "2026-11-03",
+          "value": 671.5,
+          "created_at": "2026-11-03 07:42:54"
         }
       ]
     },
@@ -3468,7 +3468,7 @@
               "empty": false,
               "date": "2026-11-02",
               "day": 2,
-              "is_today": true,
+              "is_today": false,
               "is_weekend": false,
               "indicators": []
             },
@@ -3476,7 +3476,7 @@
               "empty": false,
               "date": "2026-11-03",
               "day": 3,
-              "is_today": false,
+              "is_today": true,
               "is_weekend": false,
               "indicators": []
             },
@@ -4106,7 +4106,7 @@
         "short_name": "USD/CNY",
         "category": "货币",
         "frequency": "daily",
-        "latest_date": "2026-11-02"
+        "latest_date": "2026-11-03"
       }
     ]
   }

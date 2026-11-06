@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T07:47:29Z",
+  "generated_at": "2026-11-06T07:47:17Z",
   "indicators": [
     {
       "slug": "gdp",
@@ -2288,17 +2288,12 @@
       "value_type_label": "每日中间价",
       "delta_unit": "CNY/100USD",
       "chart_baseline": null,
-      "latest_value": 671.56,
-      "latest_date": "2026-11-05",
-      "prev_value": 671.8,
-      "analysis_text": "本期人民币中间价报671.56，即1美元兑6.7156元人民币，处于近年来相对强势区间。较上期下降0.24，表示人民币小幅升值，幅度约0.04%，延续近期双向波动格局。该变动或受美元指数回落、国内经济基本面预期改善及跨境资金流动变化影响，但单日调整属正常市场波动。后续重点关注美联储利率路径、国内经济数据及政策信号，以及中间价调整对出口企业的汇兑影响。",
+      "latest_value": 671.68,
+      "latest_date": "2026-11-06",
+      "prev_value": 671.56,
+      "analysis_text": "2026年11月6日人民币对美元中间价报671.68，较前值671.56小幅上升0.12，对应人民币贬值约0.02%，延续窄幅震荡。中间价守住6.72关口，显示市场供求基本平衡。此次微调或与美元指数短线波动、结售汇日趋均衡有关，并无单边贬值动能。下阶段关注中间价能否突破6.70至6.73区间，以及美国经济数据和降息预期对美元指数的牵引。",
       "secondary": null,
       "history": [
-        {
-          "date": "2026-09-17",
-          "value": 675.8,
-          "created_at": "2026-09-17 05:53:46"
-        },
         {
           "date": "2026-09-18",
           "value": 675.21,
@@ -2443,6 +2438,11 @@
           "date": "2026-11-05",
           "value": 671.56,
           "created_at": "2026-11-05 07:47:15"
+        },
+        {
+          "date": "2026-11-06",
+          "value": 671.68,
+          "created_at": "2026-11-06 07:46:43"
         }
       ]
     },
@@ -3492,7 +3492,7 @@
               "empty": false,
               "date": "2026-11-05",
               "day": 5,
-              "is_today": true,
+              "is_today": false,
               "is_weekend": false,
               "indicators": []
             },
@@ -3500,7 +3500,7 @@
               "empty": false,
               "date": "2026-11-06",
               "day": 6,
-              "is_today": false,
+              "is_today": true,
               "is_weekend": false,
               "indicators": []
             },
@@ -4106,7 +4106,7 @@
         "short_name": "USD/CNY",
         "category": "货币",
         "frequency": "daily",
-        "latest_date": "2026-11-05"
+        "latest_date": "2026-11-06"
       }
     ]
   }

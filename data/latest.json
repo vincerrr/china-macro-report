@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T07:01:03Z",
+  "generated_at": "2026-11-09T07:44:34Z",
   "indicators": [
     {
       "slug": "gdp",
@@ -1038,16 +1038,16 @@
       "value_type_label": "月度同比",
       "delta_unit": "个百分点",
       "chart_baseline": 0,
-      "latest_value": 0.9,
-      "latest_date": "2026-09",
-      "prev_value": 0.8,
-      "analysis_text": "本期CPI同比上涨0.9%，低于2%-3%温和通胀区间下沿，接近通缩边缘，反映总需求偏弱、物价上涨动力不足。较上月0.8%回升0.1个百分点，延续低位小幅修复。回升可能受食品价格降幅收窄、服务消费温和回暖及低基数等因素带动，但幅度有限，内需恢复基础尚不牢固。后续关注核心CPI变化、猪肉与能源价格走势，以及稳增长政策对消费需求的提振效果。",
+      "latest_value": 0.7,
+      "latest_date": "2026-10",
+      "prev_value": 0.9,
+      "analysis_text": "0.7%的CPI同比涨幅处于温和区间下沿，明显低于2%-3%的常态区间，反映当前总需求偏弱、通胀动能不足，但尚未陷入通缩。较上期0.9%回落0.2个百分点，边际上延续下行趋势，价格修复进程有所反复。背后可能受食品价格季节性回落、能源价格低位运行及核心需求恢复缓慢共同影响。后续关注CPI能否守住正值区间，以及剔除食品能源后的核心CPI是否企稳，这将是判断内需修复力度的关键信号。",
       "secondary": {
         "label": "环比",
         "unit": "%",
         "display": "chart_line",
-        "latest_value": 0.2,
-        "latest_date": "2026-09",
+        "latest_value": 0.0,
+        "latest_date": "2026-10",
         "history": [
           {
             "date": "2008-01",
@@ -1948,15 +1948,14 @@
           {
             "date": "2026-09",
             "value": 0.2
+          },
+          {
+            "date": "2026-10",
+            "value": 0.0
           }
         ]
       },
       "history": [
-        {
-          "date": "2024-04",
-          "value": 0.3,
-          "created_at": "2026-06-22 08:27:45"
-        },
         {
           "date": "2024-05",
           "value": 0.3,
@@ -2101,6 +2100,11 @@
           "date": "2026-09",
           "value": 0.9,
           "created_at": "2026-10-14 05:55:17"
+        },
+        {
+          "date": "2026-10",
+          "value": 0.7,
+          "created_at": "2026-11-09 07:43:59"
         }
       ]
     },
@@ -2117,17 +2121,12 @@
       "value_type_label": "月度同比",
       "delta_unit": "个百分点",
       "chart_baseline": 0,
-      "latest_value": 5.0,
-      "latest_date": "2026-09",
-      "prev_value": 3.8,
-      "analysis_text": "2026年9月PPI同比上涨5.0%，涨幅较8月扩大1.2个百分点，工业品价格由温和回升转为较快上涨。这一水平显著高于零值，显示工业领域已无通缩压力，企业营收环境总体改善。涨幅扩大或与需求回暖、大宗商品价格传导及低基数效应有关。后续需关注上游涨价对中下游利润的挤压，以及PPI向CPI的传导是否加速，同时留意政策端对工业品价格过快上涨的应对。",
+      "latest_value": 5.7,
+      "latest_date": "2026-10",
+      "prev_value": 5.0,
+      "analysis_text": "2026年10月PPI同比上涨5.7%，处于明显扩张区间，反映工业品价格整体上行，企业营收端或受益。较9月的5.0%加快0.7个百分点，涨幅显著扩大，显示工业领域价格压力有所升温。可能受大宗商品价格波动、部分行业供给偏紧及需求回暖预期影响，亦需关注基数效应。后续应重点跟踪价格向CPI的传导节奏，以及上游涨价对中下游企业利润的挤压效应。",
       "secondary": null,
       "history": [
-        {
-          "date": "2024-04",
-          "value": -2.5,
-          "created_at": "2026-06-23 08:42:25"
-        },
         {
           "date": "2024-05",
           "value": -1.4,
@@ -2272,6 +2271,11 @@
           "date": "2026-09",
           "value": 5.0,
           "created_at": "2026-10-14 05:55:26"
+        },
+        {
+          "date": "2026-10",
+          "value": 5.7,
+          "created_at": "2026-11-09 07:44:06"
         }
       ]
     },
@@ -2288,17 +2292,12 @@
       "value_type_label": "每日中间价",
       "delta_unit": "CNY/100USD",
       "chart_baseline": null,
-      "latest_value": 671.68,
-      "latest_date": "2026-11-06",
-      "prev_value": 671.56,
-      "analysis_text": "2026年11月6日人民币对美元中间价报671.68，较前值671.56小幅上升0.12，对应人民币贬值约0.02%，延续窄幅震荡。中间价守住6.72关口，显示市场供求基本平衡。此次微调或与美元指数短线波动、结售汇日趋均衡有关，并无单边贬值动能。下阶段关注中间价能否突破6.70至6.73区间，以及美国经济数据和降息预期对美元指数的牵引。",
+      "latest_value": 671.88,
+      "latest_date": "2026-11-09",
+      "prev_value": 671.68,
+      "analysis_text": "本期人民币中间价为671.88，即1美元兑6.7188元人民币，处于近期相对平稳区间。较上期上调0.20（人民币微贬0.03%），幅度极小，显示汇率中枢稳定。可能源于美元指数小幅走强或中美利差扰动，同时国内经济基本面及央行稳汇率预期形成支撑。后续关注美联储政策路径、贸易形势及中间价定价节奏，预计短期继续保持双向波动。",
       "secondary": null,
       "history": [
-        {
-          "date": "2026-09-18",
-          "value": 675.21,
-          "created_at": "2026-09-18 05:38:29"
-        },
         {
           "date": "2026-09-21",
           "value": 674.87,
@@ -2443,6 +2442,11 @@
           "date": "2026-11-06",
           "value": 671.68,
           "created_at": "2026-11-06 07:46:43"
+        },
+        {
+          "date": "2026-11-09",
+          "value": 671.88,
+          "created_at": "2026-11-09 07:44:23"
         }
       ]
     },
@@ -3325,7 +3329,7 @@
           "short_name": "CPI",
           "category": "物价",
           "frequency": "monthly",
-          "latest_date": "2026-09"
+          "latest_date": "2026-10"
         }
       ]
     },
@@ -3338,7 +3342,7 @@
           "short_name": "PPI",
           "category": "物价",
           "frequency": "monthly",
-          "latest_date": "2026-09"
+          "latest_date": "2026-10"
         }
       ]
     },
@@ -3516,7 +3520,7 @@
               "empty": false,
               "date": "2026-11-08",
               "day": 8,
-              "is_today": true,
+              "is_today": false,
               "is_weekend": true,
               "indicators": []
             }
@@ -3526,7 +3530,7 @@
               "empty": false,
               "date": "2026-11-09",
               "day": 9,
-              "is_today": false,
+              "is_today": true,
               "is_weekend": false,
               "indicators": []
             },
@@ -3634,7 +3638,7 @@
                   "short_name": "CPI",
                   "category": "物价",
                   "frequency": "monthly",
-                  "latest_date": "2026-09"
+                  "latest_date": "2026-10"
                 }
               ]
             },
@@ -3651,7 +3655,7 @@
                   "short_name": "PPI",
                   "category": "物价",
                   "frequency": "monthly",
-                  "latest_date": "2026-09"
+                  "latest_date": "2026-10"
                 }
               ]
             },
@@ -4106,7 +4110,7 @@
         "short_name": "USD/CNY",
         "category": "货币",
         "frequency": "daily",
-        "latest_date": "2026-11-06"
+        "latest_date": "2026-11-09"
       }
     ]
   }

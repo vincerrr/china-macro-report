@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T08:05:49Z",
+  "generated_at": "2026-11-11T07:36:04Z",
   "indicators": [
     {
       "slug": "gdp",
@@ -2292,17 +2292,12 @@
       "value_type_label": "每日中间价",
       "delta_unit": "CNY/100USD",
       "chart_baseline": null,
-      "latest_value": 671.67,
-      "latest_date": "2026-11-10",
-      "prev_value": 671.88,
-      "analysis_text": "本期人民币对美元中间价为671.67，即1美元兑6.7167元人民币，处于相对强势区间。较上期下降0.21，显示人民币小幅升值，延续近期双向波动格局。中间价调整或受隔夜美元指数走弱、国内经济预期改善及跨境资金流动趋于均衡影响。后续需关注美联储货币政策节奏、国内出口韧性及中间价引导信号，防范外部扰动带来的汇率波动风险。",
+      "latest_value": 671.91,
+      "latest_date": "2026-11-11",
+      "prev_value": 671.67,
+      "analysis_text": "本期人民币对美元中间价报671.91，即1美元兑6.7191元，处于近年中高位偏强区间，反映人民币基本面支撑较强。环比上调0.24个基点，贬值幅度约0.04%，方向为边际走弱，但属于极微幅波动。该变化可能受隔夜美元指数小幅反弹、或跨境购汇需求短期增加影响，外部美联储政策预期趋稳亦削弱了单边贬值压力。后续需关注美元走势及国内出口数据，以及中间价连续调整是否传递逆周期政策信号。",
       "secondary": null,
       "history": [
-        {
-          "date": "2026-09-22",
-          "value": 674.59,
-          "created_at": "2026-09-22 05:56:33"
-        },
         {
           "date": "2026-09-23",
           "value": 674.68,
@@ -2447,6 +2442,11 @@
           "date": "2026-11-10",
           "value": 671.67,
           "created_at": "2026-11-10 08:05:37"
+        },
+        {
+          "date": "2026-11-11",
+          "value": 671.91,
+          "created_at": "2026-11-11 07:35:45"
         }
       ]
     },
@@ -3538,7 +3538,7 @@
               "empty": false,
               "date": "2026-11-10",
               "day": 10,
-              "is_today": true,
+              "is_today": false,
               "is_weekend": false,
               "indicators": []
             },
@@ -3546,7 +3546,7 @@
               "empty": false,
               "date": "2026-11-11",
               "day": 11,
-              "is_today": false,
+              "is_today": true,
               "is_weekend": false,
               "indicators": []
             },
@@ -4110,7 +4110,7 @@
         "short_name": "USD/CNY",
         "category": "货币",
         "frequency": "daily",
-        "latest_date": "2026-11-10"
+        "latest_date": "2026-11-11"
       }
     ]
   }

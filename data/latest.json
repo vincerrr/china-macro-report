@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T08:54:42Z",
+  "generated_at": "2026-11-18T08:20:52Z",
   "indicators": [
     {
       "slug": "gdp",
@@ -2292,17 +2292,12 @@
       "value_type_label": "每日中间价",
       "delta_unit": "CNY/100USD",
       "chart_baseline": null,
-      "latest_value": 671.32,
-      "latest_date": "2026-11-17",
-      "prev_value": 671.41,
-      "analysis_text": "人民币对美元中间价报671.32，即1美元兑6.7132元人民币，汇率水平处于近年相对均衡区间。较上期下调0.09个点，人民币小幅升值，幅度温和，显示市场预期稳定。可能受美元指数回调、中美利差变化或结售汇需求等因素影响。后续关注美联储政策路径及国内经济基本面边际变化，预计短期汇率维持双向波动格局。",
+      "latest_value": 671.18,
+      "latest_date": "2026-11-18",
+      "prev_value": 671.32,
+      "analysis_text": "11月18日人民币对美元中间价报671.18，即1美元兑6.7118元人民币，较上期下调0.14个点，人民币微幅升值。该水平仍处于近年相对高位，显示汇率整体平稳。短期小幅上行可能受美元指数波动、跨境资金流动变化或市场预期修正影响，属于正常双向波动。后续关注美元走势、中美利差及国内经济基本面变化，预计人民币汇率或保持弹性运行。",
       "secondary": null,
       "history": [
-        {
-          "date": "2026-09-30",
-          "value": 673.51,
-          "created_at": "2026-09-30 06:24:39"
-        },
         {
           "date": "2026-10-08",
           "value": 673.67,
@@ -2447,6 +2442,11 @@
           "date": "2026-11-17",
           "value": 671.32,
           "created_at": "2026-11-17 08:54:32"
+        },
+        {
+          "date": "2026-11-18",
+          "value": 671.18,
+          "created_at": "2026-11-18 08:19:49"
         }
       ]
     },
@@ -3308,19 +3308,6 @@
   ],
   "upcoming_releases": [
     {
-      "date": "2026-11-17",
-      "indicators": [
-        {
-          "slug": "industrial_production",
-          "name": "规模以上工业增加值 同比",
-          "short_name": "工业增加值",
-          "category": "增长",
-          "frequency": "monthly",
-          "latest_date": "2026-10"
-        }
-      ]
-    },
-    {
       "date": "2026-11-20",
       "indicators": [
         {
@@ -3417,6 +3404,19 @@
           "name": "M1-M2 剪刀差",
           "short_name": "M1-M2 剪刀差",
           "category": "货币",
+          "frequency": "monthly",
+          "latest_date": "2026-10"
+        }
+      ]
+    },
+    {
+      "date": "2026-12-17",
+      "indicators": [
+        {
+          "slug": "industrial_production",
+          "name": "规模以上工业增加值 同比",
+          "short_name": "工业增加值",
+          "category": "增长",
           "frequency": "monthly",
           "latest_date": "2026-10"
         }
@@ -3596,7 +3596,7 @@
               "empty": false,
               "date": "2026-11-17",
               "day": 17,
-              "is_today": true,
+              "is_today": false,
               "is_weekend": false,
               "indicators": [
                 {
@@ -3613,7 +3613,7 @@
               "empty": false,
               "date": "2026-11-18",
               "day": 18,
-              "is_today": false,
+              "is_today": true,
               "is_weekend": false,
               "indicators": []
             },
@@ -4110,7 +4110,7 @@
         "short_name": "USD/CNY",
         "category": "货币",
         "frequency": "daily",
-        "latest_date": "2026-11-17"
+        "latest_date": "2026-11-18"
       }
     ]
   }

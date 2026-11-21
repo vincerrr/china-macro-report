@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T08:13:10Z",
+  "generated_at": "2026-11-21T08:06:23Z",
   "indicators": [
     {
       "slug": "gdp",
@@ -3308,19 +3308,6 @@
   ],
   "upcoming_releases": [
     {
-      "date": "2026-11-20",
-      "indicators": [
-        {
-          "slug": "cpi",
-          "name": "居民消费价格指数 (CPI) 同比",
-          "short_name": "CPI",
-          "category": "物价",
-          "frequency": "monthly",
-          "latest_date": "2026-10"
-        }
-      ]
-    },
-    {
       "date": "2026-11-21",
       "indicators": [
         {
@@ -3404,6 +3391,19 @@
           "name": "规模以上工业增加值 同比",
           "short_name": "工业增加值",
           "category": "增长",
+          "frequency": "monthly",
+          "latest_date": "2026-10"
+        }
+      ]
+    },
+    {
+      "date": "2026-12-20",
+      "indicators": [
+        {
+          "slug": "cpi",
+          "name": "居民消费价格指数 (CPI) 同比",
+          "short_name": "CPI",
+          "category": "物价",
           "frequency": "monthly",
           "latest_date": "2026-10"
         }
@@ -3616,7 +3616,7 @@
               "empty": false,
               "date": "2026-11-20",
               "day": 20,
-              "is_today": true,
+              "is_today": false,
               "is_weekend": false,
               "indicators": [
                 {
@@ -3633,7 +3633,7 @@
               "empty": false,
               "date": "2026-11-21",
               "day": 21,
-              "is_today": false,
+              "is_today": true,
               "is_weekend": true,
               "indicators": [
                 {

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T07:51:50Z",
+  "generated_at": "2026-11-23T08:43:11Z",
   "indicators": [
     {
       "slug": "gdp",
@@ -2292,17 +2292,12 @@
       "value_type_label": "每日中间价",
       "delta_unit": "CNY/100USD",
       "chart_baseline": null,
-      "latest_value": 671.31,
-      "latest_date": "2026-11-20",
-      "prev_value": 671.28,
-      "analysis_text": "本期人民币对美元中间价报671.31，即1美元兑6.7131元人民币，汇率延续6.71附近窄幅区间运行，整体保持平稳。\n\n与上期671.28相比，中间价上升0.03，人民币对美元边际小幅贬值，幅度极其有限，未改变短期双向波动格局。\n\n该变化可能受隔夜美元指数波动、中美利差及市场情绪等因素影响，或为中间价报价机制的正常调整，暂不构成趋势性信号。\n\n后续关注美元指数走势、国内经济增长动能及结售汇情况，以判断人民币汇率能否延续稳定态势。",
+      "latest_value": 671.2,
+      "latest_date": "2026-11-23",
+      "prev_value": 671.31,
+      "analysis_text": "2026年11月23日人民币对美元中间价报6.712，处于6.71关口附近，数值水平显示人民币整体稳健。本期中间价较上期下调0.11个点，表现为人民币微幅升值，波动极为有限，延续了近期的窄幅盘整态势。该定价或受隔夜美元指数变动及国内基本面预期综合影响，客盘供求总体均衡，未见单边驱动因素。后续关注美联储政策路径信号与国内经济数据表现，以及中间价能否有效突破6.70关键整数关口。",
       "secondary": null,
       "history": [
-        {
-          "date": "2026-10-12",
-          "value": 673.13,
-          "created_at": "2026-10-13 07:28:59"
-        },
         {
           "date": "2026-10-13",
           "value": 672.98,
@@ -2447,6 +2442,11 @@
           "date": "2026-11-20",
           "value": 671.31,
           "created_at": "2026-11-20 08:12:50"
+        },
+        {
+          "date": "2026-11-23",
+          "value": 671.2,
+          "created_at": "2026-11-23 08:42:55"
         }
       ]
     },
@@ -3308,35 +3308,6 @@
   ],
   "upcoming_releases": [
     {
-      "date": "2026-11-22",
-      "indicators": [
-        {
-          "slug": "retail_sales",
-          "name": "社会消费品零售总额 同比",
-          "short_name": "社零总额",
-          "category": "增长",
-          "frequency": "monthly",
-          "latest_date": "2026-10"
-        },
-        {
-          "slug": "m2",
-          "name": "货币供应量 (M2) 同比",
-          "short_name": "M2",
-          "category": "货币",
-          "frequency": "monthly",
-          "latest_date": "2026-10"
-        },
-        {
-          "slug": "new_loan",
-          "name": "新增人民币贷款（当月）",
-          "short_name": "新增贷款",
-          "category": "货币",
-          "frequency": "monthly",
-          "latest_date": "2026-10"
-        }
-      ]
-    },
-    {
       "date": "2026-11-24",
       "indicators": [
         {
@@ -3413,12 +3384,36 @@
       "date": "2026-12-22",
       "indicators": [
         {
+          "slug": "retail_sales",
+          "name": "社会消费品零售总额 同比",
+          "short_name": "社零总额",
+          "category": "增长",
+          "frequency": "monthly",
+          "latest_date": "2026-10"
+        },
+        {
           "slug": "lpr_1y",
           "name": "贷款市场报价利率 (LPR) 1年期",
           "short_name": "LPR 1Y",
           "category": "货币",
           "frequency": "monthly",
           "latest_date": "2026-11-20"
+        },
+        {
+          "slug": "m2",
+          "name": "货币供应量 (M2) 同比",
+          "short_name": "M2",
+          "category": "货币",
+          "frequency": "monthly",
+          "latest_date": "2026-10"
+        },
+        {
+          "slug": "new_loan",
+          "name": "新增人民币贷款（当月）",
+          "short_name": "新增贷款",
+          "category": "货币",
+          "frequency": "monthly",
+          "latest_date": "2026-10"
         }
       ]
     }
@@ -3663,7 +3658,7 @@
               "empty": false,
               "date": "2026-11-22",
               "day": 22,
-              "is_today": true,
+              "is_today": false,
               "is_weekend": true,
               "indicators": [
                 {
@@ -3698,7 +3693,7 @@
               "empty": false,
               "date": "2026-11-23",
               "day": 23,
-              "is_today": false,
+              "is_today": true,
               "is_weekend": false,
               "indicators": []
             },
@@ -4110,7 +4105,7 @@
         "short_name": "USD/CNY",
         "category": "货币",
         "frequency": "daily",
-        "latest_date": "2026-11-20"
+        "latest_date": "2026-11-23"
       }
     ]
   }

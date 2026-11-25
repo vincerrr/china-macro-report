@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T10:44:53Z",
+  "generated_at": "2026-11-25T09:40:30Z",
   "indicators": [
     {
       "slug": "gdp",
@@ -2292,17 +2292,12 @@
       "value_type_label": "每日中间价",
       "delta_unit": "CNY/100USD",
       "chart_baseline": null,
-      "latest_value": 671.11,
-      "latest_date": "2026-11-24",
-      "prev_value": 671.2,
-      "analysis_text": "本期人民币对美元中间价为671.11，即100美元兑671.11元，较上期下降0.09，人民币边际小幅升值。当前汇率水平处于6.71附近，显示人民币币值相对稳定且略偏强势。此次微幅上调或受美元指数短线回调、国内经济预期企稳及跨境资金流动平衡等因素影响。后续需关注美联储货币政策路径、中美利差变化及国内稳增长政策成效，两者博弈或加大汇率双向波动。",
+      "latest_value": 670.88,
+      "latest_date": "2026-11-25",
+      "prev_value": 671.11,
+      "analysis_text": "本期美元兑人民币中间价为670.88，意味1美元兑6.7088元人民币，处于近期偏强区间。较上期下调0.23个基点，人民币小幅升值，幅度温和。可能受美元指数回调、国内经济预期改善或跨境资金流动影响，需结合外部政策动向判断。后续关注美联储利率路径、国内经济数据表现及国际地缘局势，这些因素将主导汇率双向波动节奏。",
       "secondary": null,
       "history": [
-        {
-          "date": "2026-10-14",
-          "value": 672.49,
-          "created_at": "2026-10-14 05:55:39"
-        },
         {
           "date": "2026-10-15",
           "value": 672.53,
@@ -2447,6 +2442,11 @@
           "date": "2026-11-24",
           "value": 671.11,
           "created_at": "2026-11-24 10:44:40"
+        },
+        {
+          "date": "2026-11-25",
+          "value": 670.88,
+          "created_at": "2026-11-25 09:40:10"
         }
       ]
     },
@@ -3308,19 +3308,6 @@
   ],
   "upcoming_releases": [
     {
-      "date": "2026-11-24",
-      "indicators": [
-        {
-          "slug": "pmi",
-          "name": "制造业采购经理指数 (PMI)",
-          "short_name": "PMI",
-          "category": "增长",
-          "frequency": "monthly",
-          "latest_date": "2026-10"
-        }
-      ]
-    },
-    {
       "date": "2026-11-27",
       "indicators": [
         {
@@ -3412,6 +3399,19 @@
           "name": "新增人民币贷款（当月）",
           "short_name": "新增贷款",
           "category": "货币",
+          "frequency": "monthly",
+          "latest_date": "2026-10"
+        }
+      ]
+    },
+    {
+      "date": "2026-12-24",
+      "indicators": [
+        {
+          "slug": "pmi",
+          "name": "制造业采购经理指数 (PMI)",
+          "short_name": "PMI",
+          "category": "增长",
           "frequency": "monthly",
           "latest_date": "2026-10"
         }
@@ -3701,7 +3701,7 @@
               "empty": false,
               "date": "2026-11-24",
               "day": 24,
-              "is_today": true,
+              "is_today": false,
               "is_weekend": false,
               "indicators": [
                 {
@@ -3718,7 +3718,7 @@
               "empty": false,
               "date": "2026-11-25",
               "day": 25,
-              "is_today": false,
+              "is_today": true,
               "is_weekend": false,
               "indicators": []
             },
@@ -4105,7 +4105,7 @@
         "short_name": "USD/CNY",
         "category": "货币",
         "frequency": "daily",
-        "latest_date": "2026-11-24"
+        "latest_date": "2026-11-25"
       }
     ]
   }

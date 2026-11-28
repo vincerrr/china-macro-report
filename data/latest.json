@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T09:31:06Z",
+  "generated_at": "2026-11-28T08:44:34Z",
   "indicators": [
     {
       "slug": "gdp",
@@ -3308,27 +3308,6 @@
   ],
   "upcoming_releases": [
     {
-      "date": "2026-11-27",
-      "indicators": [
-        {
-          "slug": "m1",
-          "name": "货币供应量 (M1) 同比",
-          "short_name": "M1",
-          "category": "货币",
-          "frequency": "monthly",
-          "latest_date": "2026-10"
-        },
-        {
-          "slug": "m1_m2_scissor",
-          "name": "M1-M2 剪刀差",
-          "short_name": "M1-M2 剪刀差",
-          "category": "货币",
-          "frequency": "monthly",
-          "latest_date": "2026-10"
-        }
-      ]
-    },
-    {
       "date": "2026-12-17",
       "indicators": [
         {
@@ -3412,6 +3391,27 @@
           "name": "制造业采购经理指数 (PMI)",
           "short_name": "PMI",
           "category": "增长",
+          "frequency": "monthly",
+          "latest_date": "2026-10"
+        }
+      ]
+    },
+    {
+      "date": "2026-12-27",
+      "indicators": [
+        {
+          "slug": "m1",
+          "name": "货币供应量 (M1) 同比",
+          "short_name": "M1",
+          "category": "货币",
+          "frequency": "monthly",
+          "latest_date": "2026-10"
+        },
+        {
+          "slug": "m1_m2_scissor",
+          "name": "M1-M2 剪刀差",
+          "short_name": "M1-M2 剪刀差",
+          "category": "货币",
           "frequency": "monthly",
           "latest_date": "2026-10"
         }
@@ -3734,7 +3734,7 @@
               "empty": false,
               "date": "2026-11-27",
               "day": 27,
-              "is_today": true,
+              "is_today": false,
               "is_weekend": false,
               "indicators": [
                 {
@@ -3759,7 +3759,7 @@
               "empty": false,
               "date": "2026-11-28",
               "day": 28,
-              "is_today": false,
+              "is_today": true,
               "is_weekend": true,
               "indicators": []
             },
